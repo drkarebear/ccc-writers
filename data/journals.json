@@ -871,5 +871,94 @@
     "last_verified": "2026-09-06",
     "source_note": "Official Sierra College Press page confirms the journal is active; current deadline and eligibility details are not yet verified.",
     "source_url": "https://www.sierracollege.edu/library/sierra-college-press/"
+  },
+  {
+    "id": "elac-milestone",
+    "college": "East Los Angeles College",
+    "journal": "Milestone Literary Magazine",
+    "city": "Monterey Park",
+    "region": "Southern California",
+    "latitude": 34.04129,
+    "longitude": -118.14974,
+    "journal_url": "https://www.elac.edu/academics/pathways/lc/english-dept",
+    "submission_url": "https://www.elac.edu/academics/pathways/lc/english-dept",
+    "eligibility": [
+      "East Los Angeles College students, faculty, and staff"
+    ],
+    "eligibility_tags": [
+      "campus"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Creative Nonfiction",
+      "Visual Art",
+      "Photography"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "ELAC's current English Department page identifies Milestone as its literary magazine, established in 1950, and says it publishes poetry, fiction, nonfiction, art, and photography from ELAC students, faculty, and staff. A current submission deadline was not posted on the page.",
+    "source_url": "https://www.elac.edu/academics/pathways/lc/english-dept"
+  },
+  {
+    "id": "pierce-directions",
+    "college": "Los Angeles Pierce College",
+    "journal": "Directions",
+    "city": "Woodland Hills",
+    "region": "Southern California",
+    "latitude": 34.18376,
+    "longitude": -118.5798,
+    "journal_url": "https://www.lapc.edu/academics/pathways/hc/english-esl/directions-magazine",
+    "submission_url": "https://www.lapc.edu/academics/pathways/hc/english-esl/directions-magazine",
+    "eligibility": [
+      "Registered Los Angeles Pierce College students",
+      "Los Angeles Pierce College staff"
+    ],
+    "eligibility_tags": [
+      "campus"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Essays",
+      "Drama",
+      "Visual Art",
+      "Photography"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "status_override": {
+      "key": "open",
+      "label": "Accepting submissions · deadline not listed",
+      "expires": "2026-12-20"
+    },
+    "last_verified": "2026-09-06",
+    "source_note": "Pierce's current Directions page says the magazine accepts material each semester for the next issue. The magazine returned to print in Fall 2025 after a pandemic-era hiatus, and a new student cohort is preparing the next issue.",
+    "source_url": "https://www.lapc.edu/academics/pathways/hc/english-esl/directions-magazine"
+  },
+  {
+    "id": "lahc-harbor-lights",
+    "college": "Los Angeles Harbor College",
+    "journal": "Harbor Lights Literary Magazine",
+    "city": "Wilmington",
+    "region": "Southern California",
+    "latitude": 33.78338,
+    "longitude": -118.28446,
+    "journal_url": "https://www.lahc.edu/academics/pathways/scc/english",
+    "submission_url": "",
+    "eligibility": [],
+    "eligibility_tags": [],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Creative Nonfiction",
+      "Drama"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "LAHC's current English Department page lists Harbor Lights Literary Magazine. Harbor Lights also hosted a campus poetry night in 2025. The current submission window and eligibility were not verified in this pass.",
+    "source_url": "https://www.lahc.edu/academics/pathways/scc/english"
   }
 ]

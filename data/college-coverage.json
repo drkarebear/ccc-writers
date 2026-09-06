@@ -274,10 +274,12 @@
   },
   {
     "college": "East Los Angeles College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Milestone Literary Magazine"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "El Camino College",
@@ -431,10 +433,12 @@
   },
   {
     "college": "Los Angeles Harbor College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Harbor Lights Literary Magazine"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Los Angeles Mission College",
@@ -447,10 +451,12 @@
   },
   {
     "college": "Los Angeles Pierce College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Directions"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Los Angeles Southwest College",
@@ -471,7 +477,8 @@
     "status": "still-researching",
     "journals": [],
     "region": null,
-    "last_verified": null
+    "last_verified": null,
+    "research_note": "Candidate found: The Bite was described by the LAVC Foundation in April 2025 as an upcoming English Department literary magazine; a current 2026 issue or official publication page is not yet verified."
   },
   {
     "college": "Los Medanos College",

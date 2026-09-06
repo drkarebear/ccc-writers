@@ -32,7 +32,7 @@ The journal map and the submission finder both read `data/journals.json`. A dead
 
 ## Statewide journal research set
 
-The journal dataset now contains **25 researched California community college literary journal records**, spanning the North Coast, Bay Area, Central California, Los Angeles, Ventura County, Orange County, the Inland Empire, the desert, and San Diego County.
+The journal dataset now contains **28 researched California community college literary journal records**, spanning the North Coast, Bay Area, Central California, Los Angeles, Ventura County, Orange County, the Inland Empire, the desert, and San Diego County.
 
 The dataset intentionally distinguishes among:
 

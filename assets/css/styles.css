@@ -231,6 +231,11 @@ h3 { font-size: 1.25rem; margin: 0 0 .45rem; }
   margin-bottom: .9rem;
   border: 2px solid var(--gold);
 }
+.emoji-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+}
 .feature-card { border-top: 5px solid var(--gold); }
 .feature-card.sky { border-top-color: var(--navy-mid); }
 
