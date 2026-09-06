@@ -39,7 +39,7 @@
       const selectedEligibility = eligibility?.value || "";
 
       const filtered = journals.filter(j => {
-        const haystack = normalize(`${j.college} ${j.journal} ${j.city}`);
+        const haystack = normalize(`${j.college} ${j.journal} ${j.city} ${j.region || ""}`);
         const status = submissionStatus(j).key;
         const elig = (j.eligibility_tags || []);
         return (!q || haystack.includes(q)) &&

@@ -17,7 +17,7 @@
     document.querySelector('#coverage-total').textContent = colleges.length;
     document.querySelector('#coverage-verified').textContent = colleges.filter(c => c.status === 'verified-active-journal').length;
     document.querySelector('#coverage-researching').textContent = colleges.filter(c => c.status === 'still-researching').length;
-    const card = c => `<article class="coverage-card coverage-${c.status}"><div><h3>${c.college}</h3>${c.journals.length ? `<p><strong>${c.journals.join(' · ')}</strong></p>` : ''}${c.region ? `<p class="small">${c.region}</p>` : ''}</div><p class="coverage-status"><strong>${labels[c.status] || c.status}</strong>${c.last_verified ? `<br><span class="small">Verified ${formatDate(c.last_verified)}</span>` : ''}</p></article>`;
+    const card = c => `<article class="coverage-card coverage-${escapeHTML(c.status)}"><div><h3>${escapeHTML(c.college)}</h3>${c.journals.length ? `<p><strong>${c.journals.map(escapeHTML).join(' · ')}</strong></p>` : ''}${c.region ? `<p class="small">${escapeHTML(c.region)}</p>` : ''}</div><p class="coverage-status"><strong>${escapeHTML(labels[c.status] || c.status)}</strong>${c.last_verified ? `<br><span class="small">Verified ${escapeHTML(formatDate(c.last_verified))}</span>` : ''}</p></article>`;
     const render = () => {
       const q = normalize(search.value); const s = status.value;
       const filtered = colleges.filter(c => (!q || normalize(`${c.college} ${(c.journals || []).join(' ')}`).includes(q)) && (!s || c.status === s));

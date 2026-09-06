@@ -271,6 +271,25 @@ h3 { font-size: 1.25rem; margin: 0 0 .45rem; }
   background: white;
   color: var(--ink);
 }
+
+/* Keep filter controls aligned even when labels wrap to different line counts. */
+.toolbar .field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.toolbar .field label {
+  display: flex;
+  align-items: flex-end;
+  min-height: 3.55rem;
+  margin-bottom: .4rem;
+  line-height: 1.25;
+}
+.toolbar .field input,
+.toolbar .field select {
+  margin-top: auto;
+}
+
 .result-count { font-weight: 750; margin: .7rem 0 1rem; }
 
 .map-wrap {
@@ -419,6 +438,7 @@ h3 { font-size: 1.25rem; margin: 0 0 .45rem; }
 }
 @media (max-width: 620px) {
   .grid-4, .grid-3, .grid-2, .stats, .toolbar { grid-template-columns: 1fr; }
+  .toolbar .field label { min-height: 0; }
   .hero { padding-top: 3.4rem; }
   h1 { font-size: clamp(2.35rem, 12vw, 4rem); }
   #journal-map { min-height: 380px; }

@@ -19,14 +19,19 @@
   const guidedResults = document.querySelector('#guided-program-results');
 
   try {
-    const response = await fetch('data/programs.json');
-    if (!response.ok) throw new Error('Program data unavailable');
-    const programs = await response.json();
+    let programs = Array.isArray(window.CCC_PROGRAMS) ? window.CCC_PROGRAMS : null;
+    if (!programs) {
+      const response = await fetch('data/programs.json');
+      if (!response.ok) throw new Error('Program data unavailable');
+      programs = await response.json();
+    }
 
     const regions = [...new Set(programs.map(p => p.region).filter(Boolean))].sort();
     const addRegions = (select) => {
       if (!select) return;
+      const existing = new Set([...select.options].map(option => option.value));
       regions.forEach(region => {
+        if (existing.has(region)) return;
         const option = document.createElement('option');
         option.value = region;
         option.textContent = region;

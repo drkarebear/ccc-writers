@@ -153,3 +153,8 @@ The community contribution form is live and configured in `data/site-config.json
 ## CSU / UC pathway research
 
 The September 6, 2026 pathway pass contains 28 verified formal creative writing pathways: 19 CSU and 9 UC campuses. The directory distinguishes published CCC/ADT maps, transfer-specific guidance, and general transfer planning. See `data/programs.json`.
+
+
+## Security and privacy hardening
+
+This build includes a restrictive Content Security Policy, strict referrer handling, Leaflet 1.9.4 loaded only on user request with Subresource Integrity, DOM-safe map popups, and dedicated Privacy and Accessibility pages. The interactive map is optional; the journal directory works without loading third-party map resources.

@@ -23,17 +23,21 @@
       upgradeCommunityEventLink();
       return;
     }
-    list.innerHTML = upcoming.map(event => `
+    list.innerHTML = upcoming.map(event => {
+      const url = safeHttpsUrl(event.url);
+      const title = escapeHTML(event.title);
+      return `
       <article class="event-card">
-        <div class="meta"><span>${formatDate(event.date)}</span><span>${event.format}</span></div>
-        <h3>${event.title}</h3>
-        <p><strong>${event.host}</strong></p>
-        ${event.time ? `<p><strong>Time:</strong> ${event.time}</p>` : ""}
-        <p><strong>Location:</strong> ${event.location}</p>
-        ${event.audience ? `<p>${event.audience}</p>` : ""}
-        ${event.summary ? `<p>${event.summary}</p>` : ""}
-        ${event.url ? `<a class="button secondary" href="${event.url}" aria-label="Event details for ${event.title}">Event details</a>` : ""}
-      </article>`).join("");
+        <div class="meta"><span>${escapeHTML(formatDate(event.date))}</span><span>${escapeHTML(event.format)}</span></div>
+        <h3>${title}</h3>
+        <p><strong>${escapeHTML(event.host)}</strong></p>
+        ${event.time ? `<p><strong>Time:</strong> ${escapeHTML(event.time)}</p>` : ""}
+        <p><strong>Location:</strong> ${escapeHTML(event.location)}</p>
+        ${event.audience ? `<p>${escapeHTML(event.audience)}</p>` : ""}
+        ${event.summary ? `<p>${escapeHTML(event.summary)}</p>` : ""}
+        ${url ? `<a class="button secondary" href="${escapeHTML(url)}" aria-label="Event details for ${title}">Event details</a>` : ""}
+      </article>`;
+    }).join("");
   } catch (error) {
     list.innerHTML = `<div class="empty-state"><h3>Event data could not load.</h3></div>`;
     console.error(error);

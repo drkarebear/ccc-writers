@@ -93,3 +93,8 @@ Use `no-journal-located` only after a deliberate review of current college sourc
 ```
 
 Expired events are automatically hidden from the public upcoming-events list.
+
+
+## Local Preview Note
+
+`data/programs.json` remains the canonical program dataset. `data/programs-data.js` is a generated mirror used only so `pathways.html` can be previewed directly from a local file without Chrome blocking `fetch()` calls. Whenever `programs.json` changes, regenerate `programs-data.js` from the same JSON before publishing. GitHub Pages can use either source; the page prefers the generated local copy and falls back to JSON.

@@ -10,6 +10,28 @@ const formatDate = (iso, options = {}) => {
 
 const normalize = (value = "") => value.toString().toLowerCase().trim();
 
+const escapeHTML = (value = "") => value.toString().replace(/[&<>"']/g, char => ({
+  "&": "&amp;",
+  "<": "&lt;",
+  ">": "&gt;",
+  '"': "&quot;",
+  "'": "&#39;"
+}[char]));
+
+const safeHttpsUrl = (value = "") => {
+  if (!value) return "";
+  try {
+    const url = new URL(value, window.location.href);
+    if (url.protocol !== "https:") return "";
+    return url.href;
+  } catch {
+    return "";
+  }
+};
+
+window.escapeHTML = escapeHTML;
+window.safeHttpsUrl = safeHttpsUrl;
+
 const submissionStatus = (journal, now = new Date()) => {
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
@@ -60,20 +82,26 @@ const submissionStatus = (journal, now = new Date()) => {
 
 const journalCard = journal => {
   const status = submissionStatus(journal);
-  const genres = (journal.genres || []).map(g => `<li class="tag">${g}</li>`).join("");
-  const eligibility = (journal.eligibility || []).join(" · ");
+  const genres = (journal.genres || []).map(g => `<li class="tag">${escapeHTML(g)}</li>`).join("");
+  const eligibility = (journal.eligibility || []).map(escapeHTML).join(" · ");
   const verified = journal.last_verified ? `Verified ${formatDate(journal.last_verified)}` : "Verification date not listed";
+  const sourceUrl = safeHttpsUrl(journal.source_url);
+  const journalUrl = safeHttpsUrl(journal.journal_url);
+  const submissionUrl = safeHttpsUrl(journal.submission_url);
+  const journalName = escapeHTML(journal.journal);
+  const college = escapeHTML(journal.college);
+  const city = escapeHTML(journal.city);
   return `
-    <article class="journal-card" data-journal-id="${journal.id}">
-      <div class="meta"><span>${journal.college}</span><span>${journal.city}, CA</span></div>
-      <h3><cite>${journal.journal}</cite></h3>
-      <p class="status ${status.key}">${status.label}</p>
+    <article class="journal-card" data-journal-id="${escapeHTML(journal.id)}">
+      <div class="meta"><span>${college}</span><span>${city}, CA</span></div>
+      <h3><cite>${journalName}</cite></h3>
+      <p class="status ${escapeHTML(status.key)}">${escapeHTML(status.label)}</p>
       <ul class="tag-list" aria-label="Genres">${genres}</ul>
       <p><strong>Who can submit:</strong> ${eligibility || "Not yet verified"}</p>
-      <p class="small">${verified}${journal.source_url ? ` · <a href="${journal.source_url}" aria-label="Verification source for ${journal.journal}">Verification source</a>` : ""}</p>
+      <p class="small">${escapeHTML(verified)}${sourceUrl ? ` · <a href="${escapeHTML(sourceUrl)}" aria-label="Verification source for ${journalName}">Verification source</a>` : ""}</p>
       <div class="button-row">
-        ${journal.journal_url ? `<a class="button secondary" href="${journal.journal_url}" aria-label="Visit ${journal.journal}">Visit journal</a>` : ""}
-        ${journal.submission_url ? `<a class="button" href="${journal.submission_url}" aria-label="View submission details for ${journal.journal}">Submission details</a>` : ""}
+        ${journalUrl ? `<a class="button secondary" href="${escapeHTML(journalUrl)}" aria-label="Visit ${journalName}">Visit journal</a>` : ""}
+        ${submissionUrl ? `<a class="button" href="${escapeHTML(submissionUrl)}" aria-label="View submission details for ${journalName}">Submission details</a>` : ""}
       </div>
     </article>`;
 };
@@ -81,23 +109,27 @@ const journalCard = journal => {
 const programCard = program => {
   const transferClass = program.transfer_strength === "published-ccc-pathway" ? "transfer-strong" : (program.transfer_strength === "transfer-specific-guidance" ? "transfer-guidance" : "");
   const transferLabel = program.transfer_strength === "published-ccc-pathway" ? `<li class="tag transfer-tag">Published CCC/ADT pathway</li>` : (program.transfer_strength === "transfer-specific-guidance" ? `<li class="tag guidance-tag">Transfer-specific guidance</li>` : "");
+  const programUrl = safeHttpsUrl(program.program_url);
+  const transferUrl = safeHttpsUrl(program.transfer_url);
+  const institution = escapeHTML(program.institution);
+  const title = escapeHTML(program.program);
   return `
-  <article class="program-card ${transferClass}">
-    <div class="meta"><span>${program.system}</span><span>${program.region || program.city}</span><span>${program.city}, CA</span></div>
-    <h3>${program.institution}</h3>
-    <p class="program-title"><strong>${program.program}</strong></p>
+  <article class="program-card ${escapeHTML(transferClass)}">
+    <div class="meta"><span>${escapeHTML(program.system)}</span><span>${escapeHTML(program.region || program.city)}</span><span>${escapeHTML(program.city)}, CA</span></div>
+    <h3>${institution}</h3>
+    <p class="program-title"><strong>${title}</strong></p>
     <ul class="tag-list" aria-label="Program features">
-      ${(program.genres || []).map(g => `<li class="tag">${g}</li>`).join("")}
-      <li class="tag">${program.program_type}</li>
+      ${(program.genres || []).map(g => `<li class="tag">${escapeHTML(g)}</li>`).join("")}
+      <li class="tag">${escapeHTML(program.program_type)}</li>
       ${transferLabel}
     </ul>
-    <p>${program.summary}</p>
-    ${program.secondary_offering ? `<p class="small"><strong>Also:</strong> ${program.secondary_offering}</p>` : ""}
-    ${program.transfer_note ? `<p class="transfer-note"><strong>CCC transfer note:</strong> ${program.transfer_note}</p>` : ""}
-    <p class="small">Verified ${formatDate(program.last_verified)}</p>
+    <p>${escapeHTML(program.summary)}</p>
+    ${program.secondary_offering ? `<p class="small"><strong>Also:</strong> ${escapeHTML(program.secondary_offering)}</p>` : ""}
+    ${program.transfer_note ? `<p class="transfer-note"><strong>CCC transfer note:</strong> ${escapeHTML(program.transfer_note)}</p>` : ""}
+    <p class="small">Verified ${escapeHTML(formatDate(program.last_verified))}</p>
     <div class="button-row">
-      <a class="button secondary" href="${program.program_url}" aria-label="Explore ${program.program} at ${program.institution}">Explore program</a>
-      ${program.transfer_url ? `<a class="button" href="${program.transfer_url}" aria-label="View transfer guidance for ${program.institution}">Transfer guidance</a>` : ""}
+      ${programUrl ? `<a class="button secondary" href="${escapeHTML(programUrl)}" aria-label="Explore ${title} at ${institution}">Explore program</a>` : ""}
+      ${transferUrl ? `<a class="button" href="${escapeHTML(transferUrl)}" aria-label="View transfer guidance for ${institution}">Transfer guidance</a>` : ""}
     </div>
   </article>`;
 };

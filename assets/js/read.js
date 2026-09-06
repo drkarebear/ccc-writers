@@ -14,14 +14,18 @@
     [...new Set(readable.map(j => j.region).filter(Boolean))].sort().forEach(value => region.add(new Option(value, value)));
     [...new Set(readable.flatMap(j => j.genres || []))].sort().forEach(value => genre.add(new Option(value, value)));
 
-    const card = (j) => `
+    const card = (j) => {
+      const url = safeHttpsUrl(j.journal_url);
+      const journal = escapeHTML(j.journal);
+      return `
       <article class="journal-card">
-        <div class="meta"><span>${j.college}</span><span>${j.region || ''}</span><span>${j.city}, CA</span></div>
-        <h3><cite>${j.journal}</cite></h3>
-        <ul class="tag-list" aria-label="Genres">${(j.genres || []).map(g => `<li class="tag">${g}</li>`).join('')}</ul>
-        <p class="small">Journal or publication page verified ${formatDate(j.last_verified)}.</p>
-        <div class="button-row"><a class="button" href="${j.journal_url}" aria-label="Read or explore ${j.journal}">Read or explore journal</a><a class="button secondary" href="journals.html" aria-label="See directory details for ${j.journal}">Directory details</a></div>
+        <div class="meta"><span>${escapeHTML(j.college)}</span><span>${escapeHTML(j.region || '')}</span><span>${escapeHTML(j.city)}, CA</span></div>
+        <h3><cite>${journal}</cite></h3>
+        <ul class="tag-list" aria-label="Genres">${(j.genres || []).map(g => `<li class="tag">${escapeHTML(g)}</li>`).join('')}</ul>
+        <p class="small">Journal or publication page verified ${escapeHTML(formatDate(j.last_verified))}.</p>
+        <div class="button-row">${url ? `<a class="button" href="${escapeHTML(url)}" aria-label="Read or explore ${journal}">Read or explore journal</a>` : ''}<a class="button secondary" href="journals.html" aria-label="See directory details for ${journal}">Directory details</a></div>
       </article>`;
+    };
 
     const render = () => {
       const q = normalize(search.value);
