@@ -515,7 +515,11 @@ h3 { font-size: 1.25rem; margin: 0 0 .45rem; }
 .coverage-card h3,
 .coverage-card p { margin-top: 0; }
 .coverage-card p:last-child { margin-bottom: 0; }
+.coverage-stats { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .coverage-verified-active-journal { border-left-color: var(--navy-mid); }
+.coverage-active-publication-details-needed { border-left-color: var(--success); }
+.coverage-recent-status-unclear { border-left-color: var(--gold); }
+.coverage-still-researching { border-left-color: var(--line-blue); }
 .coverage-no-journal-located { border-left-color: var(--gold-dark); }
 .coverage-historical-inactive { border-left-color: var(--closed); }
 .coverage-status {

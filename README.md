@@ -32,7 +32,7 @@ The journal map and the submission finder both read `data/journals.json`. A dead
 
 ## Statewide journal research set
 
-The journal dataset now contains **66 researched California community college literary journal records**, with the statewide coverage tracker distinguishing verified active journals, historical journals, completed reviews where no active journal was located, and colleges still under research.
+The journal dataset now contains **69 researched California community college literary journal records**. The 116-college coverage tracker currently identifies **67 colleges with a verified active journal**, **4 with a confirmed publication that still needs key details**, **3 recent/historical leads whose current status is unclear**, **39 still under research**, **2 where no active journal was located after review**, and **1 historical/inactive journal**.
 
 The dataset intentionally distinguishes among:
 
@@ -127,12 +127,13 @@ The toolkit synthesizes practices from current community college publishing mode
 
 ## Best next build steps
 
-1. Continue the statewide journal census until every California community college has been checked, including a clear “no active journal found” research state.
-2. Expand and verify CSU/UC creative writing pathways.
-3. Build a moderated form for journal corrections and event submissions.
-4. Add a simple data-validation workflow so malformed JSON cannot break the site.
-5. Add a scheduled re-verification workflow for time-sensitive submission statuses.
-6. Conduct a full WCAG 2.2 AA review before public launch.
+1. Use the existing journal dataset to strengthen the student-facing submission finder, especially genre and eligibility filters.
+2. Resolve the highest-confidence remaining journal leads through community corrections and scheduled re-verification rather than indefinite broad searching.
+3. Expand and verify CSU/UC creative writing pathways.
+4. Build a moderated form for journal corrections and event submissions.
+5. Add a simple data-validation workflow so malformed JSON cannot break the site.
+6. Add a scheduled re-verification workflow for time-sensitive submission statuses.
+7. Conduct a full WCAG 2.2 AA review before public launch.
 
 ## Community contributions
 

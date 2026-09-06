@@ -7,19 +7,20 @@
   const count = document.querySelector('#coverage-result-count');
   const labels = {
     'verified-active-journal': 'Verified active journal',
+    'active-publication-details-needed': 'Active publication — details needed',
+    'recent-status-unclear': 'Recent/historical lead — current status unclear',
     'still-researching': 'Still researching',
     'no-journal-located': 'No active journal located after review',
     'historical-inactive': 'Historical/inactive journal located'
   };
   try {
-    const response = await fetch('data/college-coverage.json');
-    if (!response.ok) throw new Error('Coverage data unavailable');
-    const colleges = await response.json();
+    const colleges = await loadJsonWithFallback('data/college-coverage.json', window.CCC_COVERAGE);
     document.querySelector('#coverage-total').textContent = colleges.length;
     document.querySelector('#coverage-verified').textContent = colleges.filter(c => c.status === 'verified-active-journal').length;
-    document.querySelector('#coverage-researching').textContent = colleges.filter(c => c.status === 'still-researching').length;
+    document.querySelector('#coverage-details-needed').textContent = colleges.filter(c => c.status === 'active-publication-details-needed').length;
+    document.querySelector('#coverage-unresolved').textContent = colleges.filter(c => ['still-researching', 'recent-status-unclear'].includes(c.status)).length;
     [...new Set(colleges.map(c => c.region).filter(Boolean))].sort().forEach(value => region.add(new Option(value, value)));
-    const card = c => `<article class="coverage-card coverage-${escapeHTML(c.status)}"><div><h3>${escapeHTML(c.college)}</h3>${c.journals.length ? `<p><strong>${c.journals.map(escapeHTML).join(' · ')}</strong></p>` : ''}${c.region ? `<p class="small">${escapeHTML(c.region)}</p>` : ''}${c.research_note ? `<p class="small">${escapeHTML(c.research_note)}</p>` : ''}</div><p class="coverage-status"><strong>${escapeHTML(labels[c.status] || c.status)}</strong>${c.last_verified ? `<br><span class="small">Verified ${escapeHTML(formatDate(c.last_verified))}</span>` : ''}</p></article>`;
+    const card = c => `<article class="coverage-card coverage-${escapeHTML(c.status)}"><div><h3>${escapeHTML(c.college)}</h3>${c.journals.length ? `<p><strong>${c.journals.map(escapeHTML).join(' · ')}</strong></p>` : ''}${c.region ? `<p class="small">${escapeHTML(c.region)}</p>` : ''}${c.research_note ? `<p class="small">${escapeHTML(c.research_note)}</p>` : ''}</div><p class="coverage-status"><strong>${escapeHTML(labels[c.status] || c.status)}</strong>${c.last_verified ? `<br><span class="small">Checked ${escapeHTML(formatDate(c.last_verified))}</span>` : ''}</p></article>`;
     const render = () => {
       const q = normalize(search.value); const s = status.value; const r = region.value;
       const filtered = colleges.filter(c => (!q || normalize(`${c.college} ${(c.journals || []).join(' ')} ${c.region || ''} ${c.research_note || ''}`).includes(q)) && (!r || c.region === r) && (!s || c.status === s));

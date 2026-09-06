@@ -1693,7 +1693,7 @@
   },
   {
     "id": "riohondo-rivers-voice",
-    "college": "Río Hondo College",
+    "college": "Rio Hondo College",
     "journal": "River’s Voice",
     "city": "Whittier",
     "region": "Southern California",
@@ -1844,6 +1844,29 @@
     "last_verified": "2026-09-06",
     "source_note": "Official page confirms the long-running journal and broad eligibility, but its visible submission deadline is still for Spring 2024. Current deadline needs verification.",
     "source_url": "https://www.sdcity.edu/life-at-city/cityworks.aspx"
+  },
+  {
+    "id": "sd-mesa-mesa-visions",
+    "college": "San Diego Mesa College",
+    "journal": "Mesa Visions",
+    "city": "San Diego",
+    "region": "San Diego County",
+    "latitude": 32.80482,
+    "longitude": -117.16805,
+    "eligibility": [
+      "Current submission eligibility needs verification"
+    ],
+    "eligibility_tags": [],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Creative Nonfiction"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "San Diego Mesa College’s May 2025 calendar describes Mesa Visions as an annual English/Honors/Creative Writing production and documents a magazine launch and reading featuring published fiction, nonfiction, and poetry. Current submission eligibility and deadlines were not located in this pass.",
+    "source_url": "https://www.sdmesa.edu/calendar/index.php?eID=9107"
   },
   {
     "id": "delta-artifact",
@@ -2026,6 +2049,65 @@
     "last_verified": "2026-09-06",
     "source_note": "Skyline’s current Talisman site features the 2026 issue (Talisman 54). The 2026 submission page lists a February 27 deadline and says submissions are closed.",
     "source_url": "https://skylinecollege.edu/talisman/submissions.php"
+  },
+  {
+    "id": "solano-suisun-valley-review",
+    "college": "Solano Community College",
+    "journal": "Suisun Valley Review",
+    "city": "Fairfield",
+    "region": "Bay Area",
+    "latitude": 38.23518,
+    "longitude": -122.12102,
+    "journal_url": "https://suisunvalleyreview.wordpress.com/",
+    "submission_url": "https://suisunvalleyreview.submittable.com/",
+    "eligibility": [
+      "Open beyond Solano Community College; SCC students are especially encouraged"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "public"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Creative Nonfiction",
+      "Comics/Graphic Storytelling",
+      "Visual Art",
+      "Photography"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "status_override": {
+      "key": "closed",
+      "label": "No open calls currently listed",
+      "expires": "2026-12-31"
+    },
+    "last_verified": "2026-09-06",
+    "source_note": "The current Suisun Valley Review submission manager identifies the 2026 publication as its 42nd issue and presently lists no open calls. The journal’s About page identifies SVR as a long-running annual Solano Community College literary journal curated, edited, and published by SCC English 058/059; attendance at SCC is not required to submit.",
+    "source_url": "https://suisunvalleyreview.submittable.com/"
+  },
+  {
+    "id": "southwestern-the-vagabond",
+    "college": "Southwestern College",
+    "journal": "The Vagabond",
+    "city": "Chula Vista",
+    "region": "San Diego County",
+    "latitude": 32.63979,
+    "longitude": -116.99783,
+    "eligibility": [
+      "Current submission eligibility needs verification"
+    ],
+    "eligibility_tags": [],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Creative Nonfiction"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "Southwestern College’s September 2025 curriculum materials identify The Vagabond as the student literary magazine produced each year. A January 2025 board report also documents a December 2024 publication party and reading for The Vagabond. Current submission details were not located.",
+    "source_url": "https://swccdedu.community.diligentoneplatform.com/document/9c46ec5e-a084-41c7-8520-0358fce4b927/"
   },
   {
     "id": "taft-literary-magazine",

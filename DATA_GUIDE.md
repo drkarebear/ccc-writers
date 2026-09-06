@@ -67,12 +67,14 @@ Only set `transfer_pathway` to `true` when a specific official pathway has been 
 
 Coverage status values:
 
-- `verified-active-journal`
-- `still-researching`
-- `no-journal-located`
-- `historical-inactive`
+- `verified-active-journal` — a named active journal is supported by current or sufficiently recent authoritative evidence.
+- `active-publication-details-needed` — current evidence confirms a literary publication effort, but a title, current issue, submission page, or another key detail remains unresolved.
+- `recent-status-unclear` — a named recent or historical publication is documented, but current 2026 publication status cannot yet be verified.
+- `still-researching` — research is incomplete or has not produced a strong enough lead.
+- `no-journal-located` — a deliberate current-source review did not locate an active journal.
+- `historical-inactive` — a historical publication is documented and evidence indicates that it stopped publishing or is explicitly inactive.
 
-Use `no-journal-located` only after a deliberate review of current college sources.
+Use `no-journal-located` only after a deliberate review of current college sources. Never collapse `active-publication-details-needed`, `recent-status-unclear`, or `still-researching` into that category.
 
 ## Event record
 

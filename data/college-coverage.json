@@ -42,11 +42,13 @@
   },
   {
     "college": "Berkeley City College",
-    "status": "still-researching",
-    "journals": [],
+    "status": "active-publication-details-needed",
+    "journals": [
+      "Milvia Street Art and Literary Journal"
+    ],
     "region": "Bay Area",
     "last_verified": "2026-09-06",
-    "research_note": "Student government chartered an Art and Literary Journal Club in October 2025. A published issue or current submission call has not yet been located."
+    "research_note": "Berkeley City College student-government materials from Fall 2025 document the revival/chartering of the Milvia Street Art and Literary Journal Club to produce the college’s art and literary journal. A newly published issue or current submission call was not located."
   },
   {
     "college": "Butte College",
@@ -133,11 +135,13 @@
   },
   {
     "college": "Clovis Community College",
-    "status": "still-researching",
-    "journals": [],
+    "status": "active-publication-details-needed",
+    "journals": [
+      "Folio"
+    ],
     "region": "Central Valley",
     "last_verified": "2026-09-06",
-    "research_note": "Current governance materials confirm an annual faculty/student literary arts journal process, but the current journal title, issue, and submission page still need verification."
+    "research_note": "Current community evidence identifies Folio as Clovis Community College’s creative arts journal, with contributors reporting publication in 2024. College governance materials also support an annual faculty/student literary arts journal process, but a current first-party issue or submission page still needs verification."
   },
   {
     "college": "Coalinga College",
@@ -364,11 +368,11 @@
   },
   {
     "college": "Foothill College",
-    "status": "still-researching",
+    "status": "active-publication-details-needed",
     "journals": [],
     "region": "Bay Area",
     "last_verified": "2026-09-06",
-    "research_note": "Current English and club pages confirm that the Creative Writing Club runs a student-led literary magazine, but the publication title and a current issue/submission page were not identified. Keeping this college in research status until the magazine can be named and sourced cleanly."
+    "research_note": "Current Foothill English and club pages explicitly confirm that the Creative Writing Club runs a student-led literary magazine featuring fiction, poetry, creative nonfiction, literary criticism, art, and photography. The publication title and a current issue/submission page were not located."
   },
   {
     "college": "Fresno City College",
@@ -446,11 +450,13 @@
   },
   {
     "college": "Lake Tahoe Community College",
-    "status": "still-researching",
-    "journals": [],
+    "status": "active-publication-details-needed",
+    "journals": [
+      "Kokanee Literary Journal"
+    ],
     "region": "Northern California",
     "last_verified": "2026-09-06",
-    "research_note": "Current faculty contract language still includes a Kokanee Literary Journal editor assignment, but older program review materials described the publication as having lapsed. Current publication status needs direct verification."
+    "research_note": "LTCC’s current 2025–28 faculty agreement assigns 2.5 units per year to the Kokanee Literary Journal editor, indicating current institutional support. No recent issue or submission page was located, and older program-review materials had described the publication as lapsed."
   },
   {
     "college": "Laney College",
@@ -546,11 +552,13 @@
   },
   {
     "college": "Los Angeles Valley College",
-    "status": "still-researching",
-    "journals": [],
+    "status": "recent-status-unclear",
+    "journals": [
+      "The Bite"
+    ],
     "region": "Southern California",
     "last_verified": "2026-09-06",
-    "research_note": "The Bite was described by the LAVC Foundation in April 2025 as an upcoming English Department literary magazine. A current 2026 issue or official submission/publication page was not located in this review; Crown Magazine is a journalism publication and is outside this directory's literary-journal scope."
+    "research_note": "The Bite was described by the LAVC Foundation in April 2025 as an upcoming English Department literary magazine. A current 2026 issue or official submission/publication page was not located; Crown Magazine is a journalism publication and remains outside this literary-journal census."
   },
   {
     "college": "Los Medanos College",
@@ -794,18 +802,23 @@
   },
   {
     "college": "San Diego Mesa College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Mesa Visions"
+    ],
+    "region": "San Diego County",
+    "last_verified": "2026-09-06",
+    "research_note": "San Diego Mesa College’s May 2025 calendar identifies Mesa Visions as an annual English/Honors/Creative Writing production and documents a magazine launch and reading. Current submission eligibility and deadlines still need verification."
   },
   {
     "college": "San Diego Miramar College",
-    "status": "still-researching",
-    "journals": [],
+    "status": "recent-status-unclear",
+    "journals": [
+      "Community Voices Literary Magazine"
+    ],
     "region": "San Diego County",
     "last_verified": "2026-09-06",
-    "research_note": "Community Voices Literary Magazine appears in official 2023 college event pages, but a current 2026 issue or submission page has not yet been located."
+    "research_note": "Official Miramar event pages show Community Voices Literary Magazine active as a campus host in 2023. No 2024–26 issue or submission call was located in the current site review, so the present publication cycle remains unclear."
   },
   {
     "college": "San Joaquin Delta College",
@@ -893,19 +906,23 @@
   },
   {
     "college": "Solano Community College",
-    "status": "still-researching",
-    "journals": [],
+    "status": "verified-active-journal",
+    "journals": [
+      "Suisun Valley Review"
+    ],
     "region": "Bay Area",
     "last_verified": "2026-09-06",
-    "research_note": "Suisun Valley Review is well documented in Solano catalog/course materials through 2022–23, but a current 2026 issue or submission page has not yet been located."
+    "research_note": "Current 2026 submission materials identify Suisun Valley Review as Solano Community College’s 42nd issue. The journal is a long-running annual SCC literary publication; its submission manager currently lists no open calls."
   },
   {
     "college": "Southwestern College",
-    "status": "still-researching",
-    "journals": [],
+    "status": "verified-active-journal",
+    "journals": [
+      "The Vagabond"
+    ],
     "region": "San Diego County",
     "last_verified": "2026-09-06",
-    "research_note": "The current 2026–27 catalog confirms that ENGL 180–182 culminate in production of a student literary magazine each year, but the current magazine title and publication page were not verified."
+    "research_note": "Southwestern College documents The Vagabond as its student literary magazine. Current ENGL 180–182 curriculum, effective Fall 2026, says students edit and produce The Vagabond each year."
   },
   {
     "college": "Taft College",
@@ -960,10 +977,12 @@
   },
   {
     "college": "Yuba College",
-    "status": "still-researching",
-    "journals": [],
+    "status": "recent-status-unclear",
+    "journals": [
+      "Flumes"
+    ],
     "region": "Sacramento Area",
     "last_verified": "2026-09-06",
-    "research_note": "The current 2025–26 catalog still offers ENGL 31B, Writing and Editing for Publication, which includes editorial-board work for a literary journal/publication. The current journal title and issue need verification."
+    "research_note": "Flumes is documented as Yuba College’s student-edited literary journal, and the current catalog still includes ENGL 31B editorial-board work for a literary journal/publication. A current Flumes issue or submission call was not located, so the title’s 2026 status remains unclear."
   }
 ]
