@@ -1,0 +1,1 @@
+window.CCC_SITE_CONFIG = {"community_form_url":"https://docs.google.com/forms/d/e/1FAIpQLScNDhUFguVe67-bDuya3QqW_m8S8KyjadbnJ2UrHjBOChzoyw/viewform"};

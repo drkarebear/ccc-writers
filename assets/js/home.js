@@ -5,13 +5,10 @@
   if (!journalEl && !openEl && !eventEl) return;
 
   try {
-    const [journalsResponse, eventsResponse] = await Promise.all([
-      fetch("data/journals.json"),
-      fetch("data/events.json")
+    const [journals, events] = await Promise.all([
+      loadJsonWithFallback("data/journals.json", window.CCC_JOURNALS),
+      loadJsonWithFallback("data/events.json", window.CCC_EVENTS)
     ]);
-    if (!journalsResponse.ok || !eventsResponse.ok) throw new Error("Could not load homepage counts.");
-    const journals = await journalsResponse.json();
-    const events = await eventsResponse.json();
     const today = new Date();
     const upcomingEvents = events.filter(event => new Date(`${event.date}T23:59:59`) >= today);
     const openJournals = journals.filter(journal => submissionStatus(journal, today).key === "open");

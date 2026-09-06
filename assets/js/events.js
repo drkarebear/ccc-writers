@@ -5,8 +5,7 @@
   const upgradeCommunityEventLink = () => {
     const link = list.querySelector('[data-community-form-link]');
     if (!link) return;
-    fetch('data/site-config.json')
-      .then(r => r.ok ? r.json() : Promise.reject())
+    loadJsonWithFallback('data/site-config.json', window.CCC_SITE_CONFIG)
       .then(config => {
         const u = new URL((config.community_form_url || '').trim());
         if (u.protocol === 'https:' && u.hostname === 'docs.google.com') link.href = u.href;
@@ -14,7 +13,7 @@
       .catch(() => {});
   };
   try {
-    const events = await (await fetch("data/events.json")).json();
+    const events = await loadJsonWithFallback("data/events.json", window.CCC_EVENTS);
     const today = new Date();
     const upcoming = events.filter(event => new Date(`${event.date}T23:59:59`) >= today)
       .sort((a,b) => a.date.localeCompare(b.date));

@@ -93,7 +93,7 @@ const journalCard = journal => {
   const city = escapeHTML(journal.city);
   return `
     <article class="journal-card" data-journal-id="${escapeHTML(journal.id)}">
-      <div class="meta"><span>${college}</span><span>${city}, CA</span></div>
+      <div class="meta"><span>${college}</span><span>${city}, CA</span>${journal.journal_type ? `<span>${escapeHTML(journal.journal_type)}</span>` : ""}</div>
       <h3><cite>${journalName}</cite></h3>
       <p class="status ${escapeHTML(status.key)}">${escapeHTML(status.label)}</p>
       <ul class="tag-list" aria-label="Genres">${genres}</ul>
@@ -144,3 +144,14 @@ const programCard = program => {
   const href = `mailto:karencrozer@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   links.forEach(link => { link.href = href; });
 })();
+
+window.loadJsonWithFallback = async (url, fallbackValue) => {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`Could not load ${url}`);
+    return await response.json();
+  } catch (error) {
+    if (fallbackValue !== undefined && fallbackValue !== null) return fallbackValue;
+    throw error;
+  }
+};

@@ -10,9 +10,7 @@
   const eligibility = document.querySelector("#eligibility-filter");
 
   try {
-    const response = await fetch("data/journals.json");
-    if (!response.ok) throw new Error("Could not load journal data.");
-    const journals = await response.json();
+    const journals = await loadJsonWithFallback("data/journals.json", window.CCC_JOURNALS);
     window.CCC_JOURNALS = journals;
 
     const genres = [...new Set(journals.flatMap(j => j.genres || []))].sort();

@@ -21,9 +21,7 @@
   try {
     let programs = Array.isArray(window.CCC_PROGRAMS) ? window.CCC_PROGRAMS : null;
     if (!programs) {
-      const response = await fetch('data/programs.json');
-      if (!response.ok) throw new Error('Program data unavailable');
-      programs = await response.json();
+      programs = await loadJsonWithFallback('data/programs.json', window.CCC_PROGRAMS);
     }
 
     const regions = [...new Set(programs.map(p => p.region).filter(Boolean))].sort();

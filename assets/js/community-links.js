@@ -2,11 +2,7 @@
   const links = [...document.querySelectorAll('[data-community-form-link]')];
   if (!links.length) return;
 
-  fetch('data/site-config.json')
-    .then((response) => {
-      if (!response.ok) throw new Error('Configuration unavailable');
-      return response.json();
-    })
+  loadJsonWithFallback('data/site-config.json', window.CCC_SITE_CONFIG)
     .then((config) => {
       const raw = typeof config.community_form_url === 'string'
         ? config.community_form_url.trim()

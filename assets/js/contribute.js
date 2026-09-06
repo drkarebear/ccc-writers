@@ -3,11 +3,7 @@
   const status = document.getElementById('community-form-status');
   if (!button || !status) return;
 
-  fetch('data/site-config.json')
-    .then((response) => {
-      if (!response.ok) throw new Error('Configuration unavailable');
-      return response.json();
-    })
+  loadJsonWithFallback('data/site-config.json', window.CCC_SITE_CONFIG)
     .then((config) => {
       const url = typeof config.community_form_url === 'string'
         ? config.community_form_url.trim()

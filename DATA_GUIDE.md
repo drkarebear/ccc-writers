@@ -98,3 +98,13 @@ Expired events are automatically hidden from the public upcoming-events list.
 ## Local Preview Note
 
 `data/programs.json` remains the canonical program dataset. `data/programs-data.js` is a generated mirror used only so `pathways.html` can be previewed directly from a local file without Chrome blocking `fetch()` calls. Whenever `programs.json` changes, regenerate `programs-data.js` from the same JSON before publishing. GitHub Pages can use either source; the page prefers the generated local copy and falls back to JSON.
+
+
+## Optional reading and journal-type fields
+
+Journal records can also include:
+
+- `latest_issue_url` — a verified HTTPS link to the current or latest readable issue. `Read CCC Writing` prefers this link over the general journal home page.
+- `journal_type` — a short plain-language label when a publication needs scope clarification, such as `College-sponsored national journal`, `Student arts and letters magazine`, or `Umoja literary and arts journal`. Omit this field for ordinary student literary journals.
+
+Do not add a current-issue link unless the issue itself has been verified. Do not infer that a college-sponsored journal is student-run.

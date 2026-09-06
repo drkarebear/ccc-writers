@@ -1,24 +1,29 @@
 [
   {
     "college": "Allan Hancock College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Harvest"
+    ],
+    "region": "Central Coast",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "American River College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "American River Review"
+    ],
+    "region": "Sacramento Area",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Antelope Valley College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Southern California",
+    "last_verified": "2026-09-06",
+    "research_note": "Current creative writing coursework and a robust writing program are verified, but an active college literary journal has not yet been located."
   },
   {
     "college": "Bakersfield College",
@@ -31,15 +36,17 @@
     "college": "Barstow Community College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Desert",
+    "last_verified": "2026-09-06",
+    "research_note": "Initial current-site review did not locate an active literary journal; research remains open."
   },
   {
     "college": "Berkeley City College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Bay Area",
+    "last_verified": "2026-09-06",
+    "research_note": "Student government chartered an Art and Literary Journal Club in October 2025. A published issue or current submission call has not yet been located."
   },
   {
     "college": "Butte College",
@@ -50,10 +57,13 @@
   },
   {
     "college": "Cabrillo College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Journal X / Xinachtli Journal",
+      "Porter Gulch Review"
+    ],
+    "region": "Central Coast",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Calbright College",
@@ -71,31 +81,39 @@
   },
   {
     "college": "Cerritos College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "¡Pa’lante!"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Cerro Coso Community College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Metamorphoses"
+    ],
+    "region": "Central Valley",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Chabot College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "The Chabot Review"
+    ],
+    "region": "Bay Area",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Chaffey College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "The Chaffey Review"
+    ],
+    "region": "Inland Empire",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Citrus College",
@@ -117,15 +135,26 @@
     "college": "Clovis Community College",
     "status": "still-researching",
     "journals": [],
+    "region": "Central Valley",
+    "last_verified": "2026-09-06",
+    "research_note": "Current governance materials confirm an annual faculty/student literary arts journal process, but the current journal title, issue, and submission page still need verification."
+  },
+  {
+    "college": "Coalinga College",
+    "status": "still-researching",
+    "journals": [],
     "region": null,
     "last_verified": null
   },
   {
     "college": "Coastline College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "StoryLine Magazine",
+      "Nzuri Literary & Arts Journal"
+    ],
+    "region": "Orange County",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "College of Alameda",
@@ -138,15 +167,18 @@
     "college": "College of Marin",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Bay Area",
+    "last_verified": "2026-09-06",
+    "research_note": "The college documented a student-run College of Marin Literary Magazine in 2016, formerly Glass Magazine. No current 2026 issue or submission page has yet been verified."
   },
   {
     "college": "College of San Mateo",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Labyrinth"
+    ],
+    "region": "Bay Area",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "College of the Canyons",
@@ -159,10 +191,12 @@
   },
   {
     "college": "College of the Desert",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "The Solstice"
+    ],
+    "region": "Desert",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "College of the Redwoods",
@@ -177,15 +211,18 @@
     "college": "College of the Sequoias",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Central Valley",
+    "last_verified": "2026-09-06",
+    "research_note": "Historical catalogs document the Creative Writing Club magazine The Working Title, but the current English page does not identify a literary magazine. Current status remains unresolved."
   },
   {
     "college": "College of the Siskiyous",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "The Lemurian Revival"
+    ],
+    "region": "North/Far North",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Columbia College",
@@ -196,10 +233,12 @@
   },
   {
     "college": "Compton College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Voices of Compton"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Contra Costa College",
@@ -219,24 +258,30 @@
   },
   {
     "college": "Cosumnes River College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Cosumnes River Journal"
+    ],
+    "region": "Sacramento Area",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Crafton Hills College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "The Sand Canyon Review"
+    ],
+    "region": "Inland Empire",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Cuesta College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Tellus"
+    ],
+    "region": "Central Coast",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Cuyamaca College",
@@ -292,31 +337,38 @@
   },
   {
     "college": "Evergreen Valley College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Leaf by Leaf Magazine"
+    ],
+    "region": "Bay Area",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Feather River College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Cambium: A Journal of Humanities and Arts"
+    ],
+    "region": "North/Far North",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Folsom Lake College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "The Machine"
+    ],
+    "region": "Sacramento Area",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Foothill College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Bay Area",
+    "last_verified": "2026-09-06",
+    "research_note": "Current English and club pages confirm that the Creative Writing Club runs a student-led literary magazine, but the publication title and a current issue/submission page were not identified. Keeping this college in research status until the magazine can be named and sourced cleanly."
   },
   {
     "college": "Fresno City College",
@@ -327,31 +379,36 @@
   },
   {
     "college": "Fullerton College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "LiveWire"
+    ],
+    "region": "Orange County",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Gavilan College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Central Coast",
+    "last_verified": "2026-09-06",
+    "research_note": "The current English site confirms an active Gavilan Literary Society for writers and literary artists, but a current college literary magazine has not yet been located."
   },
   {
     "college": "Glendale Community College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Southern California",
+    "last_verified": "2026-09-06",
+    "research_note": "A current annual Student Reading Series and a student zine produced with Avenue 50 Studio are verified. A persistent named literary journal has not yet been located, so research remains open."
   },
   {
     "college": "Golden West College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Orange County",
+    "last_verified": "2026-09-06",
+    "research_note": "The current English program and faculty pages were reviewed; no active college literary journal was located in this pass, but the review is not yet closed."
   },
   {
     "college": "Grossmont College",
@@ -371,10 +428,12 @@
   },
   {
     "college": "Imperial Valley College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "El Corazón"
+    ],
+    "region": "Imperial Valley",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Irvine Valley College",
@@ -389,8 +448,9 @@
     "college": "Lake Tahoe Community College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Northern California",
+    "last_verified": "2026-09-06",
+    "research_note": "Current faculty contract language still includes a Kokanee Literary Journal editor assignment, but older program review materials described the publication as having lapsed. Current publication status needs direct verification."
   },
   {
     "college": "Laney College",
@@ -416,11 +476,20 @@
     "last_verified": null
   },
   {
-    "college": "Long Beach City College",
+    "college": "Lemoore College",
     "status": "still-researching",
     "journals": [],
     "region": null,
     "last_verified": null
+  },
+  {
+    "college": "Long Beach City College",
+    "status": "verified-active-journal",
+    "journals": [
+      "SAGA Literary Journal"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Los Angeles City College",
@@ -460,25 +529,28 @@
   },
   {
     "college": "Los Angeles Southwest College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "The Truth"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Los Angeles Trade-Tech College",
-    "status": "still-researching",
+    "status": "no-journal-located",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Southern California",
+    "last_verified": "2026-09-06",
+    "research_note": "Current English program materials and current course information were reviewed. Creative writing is offered, but no active literary journal or literary magazine publication page was located."
   },
   {
     "college": "Los Angeles Valley College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null,
-    "research_note": "Candidate found: The Bite was described by the LAVC Foundation in April 2025 as an upcoming English Department literary magazine; a current 2026 issue or official publication page is not yet verified."
+    "region": "Southern California",
+    "last_verified": "2026-09-06",
+    "research_note": "The Bite was described by the LAVC Foundation in April 2025 as an upcoming English Department literary magazine. A current 2026 issue or official submission/publication page was not located in this review; Crown Magazine is a journalism publication and is outside this directory's literary-journal scope."
   },
   {
     "college": "Los Medanos College",
@@ -526,10 +598,12 @@
   },
   {
     "college": "Mission College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "The Mission Review"
+    ],
+    "region": "Bay Area",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Modesto Junior College",
@@ -540,10 +614,12 @@
   },
   {
     "college": "Monterey Peninsula College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Scheherazade"
+    ],
+    "region": "Central Coast",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Moorpark College",
@@ -563,31 +639,37 @@
   },
   {
     "college": "Mt. San Antonio College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Creepy Gnome"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Mt. San Jacinto College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Flight"
+    ],
+    "region": "Inland Empire",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Napa Valley College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Bay Area",
+    "last_verified": "2026-09-06",
+    "research_note": "The college currently hosts the Jessamyn West Creative Writing Contest and documents a history of student creative publications, but a current literary magazine has not yet been located."
   },
   {
     "college": "Norco College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Inland Empire",
+    "last_verified": "2026-09-06",
+    "research_note": "Current English/creative writing materials were reviewed; no Norco-specific literary journal has yet been verified. Research remains open."
   },
   {
     "college": "Ohlone College",
@@ -607,10 +689,13 @@
   },
   {
     "college": "Oxnard College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "historical-inactive",
+    "journals": [
+      "The Soaring Condor"
+    ],
+    "region": "Ventura County",
+    "last_verified": "2026-09-06",
+    "research_note": "Oxnard College documented the inaugural issue of the student literary magazine The Soaring Condor in Spring 2015. No current active publication or submission page was located in the 2026 review."
   },
   {
     "college": "Palo Verde College",
@@ -673,10 +758,12 @@
   },
   {
     "college": "Sacramento City College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Susurrus"
+    ],
+    "region": "Sacramento Area",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Saddleback College",
@@ -716,15 +803,18 @@
     "college": "San Diego Miramar College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "San Diego County",
+    "last_verified": "2026-09-06",
+    "research_note": "Community Voices Literary Magazine appears in official 2023 college event pages, but a current 2026 issue or submission page has not yet been located."
   },
   {
     "college": "San Joaquin Delta College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Artifact"
+    ],
+    "region": "Central Valley",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "San Jose City College",
@@ -737,22 +827,27 @@
     "college": "Santa Ana College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Orange County",
+    "last_verified": "2026-09-06",
+    "research_note": "A 2017 English program review documented a yearly literary journal and literary club, but a current named journal or 2026 publication page has not yet been verified."
   },
   {
     "college": "Santa Barbara City College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Open Fruit"
+    ],
+    "region": "Central Coast",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Santa Monica College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Santa Monica Review"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Santa Rosa Junior College",
@@ -765,15 +860,18 @@
     "college": "Santiago Canyon College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Orange County",
+    "last_verified": "2026-09-06",
+    "research_note": "Initial current-site review did not locate an active literary journal; research remains open."
   },
   {
     "college": "Shasta College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Ink Storm"
+    ],
+    "region": "North/Far North",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Sierra College",
@@ -786,38 +884,46 @@
   },
   {
     "college": "Skyline College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Talisman Literary Magazine"
+    ],
+    "region": "Bay Area",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Solano Community College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Bay Area",
+    "last_verified": "2026-09-06",
+    "research_note": "Suisun Valley Review is well documented in Solano catalog/course materials through 2022–23, but a current 2026 issue or submission page has not yet been located."
   },
   {
     "college": "Southwestern College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "San Diego County",
+    "last_verified": "2026-09-06",
+    "research_note": "The current 2026–27 catalog confirms that ENGL 180–182 culminate in production of a student literary magazine each year, but the current magazine title and publication page were not verified."
   },
   {
     "college": "Taft College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Taft College Literary Magazine"
+    ],
+    "region": "Central Valley",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Ventura College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "VC Voices"
+    ],
+    "region": "Ventura County",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Victor Valley College",
@@ -827,45 +933,37 @@
     "last_verified": null
   },
   {
-    "college": "Coalinga College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
-  },
-  {
-    "college": "Lemoore College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
-  },
-  {
     "college": "West Los Angeles College",
-    "status": "still-researching",
+    "status": "no-journal-located",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Southern California",
+    "last_verified": "2026-09-06",
+    "research_note": "Current catalog/course materials confirm creative writing offerings, but targeted review did not locate an active literary journal or literary magazine publication page."
   },
   {
     "college": "West Valley College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Voices: The Literary & Arts Journal of West Valley College"
+    ],
+    "region": "Bay Area",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Woodland Community College",
-    "status": "still-researching",
-    "journals": [],
-    "region": null,
-    "last_verified": null
+    "status": "verified-active-journal",
+    "journals": [
+      "Ink: A Literary Arts Magazine"
+    ],
+    "region": "Sacramento Area",
+    "last_verified": "2026-09-06"
   },
   {
     "college": "Yuba College",
     "status": "still-researching",
     "journals": [],
-    "region": null,
-    "last_verified": null
+    "region": "Sacramento Area",
+    "last_verified": "2026-09-06",
+    "research_note": "The current 2025–26 catalog still offers ENGL 31B, Writing and Editing for Publication, which includes editorial-board work for a literary journal/publication. The current journal title and issue need verification."
   }
 ]

@@ -7,7 +7,7 @@
   const count = document.querySelector("#submission-count");
 
   try {
-    const journals = await (await fetch("data/journals.json")).json();
+    const journals = await loadJsonWithFallback("data/journals.json", window.CCC_JOURNALS);
     [...new Set(journals.flatMap(j => j.genres || []))].sort().forEach(g => {
       const option = document.createElement("option");
       option.value = g;
