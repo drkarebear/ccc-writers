@@ -83,7 +83,7 @@ const programCard = program => {
   const transferLabel = program.transfer_strength === "published-ccc-pathway" ? `<li class="tag transfer-tag">Published CCC/ADT pathway</li>` : (program.transfer_strength === "transfer-specific-guidance" ? `<li class="tag guidance-tag">Transfer-specific guidance</li>` : "");
   return `
   <article class="program-card ${transferClass}">
-    <div class="meta"><span>${program.system}</span><span>${program.city}, CA</span></div>
+    <div class="meta"><span>${program.system}</span><span>${program.region || program.city}</span><span>${program.city}, CA</span></div>
     <h3>${program.institution}</h3>
     <p class="program-title"><strong>${program.program}</strong></p>
     <ul class="tag-list" aria-label="Program features">
@@ -101,3 +101,14 @@ const programCard = program => {
     </div>
   </article>`;
 };
+
+
+// Accessibility reporting links include the current page so barriers are easier to reproduce.
+(() => {
+  const links = document.querySelectorAll('[data-accessibility-report-link]');
+  if (!links.length) return;
+  const subject = 'CCC Writers Accessibility Issue';
+  const body = `Page: ${window.location.href}\n\nWhat were you trying to do?\n\nWhat barrier did you encounter?\n\nBrowser/device or assistive technology (optional):\n`;
+  const href = `mailto:karencrozer@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  links.forEach(link => { link.href = href; });
+})();

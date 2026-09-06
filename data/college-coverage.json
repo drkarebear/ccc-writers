@@ -1,0 +1,864 @@
+[
+  {
+    "college": "Allan Hancock College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "American River College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Antelope Valley College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Bakersfield College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Barstow Community College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Berkeley City College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Butte College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Cabrillo College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Calbright College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Cañada College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Cerritos College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Cerro Coso Community College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Chabot College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Chaffey College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Citrus College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "City College of San Francisco",
+    "status": "verified-active-journal",
+    "journals": [
+      "Forum Literary Magazine"
+    ],
+    "region": "Bay Area",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Clovis Community College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Coastline College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "College of Alameda",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "College of Marin",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "College of San Mateo",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "College of the Canyons",
+    "status": "verified-active-journal",
+    "journals": [
+      "cul-de-sac"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "College of the Desert",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "College of the Redwoods",
+    "status": "verified-active-journal",
+    "journals": [
+      "Personas Multilingual Literary Journal"
+    ],
+    "region": "North Coast",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "College of the Sequoias",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "College of the Siskiyous",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Columbia College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Compton College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Contra Costa College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Copper Mountain College",
+    "status": "verified-active-journal",
+    "journals": [
+      "HOWL: Art & Literary Magazine"
+    ],
+    "region": "Desert",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Cosumnes River College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Crafton Hills College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Cuesta College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Cuyamaca College",
+    "status": "verified-active-journal",
+    "journals": [
+      "The Cuyamaca Creative"
+    ],
+    "region": "San Diego County",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Cypress College",
+    "status": "verified-active-journal",
+    "journals": [
+      "Sole Image"
+    ],
+    "region": "Orange County",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "De Anza College",
+    "status": "verified-active-journal",
+    "journals": [
+      "Red Wheelbarrow: Student Edition"
+    ],
+    "region": "Bay Area",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Diablo Valley College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "East Los Angeles College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "El Camino College",
+    "status": "verified-active-journal",
+    "journals": [
+      "Myriad"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Evergreen Valley College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Feather River College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Folsom Lake College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Foothill College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Fresno City College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Fullerton College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Gavilan College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Glendale Community College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Golden West College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Grossmont College",
+    "status": "verified-active-journal",
+    "journals": [
+      "Acorn Review"
+    ],
+    "region": "San Diego County",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Hartnell College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Imperial Valley College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Irvine Valley College",
+    "status": "verified-active-journal",
+    "journals": [
+      "The EAR"
+    ],
+    "region": "Orange County",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Lake Tahoe Community College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Laney College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Las Positas College",
+    "status": "verified-active-journal",
+    "journals": [
+      "Havik"
+    ],
+    "region": "Bay Area",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Lassen College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Long Beach City College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Los Angeles City College",
+    "status": "verified-active-journal",
+    "journals": [
+      "The Citadel"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Los Angeles Harbor College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Los Angeles Mission College",
+    "status": "verified-active-journal",
+    "journals": [
+      "La Misión Review"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Los Angeles Pierce College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Los Angeles Southwest College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Los Angeles Trade-Tech College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Los Angeles Valley College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Los Medanos College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Madera Community College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Mendocino College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Merced College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Merritt College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "MiraCosta College",
+    "status": "verified-active-journal",
+    "journals": [
+      "Tidepools: A Journal of Ideas"
+    ],
+    "region": "San Diego County",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Mission College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Modesto Junior College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Monterey Peninsula College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Moorpark College",
+    "status": "verified-active-journal",
+    "journals": [
+      "The Moorpark Review"
+    ],
+    "region": "Ventura County",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Moreno Valley College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Mt. San Antonio College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Mt. San Jacinto College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Napa Valley College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Norco College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Ohlone College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Orange Coast College",
+    "status": "verified-active-journal",
+    "journals": [
+      "Orange Coast Review"
+    ],
+    "region": "Orange County",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Oxnard College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Palo Verde College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Palomar College",
+    "status": "verified-active-journal",
+    "journals": [
+      "Bravura"
+    ],
+    "region": "San Diego County",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Pasadena City College",
+    "status": "verified-active-journal",
+    "journals": [
+      "Inscape Magazine"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Porterville College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Reedley College",
+    "status": "verified-active-journal",
+    "journals": [
+      "Kings River Review"
+    ],
+    "region": "Central California",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Rio Hondo College",
+    "status": "verified-active-journal",
+    "journals": [
+      "River’s Voice"
+    ],
+    "region": "Southern California",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Riverside City College",
+    "status": "verified-active-journal",
+    "journals": [
+      "MUSE Literary Journal"
+    ],
+    "region": "Inland Empire",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Sacramento City College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Saddleback College",
+    "status": "verified-active-journal",
+    "journals": [
+      "WALL Literary Journal"
+    ],
+    "region": "Orange County",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "San Bernardino Valley College",
+    "status": "verified-active-journal",
+    "journals": [
+      "Phineas Literary Magazine"
+    ],
+    "region": "Inland Empire",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "San Diego City College",
+    "status": "verified-active-journal",
+    "journals": [
+      "City Works"
+    ],
+    "region": "San Diego County",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "San Diego Mesa College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "San Diego Miramar College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "San Joaquin Delta College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "San Jose City College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Santa Ana College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Santa Barbara City College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Santa Monica College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Santa Rosa Junior College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Santiago Canyon College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Shasta College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Sierra College",
+    "status": "verified-active-journal",
+    "journals": [
+      "Sierra Journal"
+    ],
+    "region": "Northern California",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "college": "Skyline College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Solano Community College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Southwestern College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Taft College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Ventura College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Victor Valley College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Coalinga College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Lemoore College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "West Los Angeles College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "West Valley College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Woodland Community College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  },
+  {
+    "college": "Yuba College",
+    "status": "still-researching",
+    "journals": [],
+    "region": null,
+    "last_verified": null
+  }
+]

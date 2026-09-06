@@ -458,3 +458,47 @@ h3 { font-size: 1.25rem; margin: 0 0 .45rem; }
 }
 .leaflet-popup-content strong { color: var(--navy-deep); }
 .leaflet-popup-content a { color: var(--navy-mid); font-weight: 750; }
+
+/* Guided program finder */
+.guided-finder {
+  border-top: 1px solid var(--line);
+}
+.guided-form {
+  margin-top: 1rem;
+}
+.guided-toolbar {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+
+/* Statewide coverage tracker */
+.coverage-list {
+  display: grid;
+  gap: .85rem;
+}
+.coverage-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(190px, auto);
+  gap: 1rem;
+  align-items: center;
+  background: white;
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--line-blue);
+  border-radius: 15px;
+  padding: 1rem 1.1rem;
+  box-shadow: var(--shadow-soft);
+}
+.coverage-card h3,
+.coverage-card p { margin-top: 0; }
+.coverage-card p:last-child { margin-bottom: 0; }
+.coverage-verified-active-journal { border-left-color: var(--navy-mid); }
+.coverage-no-journal-located { border-left-color: var(--gold-dark); }
+.coverage-historical-inactive { border-left-color: var(--closed); }
+.coverage-status {
+  text-align: right;
+  color: var(--navy-deep);
+}
+
+@media (max-width: 620px) {
+  .coverage-card { grid-template-columns: 1fr; }
+  .coverage-status { text-align: left; }
+}

@@ -48,8 +48,31 @@ Program type values currently used by the filter:
 
 - `Major`
 - `Option/Concentration`
+- `Specialization/Emphasis`
+- `Minor`
+
+Each program also includes a broad `region` browsing label. Region labels are for student discovery and are not official university classifications. Current labels include Bay Area, Central Coast, Central Valley, Inland Empire, Los Angeles Area, North/Far North, Orange County, Sacramento Area, San Diego County, and Ventura County.
+
+`transfer_strength` uses three values:
+
+- `published-ccc-pathway`
+- `transfer-specific-guidance`
+- `general`
 
 Only set `transfer_pathway` to `true` when a specific official pathway has been verified and add the `transfer_url`.
+
+## College coverage record
+
+`college-coverage.json` tracks the 116-college census separately from journal records. This is intentional: **Still researching** must never be interpreted as **No active journal located**.
+
+Coverage status values:
+
+- `verified-active-journal`
+- `still-researching`
+- `no-journal-located`
+- `historical-inactive`
+
+Use `no-journal-located` only after a deliberate review of current college sources.
 
 ## Event record
 

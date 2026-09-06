@@ -19,8 +19,9 @@
     "transfer_url": "https://creative.berkeley.edu/admission-to-cal/",
     "secondary_offering": "Interdepartmental minor open to students in any major.",
     "summary": "An interdisciplinary minor requiring three upper-division creative writing courses and two upper-division literature courses selected from approved offerings across campus.",
-    "transfer_note": "Important for CCC students: Berkeley states that community-college courses cannot satisfy this minor because all minor requirements are upper division.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "Important for CCC students: Berkeley states that community college courses cannot satisfy this minor because all minor requirements are upper division.",
+    "last_verified": "2026-09-06",
+    "region": "Bay Area"
   },
   {
     "id": "ucd-english-creative-writing",
@@ -40,8 +41,9 @@
     "transfer_url": "",
     "secondary_offering": "The emphasis is completed within the English B.A.",
     "summary": "English majors may complete a Creative Writing emphasis with three courses in fiction, nonfiction, and/or poetry; advanced workshops are application-based.",
-    "transfer_note": "No creative-writing-specific CCC road map was verified; use ASSIST and English advising to map lower-division preparation.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "No creative writing-specific CCC road map was verified; use ASSIST and English advising to map lower-division preparation.",
+    "last_verified": "2026-09-06",
+    "region": "Sacramento Area"
   },
   {
     "id": "uci-creative-writing-minor",
@@ -60,8 +62,9 @@
     "transfer_url": "",
     "secondary_offering": "Open to undergraduates across UCI.",
     "summary": "A seven-course minor built around prose fiction and poetry workshops, writing courses, and literature study.",
-    "transfer_note": "No creative-writing-specific CCC road map was verified; check ASSIST and UCI residence requirements before planning the minor.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "No creative writing-specific CCC road map was verified; check ASSIST and UCI residence requirements before planning the minor.",
+    "last_verified": "2026-09-06",
+    "region": "Orange County"
   },
   {
     "id": "ucla-english-creative-writing",
@@ -84,7 +87,8 @@
     "secondary_offering": "A separate Creative Writing minor is also available.",
     "summary": "Qualified English majors may elect a Creative Writing concentration; UCLA also offers a Creative Writing minor with work in poetry, short fiction, nonfiction, screenwriting, playwriting, hybrid genres, and electronic forms.",
     "transfer_note": "UCLA provides transfer-specific English advising. Creative Writing workshops are application-only, and transfer students interested in the minor are advised to begin applying early.",
-    "last_verified": "2026-09-06"
+    "last_verified": "2026-09-06",
+    "region": "Los Angeles Area"
   },
   {
     "id": "ucm-writing-studies",
@@ -103,9 +107,10 @@
     "program_url": "https://writingstudies.ucmerced.edu/node/401",
     "transfer_url": "https://writingstudies.ucmerced.edu/node/401",
     "secondary_offering": "Broader writing major that includes creative and professional writing.",
-    "summary": "A writing-centered B.A. that blends creative, academic, professional, and disciplinary writing; students can include genre and creative-writing coursework in the major.",
+    "summary": "A writing-centered B.A. that blends creative, academic, professional, and disciplinary writing; students can include genre and creative writing coursework in the major.",
     "transfer_note": "UC Merced publishes major-specific transfer selection criteria: transfer applicants must complete at least two approved preparation courses (or equivalents), including options such as Introduction to Creative Writing, with C- or better.",
-    "last_verified": "2026-09-06"
+    "last_verified": "2026-09-06",
+    "region": "Central Valley"
   },
   {
     "id": "ucr-ba-creative-writing",
@@ -125,8 +130,9 @@
     "transfer_url": "",
     "secondary_offering": "Creative Writing minor also available.",
     "summary": "A standalone Creative Writing B.A. with fields of specialization in fiction, nonfiction, and poetry. UCR describes it as the only Creative Writing major of its kind in the UC system.",
-    "transfer_note": "No creative-writing-specific CCC road map was verified in this pass; use ASSIST and UCR transfer advising for articulation.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "No creative writing-specific CCC road map was verified in this pass; use ASSIST and UCR transfer advising for articulation.",
+    "last_verified": "2026-09-06",
+    "region": "Inland Empire"
   },
   {
     "id": "ucsd-literary-arts",
@@ -150,7 +156,8 @@
     "secondary_offering": "Literary Arts minor also available.",
     "summary": "UC San Diego's Literary Arts B.A. replaced the former Literature/Writing major and combines craft, workshops, literary study, and broad genre options.",
     "transfer_note": "Especially useful for transfers: UCSD publishes pre-approved upper-division substitutions for Literary Arts transfer students who still need specified lower-division literature requirements.",
-    "last_verified": "2026-09-06"
+    "last_verified": "2026-09-06",
+    "region": "San Diego County"
   },
   {
     "id": "ucsb-english-creative-writing",
@@ -170,7 +177,8 @@
     "secondary_offering": "Departmental specialization connected to the Las Maestras Center.",
     "summary": "A department-based English specialization for students developing an original creative voice while connecting craft with questions of social equity, environment, and globalization.",
     "transfer_note": "This is a departmental specialization rather than a separate UC degree. Use ASSIST for English B.A. preparation and confirm current specialization requirements after transfer.",
-    "last_verified": "2026-09-06"
+    "last_verified": "2026-09-06",
+    "region": "Central Coast"
   },
   {
     "id": "ucsc-literature-creative-writing",
@@ -190,7 +198,8 @@
     "secondary_offering": "Selective concentration with fiction/prose and poetry tracks.",
     "summary": "A selective concentration inside the Literature B.A., with lower- and upper-division workshops and a creative senior project or seminar.",
     "transfer_note": "Plan early: applicants must take at least one qualifying lower-division creative writing workshop at UCSC before applying to the concentration. UCSC also publishes transfer guidance for Literature majors.",
-    "last_verified": "2026-09-06"
+    "last_verified": "2026-09-06",
+    "region": "Central Coast"
   },
   {
     "id": "calpoly-slo-creative-writing",
@@ -209,8 +218,9 @@
     "transfer_url": "",
     "secondary_offering": "Optional emphasis built from upper-division English units and the senior project.",
     "summary": "English majors interested in creative writing may shape 16 upper-division English units plus the senior project into a fiction- or poetry-writing emphasis.",
-    "transfer_note": "This is an optional emphasis within the English B.A., not a separately named degree. No creative-writing-specific CCC road map was verified; use ASSIST and Cal Poly advising.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "This is an optional emphasis within the English B.A., not a separately named degree. No creative writing-specific CCC road map was verified; use ASSIST and Cal Poly advising.",
+    "last_verified": "2026-09-06",
+    "region": "Central Coast"
   },
   {
     "id": "humboldt-writing-minor",
@@ -231,9 +241,10 @@
     "program_url": "https://www.humboldt.edu/academics/programs/writing-minor",
     "transfer_url": "",
     "secondary_offering": "English B.A. students can also work on the student-run Toyon literary magazine.",
-    "summary": "A current Writing Minor housed in English. Humboldt’s active creative-writing curriculum includes introductory creative writing, environmental-justice writing, nonfiction, fiction, poetry, and literary editing/publishing.",
-    "transfer_note": "The current university site confirms the Writing Minor, but a creative-writing-specific CCC road map was not verified. Use ASSIST and Humboldt advising to determine how transfer coursework applies.",
-    "last_verified": "2026-09-06"
+    "summary": "A current Writing Minor housed in English. Humboldt’s active creative writing curriculum includes introductory creative writing, environmental-justice writing, nonfiction, fiction, poetry, and literary editing/publishing.",
+    "transfer_note": "The current university site confirms the Writing Minor, but a creative writing-specific CCC road map was not verified. Use ASSIST and Humboldt advising to determine how transfer coursework applies.",
+    "last_verified": "2026-09-06",
+    "region": "North/Far North"
   },
   {
     "id": "csuci-english-creative-writing",
@@ -253,8 +264,9 @@
     "transfer_url": "",
     "secondary_offering": "Minor in English: Creative Writing also available.",
     "summary": "An optional Creative Writing emphasis within the English B.A.; the department also offers a Creative Writing minor for non-majors.",
-    "transfer_note": "No creative-writing-specific CCC road map was verified; use ASSIST and CSUCI English advising.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "No creative writing-specific CCC road map was verified; use ASSIST and CSUCI English advising.",
+    "last_verified": "2026-09-06",
+    "region": "Ventura County"
   },
   {
     "id": "csub-creative-writing-minor",
@@ -276,8 +288,9 @@
     "transfer_url": "",
     "secondary_offering": "12-unit minor housed in the Department of English.",
     "summary": "A compact minor with Introduction to Creative Writing plus upper-division choices in poetry, fiction, creative nonfiction, playwriting, and literary-journal editing.",
-    "transfer_note": "No creative-writing-specific ADT road map was verified; use ASSIST and CSUB program maps for planning.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "No creative writing-specific ADT road map was verified; use ASSIST and CSUB program maps for planning.",
+    "last_verified": "2026-09-06",
+    "region": "Central Valley"
   },
   {
     "id": "chico-creative-writing-minor",
@@ -298,8 +311,9 @@
     "transfer_url": "",
     "secondary_offering": "English also supports literary editing and publishing work.",
     "summary": "A named Creative Writing minor in the English Department. Chico's current English catalog also identifies creative work in fiction, poetry, drama, and creative nonfiction within its undergraduate ecosystem.",
-    "transfer_note": "No creative-writing-specific ADT road map was verified in this pass; use ASSIST for transferable preparation.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "No creative writing-specific ADT road map was verified in this pass; use ASSIST for transferable preparation.",
+    "last_verified": "2026-09-06",
+    "region": "North/Far North"
   },
   {
     "id": "csudh-creative-writing-minor",
@@ -320,8 +334,9 @@
     "transfer_url": "",
     "secondary_offering": "CSUDH also offers a Professional and Creative Writing certificate.",
     "summary": "A Creative Writing minor within English, complemented by a separate professional-and-creative writing certificate and workshop opportunities across creative genres.",
-    "transfer_note": "No creative-writing-specific CCC transfer map was verified; use ASSIST and department advising.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "No creative writing-specific CCC transfer map was verified; use ASSIST and department advising.",
+    "last_verified": "2026-09-06",
+    "region": "Los Angeles Area"
   },
   {
     "id": "csueb-english-creative-writing",
@@ -342,7 +357,8 @@
     "secondary_offering": "Current degree-road-map site includes 2026-27 and ADT pathways.",
     "summary": "A Creative Writing concentration within the English B.A. with both four-year and Associate Degree for Transfer road maps.",
     "transfer_note": "One of the clearest CCC routes found: CSU East Bay publishes an English ADT → Creative Writing Concentration road map structured around 60 post-transfer semester units.",
-    "last_verified": "2026-09-06"
+    "last_verified": "2026-09-06",
+    "region": "Bay Area"
   },
   {
     "id": "fresno-english-creative-writing",
@@ -363,8 +379,9 @@
     "transfer_url": "",
     "secondary_offering": "Current department page links to 2026-27 degree requirements.",
     "summary": "An English B.A. option focused on poetry, fiction, creative nonfiction, and literary publishing, with advanced workshops and advising notes for course sequencing.",
-    "transfer_note": "Fresno State notes that catalog year may trace to when a student began at an area community college, but no creative-writing-specific ADT road map was verified; use ASSIST and advising.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "Fresno State notes that catalog year may trace to when a student began at an area community college, but no creative writing-specific ADT road map was verified; use ASSIST and advising.",
+    "last_verified": "2026-09-06",
+    "region": "Central Valley"
   },
   {
     "id": "csuf-creative-writing-minor",
@@ -381,10 +398,11 @@
     "transfer_pathway": false,
     "program_url": "https://english.fullerton.edu/academics/creativewriting_minor.aspx",
     "transfer_url": "",
-    "secondary_offering": "21-unit minor combining creative-writing sequence and literature study.",
+    "secondary_offering": "21-unit minor combining creative writing sequence and literature study.",
     "summary": "A 21-unit minor built around Introduction, Intermediate, and Advanced Creative Writing plus literature and upper-division electives.",
-    "transfer_note": "No creative-writing-specific CCC road map was verified; use ASSIST and CSUF English advising.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "No creative writing-specific CCC road map was verified; use ASSIST and CSUF English advising.",
+    "last_verified": "2026-09-06",
+    "region": "Orange County"
   },
   {
     "id": "csulb-english-creative-writing",
@@ -406,7 +424,8 @@
     "secondary_offering": "Creative Writing option within the English B.A.",
     "summary": "An English B.A. option designed for students who want to write and study fiction, poetry, plays, or media scripts.",
     "transfer_note": "No option-specific CCC road map was verified in this pass; confirm articulation in ASSIST and with CSULB advising.",
-    "last_verified": "2026-09-06"
+    "last_verified": "2026-09-06",
+    "region": "Los Angeles Area"
   },
   {
     "id": "calstatela-creative-writing-minor",
@@ -426,8 +445,9 @@
     "transfer_url": "",
     "secondary_offering": "Minor is open alongside the English B.A.",
     "summary": "Cal State LA's current English undergraduate page lists a Creative Writing minor; beginning creative writing introduces fiction, poetry, and drama in a workshop setting.",
-    "transfer_note": "No creative-writing-specific CCC road map was verified; use ASSIST for course articulation.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "No creative writing-specific CCC road map was verified; use ASSIST for course articulation.",
+    "last_verified": "2026-09-06",
+    "region": "Los Angeles Area"
   },
   {
     "id": "csumb-hcom-creative-writing",
@@ -450,7 +470,8 @@
     "secondary_offering": "Creative Writing & Social Action minor also available.",
     "summary": "An interdisciplinary concentration connecting creative writing with social action, community engagement, storytelling, and publishing.",
     "transfer_note": "A particularly clear CCC option: CSUMB publishes Creative Writing & Social Action transfer pathways for students with an AA-T in English and for students without the AA-T. Verify the pathway year that matches your entry term.",
-    "last_verified": "2026-09-06"
+    "last_verified": "2026-09-06",
+    "region": "Central Coast"
   },
   {
     "id": "csun-english-creative-writing",
@@ -469,9 +490,10 @@
     "program_url": "https://catalog.csun.edu/academics/engl/programs/ba-english-ii/creative-writing-option/",
     "transfer_url": "https://catalog.csun.edu/resource/transfer-road-map/engl/",
     "secondary_offering": "Published Transfer Road Maps and ADT/STAR Act Road Maps.",
-    "summary": "A creative-writing option within the English B.A. emphasizing original writing, revision, literary analysis, and an advanced capstone portfolio.",
+    "summary": "A creative writing option within the English B.A. emphasizing original writing, revision, literary analysis, and an advanced capstone portfolio.",
     "transfer_note": "One of the clearest CCC routes found: CSUN publishes a Creative Writing transfer road map plus ADT/STAR road maps, including an AA-T in English route designed for completion within 60 semester units after transfer when eligibility conditions are met.",
-    "last_verified": "2026-09-06"
+    "last_verified": "2026-09-06",
+    "region": "Los Angeles Area"
   },
   {
     "id": "sacstate-creative-writing-minor",
@@ -490,9 +512,10 @@
     "program_url": "https://catalog.csus.edu/colleges/arts-letters/english/-minor-in-creative-writing/",
     "transfer_url": "",
     "secondary_offering": "English Department also supports the student-produced Calaveras Station Literary Journal.",
-    "summary": "A Creative Writing minor with introductory creative writing plus fiction or poetry and additional upper-division creative-writing coursework.",
-    "transfer_note": "No creative-writing-specific CCC road map was verified; use ASSIST and Sacramento State English advising.",
-    "last_verified": "2026-09-06"
+    "summary": "A Creative Writing minor with introductory creative writing plus fiction or poetry and additional upper-division creative writing coursework.",
+    "transfer_note": "No creative writing-specific CCC road map was verified; use ASSIST and Sacramento State English advising.",
+    "last_verified": "2026-09-06",
+    "region": "Sacramento Area"
   },
   {
     "id": "csusb-english-creative-writing",
@@ -513,9 +536,10 @@
     "program_url": "https://catalog.csusb.edu/colleges-schools-departments/arts-letters/english/english-ba/",
     "transfer_url": "",
     "secondary_offering": "18-unit concentration in the English B.A.",
-    "summary": "A concentration spanning aesthetics and craft, poetry, fiction, creative nonfiction, specialized genres, literary production, and a creative-writing thesis/performance experience.",
-    "transfer_note": "No creative-writing-specific CCC road map was verified; use ASSIST and CSUSB English advising.",
-    "last_verified": "2026-09-06"
+    "summary": "A concentration spanning aesthetics and craft, poetry, fiction, creative nonfiction, specialized genres, literary production, and a creative writing thesis/performance experience.",
+    "transfer_note": "No creative writing-specific CCC road map was verified; use ASSIST and CSUSB English advising.",
+    "last_verified": "2026-09-06",
+    "region": "Inland Empire"
   },
   {
     "id": "sdsu-creative-writing-minor",
@@ -536,9 +560,10 @@
     "program_url": "https://literature.sdsu.edu/undergraduate/minors",
     "transfer_url": "",
     "secondary_offering": "15-unit minor taught through English & Comparative Literature.",
-    "summary": "A 15-unit minor with creative-writing study plus workshops in fiction, poetry, screenwriting, creative publishing, and editing.",
-    "transfer_note": "No creative-writing-specific CCC road map was verified; note the minor's residence requirements and confirm articulation after transfer.",
-    "last_verified": "2026-09-06"
+    "summary": "A 15-unit minor with creative writing study plus workshops in fiction, poetry, screenwriting, creative publishing, and editing.",
+    "transfer_note": "No creative writing-specific CCC road map was verified; note the minor's residence requirements and confirm articulation after transfer.",
+    "last_verified": "2026-09-06",
+    "region": "San Diego County"
   },
   {
     "id": "sfsu-ba-creative-writing",
@@ -560,7 +585,8 @@
     "secondary_offering": "Creative Writing minor, M.A., and M.F.A. also available.",
     "summary": "A dedicated Creative Writing department offering an undergraduate major and minor alongside graduate writing programs, with workshop-centered study and active publishing faculty.",
     "transfer_note": "SF State publishes a dedicated ENGL AA-T roadmap for the Creative Writing B.A. The current roadmap is designed for students transferring with an AA-T in English and describes a 60-unit post-transfer completion path, subject to advising and catalog-year requirements.",
-    "last_verified": "2026-09-06"
+    "last_verified": "2026-09-06",
+    "region": "Bay Area"
   },
   {
     "id": "sjsu-english-creative-writing",
@@ -581,9 +607,10 @@
     "program_url": "https://www.sjsu.edu/english/undergraduate/degree-plans/major-creative-writing.php",
     "transfer_url": "https://catalog.sjsu.edu/preview_program.php?catoid=23&poid=18820&returnto=8460",
     "secondary_offering": "Creative Writing minor also available; students can work with Reed Magazine.",
-    "summary": "A creative-writing concentration with workshops in fiction, poetry, creative nonfiction, and scriptwriting, plus opportunities connected to SJSU's long-running Reed Magazine.",
+    "summary": "A creative writing concentration with workshops in fiction, poetry, creative nonfiction, and scriptwriting, plus opportunities connected to SJSU's long-running Reed Magazine.",
     "transfer_note": "SJSU’s current catalog identifies ADT pathways for the English B.A., Creative Writing Concentration. Confirm the current AA-T/ADT roadmap and course-by-course articulation in ASSIST before enrolling.",
-    "last_verified": "2026-09-06"
+    "last_verified": "2026-09-06",
+    "region": "Bay Area"
   },
   {
     "id": "sonoma-english-creative-writing",
@@ -603,7 +630,8 @@
     "transfer_url": "",
     "secondary_offering": "Concentration includes a senior capstone and advanced/experiential coursework.",
     "summary": "A workshop-focused concentration in poetry, fiction, and creative nonfiction requiring upper-division work in at least two genres and a senior capstone.",
-    "transfer_note": "Sonoma English provides general transfer information, but no creative-writing-specific CCC road map was verified in this pass; confirm articulation through ASSIST.",
-    "last_verified": "2026-09-06"
+    "transfer_note": "Sonoma English provides general transfer information, but no creative writing-specific CCC road map was verified in this pass; confirm articulation through ASSIST.",
+    "last_verified": "2026-09-06",
+    "region": "North/Far North"
   }
 ]

@@ -12,10 +12,12 @@ The site palette is built around the California-and-quill mark: deep navy (`#062
 ## What is included
 
 - `index.html` — student-first homepage
-- `journals.html` — interactive California literary-journal map + accessible filtered directory
+- `journals.html` — interactive California literary journal map + accessible filtered directory
 - `submissions.html` — submission finder driven by the same journal data
 - `events.html` — upcoming event board (ready for moderated submissions)
-- `pathways.html` — CSU/UC creative-writing program finder
+- `pathways.html` — CSU/UC creative writing program finder
+- `read.html` — browse verified CCC journal and publication pages
+- `coverage.html` — 116-college journal research coverage tracker
 - `journal-toolkit.html` — research-informed best practices for starting, improving, and sustaining a CCC literary journal
 - `contribute.html` — placeholder for moderated add/update forms
 - `about.html` — scope, independence, accessibility, and data principles
@@ -30,7 +32,7 @@ The journal map and the submission finder both read `data/journals.json`. A dead
 
 ## Statewide journal research set
 
-The journal dataset now contains **25 researched California community-college literary-journal records**, spanning the North Coast, Bay Area, Central California, Los Angeles, Ventura County, Orange County, the Inland Empire, the desert, and San Diego County.
+The journal dataset now contains **25 researched California community college literary journal records**, spanning the North Coast, Bay Area, Central California, Los Angeles, Ventura County, Orange County, the Inland Empire, the desert, and San Diego County.
 
 The dataset intentionally distinguishes among:
 
@@ -105,14 +107,14 @@ The static site itself has no user accounts, cookies, analytics, or database. Th
 
 Each journal record carries its own `source_url`, `last_verified`, and `source_note` so verification travels with the data instead of living in a separate spreadsheet. Current journal research prioritizes official college or journal pages.
 
-The Los Angeles Mission College record also uses current information supplied directly by the journal/department project team: current LAMC students and alumni may submit September 1 through December 31 at https://forms.gle/SkE9NdLeH6qfVnco7. The official LAMC journal page is https://www.lamc.edu/academics/pathways/scc/english-dept/student-literary-journal.
+The Los Angeles Mission College record also uses current information supplied directly by the journal/department project team: current LAMC students and alumni may submit September 1 through December 31 at https://forms.gle/SkE9NdLeH6qfVnco7. The official LAMC journal page is https://www.lamc.edu/academics/pathways/scc/english-dept/student-literary journal.
 
 University-pathway starter sources include official pages from UC Riverside, CSU Northridge, CSU Long Beach, and San Francisco State University.
 
 
 ## Journal Toolkit research base
 
-The toolkit synthesizes practices from current community-college publishing models and professional/accessibility guidance, including:
+The toolkit synthesizes practices from current community college publishing models and professional/accessibility guidance, including:
 
 - Orange Coast College — ENGL A011: Intro to Literary Magazine Production
 - Reedley College — *Kings River Review* / ENGL 15J
@@ -126,7 +128,7 @@ The toolkit synthesizes practices from current community-college publishing mode
 ## Best next build steps
 
 1. Continue the statewide journal census until every California community college has been checked, including a clear “no active journal found” research state.
-2. Expand and verify CSU/UC creative-writing pathways.
+2. Expand and verify CSU/UC creative writing pathways.
 3. Build a moderated form for journal corrections and event submissions.
 4. Add a simple data-validation workflow so malformed JSON cannot break the site.
 5. Add a scheduled re-verification workflow for time-sensitive submission statuses.
@@ -150,4 +152,4 @@ The community contribution form is live and configured in `data/site-config.json
 
 ## CSU / UC pathway research
 
-The September 6, 2026 pathway pass contains 27 verified formal creative-writing pathways: 18 CSU and 9 UC campuses. The directory distinguishes published CCC/ADT maps, transfer-specific guidance, and general transfer planning. See `data/programs.json`.
+The September 6, 2026 pathway pass contains 28 verified formal creative writing pathways: 19 CSU and 9 UC campuses. The directory distinguishes published CCC/ADT maps, transfer-specific guidance, and general transfer planning. See `data/programs.json`.
