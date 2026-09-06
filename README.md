@@ -131,3 +131,9 @@ The toolkit synthesizes practices from current community-college publishing mode
 4. Add a simple data-validation workflow so malformed JSON cannot break the site.
 5. Add a scheduled re-verification workflow for time-sensitive submission statuses.
 6. Conduct a full WCAG 2.2 AA review before public launch.
+
+## Community contributions
+
+CCC Writers supports a moderated community-submission workflow. A Google Form builder is included at `setup/google-form-builder.gs`, with setup instructions in `COMMUNITY_FORM_SETUP.md`. The public form URL is stored once in `data/site-config.json`; `contribute.html` reads that value and reveals the submission button automatically.
+
+Nothing submitted through the form should publish automatically. Verify the official source, then update the appropriate JSON record and `last_verified` date.
