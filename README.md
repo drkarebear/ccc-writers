@@ -137,3 +137,12 @@ The toolkit synthesizes practices from current community-college publishing mode
 CCC Writers supports a moderated community-submission workflow. A Google Form builder is included at `setup/google-form-builder.gs`, with setup instructions in `COMMUNITY_FORM_SETUP.md`. The public form URL is stored once in `data/site-config.json`; `contribute.html` reads that value and reveals the submission button automatically.
 
 Nothing submitted through the form should publish automatically. Verify the official source, then update the appropriate JSON record and `last_verified` date.
+
+
+## Community Contribution Form
+
+The community contribution form is live and configured in `data/site-config.json`:
+
+- Public form: https://docs.google.com/forms/d/e/1FAIpQLScNDhUFguVe67-bDuya3QqW_m8S8KyjadbnJ2UrHjBOChzoyw/viewform
+- Public contribution links fall back to `contribute.html` if the configuration cannot be loaded.
+- Community submissions are moderated before any listing is changed.

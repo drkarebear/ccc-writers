@@ -1,13 +1,26 @@
 (async function () {
   const list = document.querySelector("#event-list");
   if (!list) return;
+
+  const upgradeCommunityEventLink = () => {
+    const link = list.querySelector('[data-community-form-link]');
+    if (!link) return;
+    fetch('data/site-config.json')
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(config => {
+        const u = new URL((config.community_form_url || '').trim());
+        if (u.protocol === 'https:' && u.hostname === 'docs.google.com') link.href = u.href;
+      })
+      .catch(() => {});
+  };
   try {
     const events = await (await fetch("data/events.json")).json();
     const today = new Date();
     const upcoming = events.filter(event => new Date(`${event.date}T23:59:59`) >= today)
       .sort((a,b) => a.date.localeCompare(b.date));
     if (!upcoming.length) {
-      list.innerHTML = `<div class="empty-state"><h3>No verified upcoming events yet.</h3><p>This is the part we’ll populate through community submissions.</p><a class="button" href="contribute.html">Share an event</a></div>`;
+      list.innerHTML = `<div class="empty-state"><h3>No verified upcoming events yet.</h3><p>This is the part we’ll populate through community submissions.</p><a class="button" data-community-form-link href="contribute.html">Share an event</a></div>`;
+      upgradeCommunityEventLink();
       return;
     }
     list.innerHTML = upcoming.map(event => `
