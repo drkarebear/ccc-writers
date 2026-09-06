@@ -78,20 +78,26 @@ const journalCard = journal => {
     </article>`;
 };
 
-const programCard = program => `
-  <article class="program-card">
+const programCard = program => {
+  const transferClass = program.transfer_strength === "published-ccc-pathway" ? "transfer-strong" : (program.transfer_strength === "transfer-specific-guidance" ? "transfer-guidance" : "");
+  const transferLabel = program.transfer_strength === "published-ccc-pathway" ? `<li class="tag transfer-tag">Published CCC/ADT pathway</li>` : (program.transfer_strength === "transfer-specific-guidance" ? `<li class="tag guidance-tag">Transfer-specific guidance</li>` : "");
+  return `
+  <article class="program-card ${transferClass}">
     <div class="meta"><span>${program.system}</span><span>${program.city}, CA</span></div>
     <h3>${program.institution}</h3>
-    <p><strong>${program.program}</strong></p>
+    <p class="program-title"><strong>${program.program}</strong></p>
     <ul class="tag-list" aria-label="Program features">
       ${(program.genres || []).map(g => `<li class="tag">${g}</li>`).join("")}
       <li class="tag">${program.program_type}</li>
-      ${program.transfer_pathway ? `<li class="tag">Transfer information</li>` : ""}
+      ${transferLabel}
     </ul>
     <p>${program.summary}</p>
+    ${program.secondary_offering ? `<p class="small"><strong>Also:</strong> ${program.secondary_offering}</p>` : ""}
+    ${program.transfer_note ? `<p class="transfer-note"><strong>CCC transfer note:</strong> ${program.transfer_note}</p>` : ""}
     <p class="small">Verified ${formatDate(program.last_verified)}</p>
     <div class="button-row">
-      <a class="button secondary" href="${program.program_url}">Explore program</a>
-      ${program.transfer_url ? `<a class="button" href="${program.transfer_url}">Transfer pathway</a>` : ""}
+      <a class="button secondary" href="${program.program_url}" aria-label="Explore ${program.program} at ${program.institution}">Explore program</a>
+      ${program.transfer_url ? `<a class="button" href="${program.transfer_url}" aria-label="View transfer guidance for ${program.institution}">Transfer guidance</a>` : ""}
     </div>
   </article>`;
+};

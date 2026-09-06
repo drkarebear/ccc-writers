@@ -146,3 +146,8 @@ The community contribution form is live and configured in `data/site-config.json
 - Public form: https://docs.google.com/forms/d/e/1FAIpQLScNDhUFguVe67-bDuya3QqW_m8S8KyjadbnJ2UrHjBOChzoyw/viewform
 - Public contribution links fall back to `contribute.html` if the configuration cannot be loaded.
 - Community submissions are moderated before any listing is changed.
+
+
+## CSU / UC pathway research
+
+The September 6, 2026 pathway pass contains 27 verified formal creative-writing pathways: 18 CSU and 9 UC campuses. The directory distinguishes published CCC/ADT maps, transfer-specific guidance, and general transfer planning. See `data/programs.json`.
