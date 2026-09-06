@@ -60,8 +60,8 @@ const journalCard = journal => {
       <p><strong>Who can submit:</strong> ${eligibility || "Not yet verified"}</p>
       <p class="small">${verified}</p>
       <div class="button-row">
-        ${journal.journal_url ? `<a class="button secondary" href="${journal.journal_url}">Visit journal</a>` : ""}
-        ${journal.submission_url ? `<a class="button" href="${journal.submission_url}">Submission details</a>` : ""}
+        ${journal.journal_url ? `<a class="button secondary" href="${journal.journal_url}" aria-label="Visit ${journal.journal}">Visit journal</a>` : ""}
+        ${journal.submission_url ? `<a class="button" href="${journal.submission_url}" aria-label="View submission details for ${journal.journal}">Submission details</a>` : ""}
       </div>
     </article>`;
 };

@@ -12,8 +12,10 @@ This is a static GitHub Pages prototype built with plain HTML, CSS, JavaScript, 
 - `submissions.html` — submission finder driven by the same journal data
 - `events.html` — upcoming event board (ready for moderated submissions)
 - `pathways.html` — CSU/UC creative-writing program finder
+- `journal-toolkit.html` — research-informed best practices for starting, improving, and sustaining a CCC literary journal
 - `contribute.html` — placeholder for moderated add/update forms
 - `about.html` — scope, independence, accessibility, and data principles
+- `assets/images/favicon.svg` and `favicon.png` — accessible visual identity: light-blue writer holding a dark-blue heart
 - `data/journals.json` — journal/location/deadline/eligibility data
 - `data/programs.json` — CSU/UC program data
 - `data/events.json` — event data
@@ -102,7 +104,21 @@ The static site itself has no user accounts, cookies, analytics, or database. Th
 - CSU Long Beach English B.A.: https://www.csulb.edu/college-of-liberal-arts/english/bachelor-of-arts-ba
 - San Francisco State Creative Writing: https://creativewriting.sfsu.edu/
 
-The Los Angeles Mission College starter record uses current information supplied directly by the journal/department project team.
+The Los Angeles Mission College starter record uses current information supplied directly by the journal/department project team: current LAMC students and alumni may submit September 1 through December 31 at https://forms.gle/SkE9NdLeH6qfVnco7. The official LAMC journal page is https://www.lamc.edu/academics/pathways/scc/english-dept/student-literary-journal.
+
+
+## Journal Toolkit research base
+
+The toolkit synthesizes practices from current community-college publishing models and professional/accessibility guidance, including:
+
+- Orange Coast College — ENGL A011: Intro to Literary Magazine Production
+- Reedley College — *Kings River Review* / ENGL 15J
+- Sacramento City College — College Literary Magazine + Production courses
+- San Bernardino Valley College — *Phineas Literary Magazine* and blind review
+- Community College Humanities Association — Literary Magazine Competition criteria
+- Community of Literary Magazines and Presses — Contest Code of Ethics
+- *Poets & Writers* — copyright and publication-rights guidance
+- W3C Web Accessibility Initiative — design, image, heading, link, and responsive-accessibility guidance
 
 ## Best next build steps
 

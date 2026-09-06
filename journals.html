@@ -1,44 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explore California community college literary journals on a map and accessible directory.">
-  <title>Literary Journal Map | CCC Writers</title>
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Explore California community college literary journals on a map and accessible directory." name="description"/>
+<title>Literary Journal Map | CCC Writers</title>
+<link href="assets/images/favicon.svg" rel="icon" type="image/svg+xml"/><link href="assets/images/favicon.png" rel="apple-touch-icon"/><meta content="#0b4f8a" name="theme-color"/><link href="assets/css/styles.css" rel="stylesheet"/>
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="CCC Writers home"><span class="brand-mark" aria-hidden="true">CW</span><span>CCC Writers</span></a><nav aria-label="Main navigation"><ul class="nav-list"><li><a aria-current="page" href="journals.html">Journals</a></li><li><a href="submissions.html">Submit Your Work</a></li><li><a href="events.html">Events</a></li><li><a href="pathways.html">Keep Writing</a></li><li><a href="contribute.html">Add or Update</a></li></ul></nav></div></header>
-<main id="main-content" class="section">
-  <div class="container">
-    <p class="eyebrow">Explore the ecosystem</p>
-    <h1>California CCC Literary Journals</h1>
-    <p class="lede">Use the map for a statewide view or the searchable directory below it. Every map result is also available in the accessible list.</p>
-
-    <div class="toolbar" aria-label="Journal filters">
-      <div class="field"><label for="journal-search">Search college or journal</label><input id="journal-search" type="search" autocomplete="off" placeholder="Try Mission or Kings River"></div>
-      <div class="field"><label for="genre-filter">Genre</label><select id="genre-filter"><option value="">All genres</option></select></div>
-      <div class="field"><label for="status-filter">Submission status</label><select id="status-filter"><option value="">Any status</option><option value="open">Open now</option><option value="soon">Upcoming</option><option value="closed">Closed</option><option value="unknown">Not verified</option></select></div>
-      <div class="field"><label for="eligibility-filter">Eligibility</label><select id="eligibility-filter"><option value="">Any eligibility</option><option value="campus">Own-campus students</option><option value="all-ccc">Community college students</option><option value="alumni">Alumni</option><option value="public">Wider public</option></select></div>
-    </div>
-
-    <section aria-labelledby="map-heading">
-      <h2 id="map-heading">Journal Map</h2>
-      <div class="map-wrap">
-        <div id="journal-map" role="region" aria-label="Interactive map of California community college literary journals" aria-describedby="map-help"></div>
-        <p id="map-help" class="map-note small">The map is a visual enhancement. The complete filtered results appear in the directory immediately below.</p>
-      </div>
-    </section>
-
-    <section class="section-sm" aria-labelledby="directory-heading">
-      <h2 id="directory-heading">Browse All Journals</h2>
-      <p id="journal-count" class="result-count" aria-live="polite"></p>
-      <div id="journal-list" class="journal-list"></div>
-    </section>
-  </div>
+<header class="site-header"><div class="header-inner"><a aria-label="CCC Writers home" class="brand" href="index.html"><img alt="" class="brand-icon" src="assets/images/favicon.svg"/><span>CCC Writers</span></a><nav aria-label="Main navigation"><ul class="nav-list"><li><a aria-current="page" href="journals.html">Journals</a></li><li><a href="submissions.html">Submit Your Work</a></li><li><a href="events.html">Events</a></li><li><a href="pathways.html">Keep Writing</a></li><li><a href="journal-toolkit.html">Journal Toolkit</a></li><li><a href="contribute.html">Add or Update</a></li></ul></nav></div></header>
+<main class="section" id="main-content">
+<div class="container">
+<p class="eyebrow">Explore the ecosystem</p>
+<h1>California CCC Literary Journals</h1>
+<p class="lede">Use the map for a statewide view or the searchable directory below it. Every map result is also available in the accessible list.</p>
+<div aria-label="Journal filters" class="toolbar">
+<div class="field"><label for="journal-search">Search college or journal</label><input autocomplete="off" id="journal-search" placeholder="Try Mission or Kings River" type="search"/></div>
+<div class="field"><label for="genre-filter">Genre</label><select id="genre-filter"><option value="">All genres</option></select></div>
+<div class="field"><label for="status-filter">Submission status</label><select id="status-filter"><option value="">Any status</option><option value="open">Open now</option><option value="soon">Upcoming</option><option value="closed">Closed</option><option value="unknown">Not verified</option></select></div>
+<div class="field"><label for="eligibility-filter">Eligibility</label><select id="eligibility-filter"><option value="">Any eligibility</option><option value="campus">Own-campus students</option><option value="all-ccc">Community college students</option><option value="alumni">Alumni</option><option value="public">Wider public</option></select></div>
+</div>
+<section aria-labelledby="map-heading">
+<h2 id="map-heading">Journal Map</h2>
+<div class="map-wrap">
+<div aria-describedby="map-help" aria-label="Interactive map of California community college literary journals" id="journal-map" role="region"></div>
+<p class="map-note small" id="map-help">The map is a visual enhancement. The complete filtered results appear in the directory immediately below.</p>
+</div>
+</section>
+<section aria-labelledby="directory-heading" class="section-sm">
+<h2 id="directory-heading">Browse All Journals</h2>
+<p aria-live="polite" class="result-count" id="journal-count"></p>
+<div class="journal-list" id="journal-list"></div>
+</section>
+</div>
 </main>
-<footer class="site-footer"><div class="footer-inner"><p>Know about a journal we are missing? <a href="contribute.html">Add or update a listing.</a></p><p><a href="about.html">About this project</a></p></div></footer>
+<footer class="site-footer"><div class="footer-inner"><p>Know about a journal we are missing? <a href="contribute.html">Add or update a listing.</a></p><p><a href="about.html">About this project</a> · <a href="journal-toolkit.html">Journal toolkit</a></p></div></footer>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="assets/js/site.js"></script><script src="assets/js/map.js"></script><script src="assets/js/journals.js"></script>
 </body>
