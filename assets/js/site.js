@@ -13,6 +13,18 @@ const normalize = (value = "") => value.toString().toLowerCase().trim();
 const submissionStatus = (journal, now = new Date()) => {
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
+  // A short-lived override lets us accurately reflect a status verified on a
+  // source page even when the source does not publish a complete date range.
+  // Once the verification window expires, the listing falls back to the
+  // date-based or unknown state instead of silently becoming stale.
+  const override = journal.status_override;
+  if (override?.key && override?.label && override?.expires) {
+    const expires = new Date(`${override.expires}T23:59:59`);
+    if (today <= expires) {
+      return { key: override.key, label: override.label, deadline: override.deadline || null };
+    }
+  }
+
   if (journal.accepting_year_round) {
     return { key: "open", label: "Open year-round", deadline: journal.next_deadline || null };
   }
@@ -58,7 +70,7 @@ const journalCard = journal => {
       <p class="status ${status.key}">${status.label}</p>
       <ul class="tag-list" aria-label="Genres">${genres}</ul>
       <p><strong>Who can submit:</strong> ${eligibility || "Not yet verified"}</p>
-      <p class="small">${verified}</p>
+      <p class="small">${verified}${journal.source_url ? ` · <a href="${journal.source_url}" aria-label="Verification source for ${journal.journal}">Verification source</a>` : ""}</p>
       <div class="button-row">
         ${journal.journal_url ? `<a class="button secondary" href="${journal.journal_url}" aria-label="Visit ${journal.journal}">Visit journal</a>` : ""}
         ${journal.submission_url ? `<a class="button" href="${journal.submission_url}" aria-label="View submission details for ${journal.journal}">Submission details</a>` : ""}

@@ -14,9 +14,12 @@
       <article class="event-card">
         <div class="meta"><span>${formatDate(event.date)}</span><span>${event.format}</span></div>
         <h3>${event.title}</h3>
-        <p>${event.host}</p>
-        <p>${event.location}</p>
-        ${event.url ? `<a class="button secondary" href="${event.url}">Event details</a>` : ""}
+        <p><strong>${event.host}</strong></p>
+        ${event.time ? `<p><strong>Time:</strong> ${event.time}</p>` : ""}
+        <p><strong>Location:</strong> ${event.location}</p>
+        ${event.audience ? `<p>${event.audience}</p>` : ""}
+        ${event.summary ? `<p>${event.summary}</p>` : ""}
+        ${event.url ? `<a class="button secondary" href="${event.url}" aria-label="Event details for ${event.title}">Event details</a>` : ""}
       </article>`).join("");
   } catch (error) {
     list.innerHTML = `<div class="empty-state"><h3>Event data could not load.</h3></div>`;

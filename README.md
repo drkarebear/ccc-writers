@@ -28,14 +28,18 @@ The site palette is built around the California-and-quill mark: deep navy (`#062
 
 The journal map and the submission finder both read `data/journals.json`. A deadline or eligibility rule should be corrected once, not separately on multiple pages.
 
-## Starter records
+## Statewide journal research set
 
-The prototype begins with a deliberately small set of records so the architecture can be tested before statewide research is loaded:
+The journal dataset now contains **25 researched California community-college literary-journal records**, spanning the North Coast, Bay Area, Central California, Los Angeles, Ventura County, Orange County, the Inland Empire, the desert, and San Diego County.
 
-- Los Angeles Mission College — *La Misión Review*
-- Reedley College — *Kings River Review*
-- Los Angeles City College — *The Citadel*
-- Sierra College — *Sierra Journal*
+The dataset intentionally distinguishes among:
+
+- a journal verified as active;
+- a submission window verified as open;
+- a known past window that is now closed; and
+- an active journal whose current deadline still needs verification.
+
+That distinction is important: an old call for submissions should never be presented to students as current simply because the journal itself still exists.
 
 University pathway starter records:
 
@@ -97,18 +101,13 @@ A production launch should still receive keyboard, screen-reader, zoom/reflow, c
 
 The static site itself has no user accounts, cookies, analytics, or database. The map loads third-party map tiles, which means a visitor's browser contacts that tile provider. If community forms are later embedded or linked, document their privacy implications on the site.
 
-## Current source set used for prototype research
+## Research sources
 
-- Kings River Review: https://www.kingsriverreview.com/ and https://www.kingsriverreview.com/submit
-- LACC, *The Citadel*: https://www.lacc.edu/academics/pathways/lhc/english-esl-dept/the-citadel
-- Sierra College Press / *Sierra Journal*: https://www.sierracollege.edu/library/sierra-college-press/
-- UC Riverside Creative Writing: https://creativewriting.ucr.edu/undergraduate
-- CSU Northridge Creative Writing Option: https://catalog.csun.edu/academics/engl/programs/ba-english-ii/creative-writing-option/
-- CSU Northridge transfer road maps: https://catalog.csun.edu/resource/transfer-road-map/engl/
-- CSU Long Beach English B.A.: https://www.csulb.edu/college-of-liberal-arts/english/bachelor-of-arts-ba
-- San Francisco State Creative Writing: https://creativewriting.sfsu.edu/
+Each journal record carries its own `source_url`, `last_verified`, and `source_note` so verification travels with the data instead of living in a separate spreadsheet. Current journal research prioritizes official college or journal pages.
 
-The Los Angeles Mission College starter record uses current information supplied directly by the journal/department project team: current LAMC students and alumni may submit September 1 through December 31 at https://forms.gle/SkE9NdLeH6qfVnco7. The official LAMC journal page is https://www.lamc.edu/academics/pathways/scc/english-dept/student-literary-journal.
+The Los Angeles Mission College record also uses current information supplied directly by the journal/department project team: current LAMC students and alumni may submit September 1 through December 31 at https://forms.gle/SkE9NdLeH6qfVnco7. The official LAMC journal page is https://www.lamc.edu/academics/pathways/scc/english-dept/student-literary-journal.
+
+University-pathway starter sources include official pages from UC Riverside, CSU Northridge, CSU Long Beach, and San Francisco State University.
 
 
 ## Journal Toolkit research base
@@ -126,9 +125,9 @@ The toolkit synthesizes practices from current community-college publishing mode
 
 ## Best next build steps
 
-1. Decide the final site name and visual identity.
-2. Research all California Community Colleges for active literary journals.
-3. Add source URLs and verification notes to every record.
-4. Build a moderated Google/Microsoft Form for journal corrections and events.
-5. Add a simple data-validation workflow so malformed JSON cannot break the site.
+1. Continue the statewide journal census until every California community college has been checked, including a clear “no active journal found” research state.
+2. Expand and verify CSU/UC creative-writing pathways.
+3. Build a moderated form for journal corrections and event submissions.
+4. Add a simple data-validation workflow so malformed JSON cannot break the site.
+5. Add a scheduled re-verification workflow for time-sensitive submission statuses.
 6. Conduct a full WCAG 2.2 AA review before public launch.

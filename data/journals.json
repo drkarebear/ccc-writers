@@ -1,5 +1,429 @@
 [
   {
+    "id": "ccsf-forum",
+    "college": "City College of San Francisco",
+    "journal": "Forum Literary Magazine",
+    "city": "San Francisco",
+    "region": "Bay Area",
+    "latitude": 37.7258523,
+    "longitude": -122.4508039,
+    "journal_url": "https://forumccsf.org/",
+    "submission_url": "https://forumccsf.org/submit/",
+    "eligibility": [
+      "CCSF students",
+      "CCSF alumni",
+      "CCSF educators and employees"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "alumni"
+    ],
+    "genres": [
+      "Fiction",
+      "Creative Nonfiction",
+      "Poetry",
+      "Drama",
+      "Essays",
+      "Comics",
+      "Visual Art",
+      "Photography"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "status_override": {
+      "key": "closed",
+      "label": "Closed · reopens Spring 2027",
+      "expires": "2026-12-31"
+    },
+    "last_verified": "2026-09-06",
+    "source_note": "Forum states that 2026 submissions are closed until Spring 2027. Publication is open to people who have been involved with CCSF as students, educators, or employees.",
+    "source_url": "https://forumccsf.org/submit/"
+  },
+  {
+    "id": "canyons-cul-de-sac",
+    "college": "College of the Canyons",
+    "journal": "cul-de-sac",
+    "city": "Santa Clarita",
+    "region": "Southern California",
+    "latitude": 34.40407,
+    "longitude": -118.5708,
+    "journal_url": "https://www.canyons.edu/academics/english/students/culdesac/",
+    "submission_url": "https://www.canyons.edu/academics/english/students/culdesac/",
+    "eligibility": [
+      "Currently enrolled College of the Canyons students"
+    ],
+    "eligibility_tags": [
+      "campus"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Creative Nonfiction",
+      "Photography",
+      "Visual Art",
+      "Music",
+      "Drama",
+      "Comics",
+      "Film/Video",
+      "Experimental"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [
+      {
+        "label": "Volume 18",
+        "opens": null,
+        "closes": "2026-04-12"
+      }
+    ],
+    "last_verified": "2026-09-06",
+    "source_note": "The 2026 call closed April 12. The journal is produced by students in Literary Magazine Production and uses anonymous review panels.",
+    "source_url": "https://www.canyons.edu/academics/english/students/culdesac/"
+  },
+  {
+    "id": "redwoods-personas",
+    "college": "College of the Redwoods",
+    "journal": "Personas Multilingual Literary Journal",
+    "city": "Eureka",
+    "region": "North Coast",
+    "latitude": 40.69524,
+    "longitude": -124.198056,
+    "journal_url": "https://www.redwoods.edu/academics/personas.php",
+    "submission_url": "https://www.redwoods.edu/academics/personas.php",
+    "eligibility": [
+      "College of the Redwoods students, faculty, and staff",
+      "Community members"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "public"
+    ],
+    "genres": [
+      "Fiction",
+      "Creative Nonfiction",
+      "Poetry",
+      "Essays",
+      "Visual Art"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [
+      {
+        "label": "Spring 2026 issue",
+        "opens": "2025-10-01",
+        "closes": "2026-03-16"
+      }
+    ],
+    "last_verified": "2026-09-06",
+    "source_note": "Personas focuses on multilingual experiences and considers submissions from students and community members. The 2026 submission period is closed.",
+    "source_url": "https://www.redwoods.edu/academics/personas.php"
+  },
+  {
+    "id": "coppermountain-howl",
+    "college": "Copper Mountain College",
+    "journal": "HOWL: Art & Literary Magazine",
+    "city": "Joshua Tree",
+    "region": "Desert",
+    "latitude": 34.14077,
+    "longitude": -116.21758,
+    "journal_url": "https://www.cmccd.edu/current-students/student-media/",
+    "submission_url": "https://www.cmccd.edu/event/howl-art-and-literary-magazine-deadline/",
+    "eligibility": [
+      "Copper Mountain College students",
+      "Hi-Desert community members"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "public"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Visual Art",
+      "Photography"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [
+      {
+        "label": "2026 issue",
+        "opens": null,
+        "closes": "2026-03-08"
+      }
+    ],
+    "last_verified": "2026-09-06",
+    "source_note": "The 2026 call closed March 8. HOWL is student-edited and includes work from CMC students and the Hi-Desert community.",
+    "source_url": "https://www.cmccd.edu/event/howl-art-and-literary-magazine-deadline/"
+  },
+  {
+    "id": "cuyamaca-creative",
+    "college": "Cuyamaca College",
+    "journal": "The Cuyamaca Creative",
+    "city": "El Cajon",
+    "region": "San Diego County",
+    "latitude": 32.7446,
+    "longitude": -116.94075,
+    "journal_url": "https://cuyamacacreative.wordpress.com/",
+    "submission_url": "https://cuyamacacreative.wordpress.com/open-submissions/",
+    "eligibility": [
+      "Cuyamaca College community"
+    ],
+    "eligibility_tags": [
+      "campus"
+    ],
+    "genres": [
+      "Fiction",
+      "Poetry",
+      "Creative Nonfiction",
+      "Essays",
+      "Photography",
+      "Visual Art",
+      "Film/Video"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "The student-run journal aims to publish each semester, but the public submission page currently shows a Fall 2025 call. A Fall 2026 deadline is not yet verified.",
+    "source_url": "https://cuyamacacreative.wordpress.com/"
+  },
+  {
+    "id": "cypress-sole-image",
+    "college": "Cypress College",
+    "journal": "Sole Image",
+    "city": "Cypress",
+    "region": "Orange County",
+    "latitude": 33.828163,
+    "longitude": -118.025576,
+    "journal_url": "https://soleimagecc.com/",
+    "submission_url": "https://soleimagecc.com/285-2/",
+    "eligibility": [
+      "Currently enrolled Cypress College students"
+    ],
+    "eligibility_tags": [
+      "campus"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Creative Nonfiction",
+      "Novel Excerpts",
+      "Screenwriting"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [
+      {
+        "label": "Spring 2027 issue",
+        "opens": null,
+        "closes": "2026-06-12"
+      }
+    ],
+    "last_verified": "2026-09-06",
+    "source_note": "The Spring 2027 call was open through June 12, 2026. The next submission window is not yet posted.",
+    "source_url": "https://soleimagecc.com/285-2/"
+  },
+  {
+    "id": "deanza-red-wheelbarrow-student",
+    "college": "De Anza College",
+    "journal": "Red Wheelbarrow: Student Edition",
+    "city": "Cupertino",
+    "region": "Bay Area",
+    "latitude": 37.31921,
+    "longitude": -122.04541,
+    "journal_url": "https://www.deanza.edu/english/creative-writing/red-wheelbarrow-student.html",
+    "submission_url": "https://www.deanza.edu/english/creative-writing/red-wheelbarrow-student.html",
+    "eligibility": [
+      "De Anza College students"
+    ],
+    "eligibility_tags": [
+      "campus"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Drama",
+      "Creative Nonfiction",
+      "Photography",
+      "Visual Art",
+      "Comics",
+      "Experimental"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "Recent student-edition materials confirm the publication and student eligibility. The current 2026-27 submission window needs verification before it is labeled open.",
+    "source_url": "https://www.deanza.edu/english/creative-writing/documents/2023-Red-Wheelbarrow-student-edition.pdf"
+  },
+  {
+    "id": "elcamino-myriad",
+    "college": "El Camino College",
+    "journal": "Myriad",
+    "city": "Torrance",
+    "region": "Southern California",
+    "latitude": 33.88369,
+    "longitude": -118.33093,
+    "journal_url": "https://myriadecc.weebly.com/",
+    "submission_url": null,
+    "eligibility": [
+      "El Camino College community"
+    ],
+    "eligibility_tags": [
+      "campus"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Visual Art"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "El Camino identifies Myriad as an award-winning student-run literary arts magazine. Current submission dates are not posted in the sources reviewed.",
+    "source_url": "https://www.elcamino.edu/academics/areas-of-study/english.php"
+  },
+  {
+    "id": "grossmont-acorn-review",
+    "college": "Grossmont College",
+    "journal": "Acorn Review",
+    "city": "El Cajon",
+    "region": "San Diego County",
+    "latitude": 32.81632,
+    "longitude": -117.00601,
+    "journal_url": "https://www.grossmont.edu/academics/programs/english/creative-writing/publications/acorn-review.php",
+    "submission_url": "https://gcccd.submittable.com/submit",
+    "eligibility": [
+      "Residents of San Diego County",
+      "Current and former Grossmont and Cuyamaca students and staff"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "alumni",
+      "public"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Creative Nonfiction",
+      "Drama",
+      "Photography",
+      "Visual Art"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [
+      {
+        "label": "2026 issue",
+        "opens": "2026-01-17",
+        "closes": "2026-07-30"
+      }
+    ],
+    "last_verified": "2026-09-06",
+    "source_note": "The 2026 Submittable period ran January 17 through July 30. Student editors judge work anonymously.",
+    "source_url": "https://gcccd.submittable.com/submit"
+  },
+  {
+    "id": "ivc-the-ear",
+    "college": "Irvine Valley College",
+    "journal": "The EAR",
+    "city": "Irvine",
+    "region": "Orange County",
+    "latitude": 33.676943,
+    "longitude": -117.776001,
+    "journal_url": "https://www.ivc.edu/ear",
+    "submission_url": "https://www.ivc.edu/ear/submission",
+    "eligibility": [
+      "New and professional writers from the local area",
+      "IVC students, staff, and community"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "public"
+    ],
+    "genres": [
+      "Poetry",
+      "Prose",
+      "Visual Art"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "status_override": {
+      "key": "open",
+      "label": "Accepting submissions · deadline not listed",
+      "expires": "2026-12-05"
+    },
+    "last_verified": "2026-09-06",
+    "source_note": "IVC currently publishes submission guidelines and a submission form for poetry and prose; no closing date is listed. Open status is treated as time-limited verification and should be rechecked.",
+    "source_url": "https://www.ivc.edu/ear/submission"
+  },
+  {
+    "id": "laspositas-havik",
+    "college": "Las Positas College",
+    "journal": "Havik",
+    "city": "Livermore",
+    "region": "Bay Area",
+    "latitude": 37.71255,
+    "longitude": -121.79841,
+    "journal_url": "https://laspositascollege.edu/havik/index.php",
+    "submission_url": "https://laspositascollege.edu/havik/index.php",
+    "eligibility": [
+      "Writers and artists beyond Las Positas College; current call scope should be checked before submitting"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "public"
+    ],
+    "genres": [
+      "Fiction",
+      "Creative Nonfiction",
+      "Poetry",
+      "Visual Art",
+      "Photography",
+      "Drama",
+      "Experimental"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [
+      {
+        "label": "2026 issue",
+        "opens": null,
+        "closes": "2026-03-01"
+      }
+    ],
+    "last_verified": "2026-09-06",
+    "source_note": "Official Havik page confirms the 2026 genres and March 1 deadline. The next submission cycle has not yet been posted.",
+    "source_url": "https://laspositascollege.edu/havik/index.php"
+  },
+  {
+    "id": "lacc-citadel",
+    "college": "Los Angeles City College",
+    "journal": "The Citadel",
+    "city": "Los Angeles",
+    "region": "Southern California",
+    "latitude": 34.08653,
+    "longitude": -118.29339,
+    "journal_url": "https://www.lacc.edu/academics/pathways/lhc/english-esl-dept/the-citadel",
+    "submission_url": "https://www.lacc.edu/academics/pathways/lhc/english-esl-dept/the-citadel",
+    "eligibility": [
+      "LACC students",
+      "Writers from other locations"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "public"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Creative Nonfiction"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [
+      {
+        "label": "2026 issue",
+        "opens": "2026-04-13",
+        "closes": "2026-06-13"
+      }
+    ],
+    "last_verified": "2026-09-06",
+    "source_note": "Official 2026 submission call; the 2026 window has closed.",
+    "source_url": "https://www.lacc.edu/academics/pathways/lhc/english-esl-dept/the-citadel"
+  },
+  {
     "id": "lamc-la-mision-review",
     "college": "Los Angeles Mission College",
     "journal": "La Misión Review",
@@ -38,6 +462,184 @@
     "source_url": "https://www.lamc.edu/academics/pathways/scc/english-dept/student-literary-journal"
   },
   {
+    "id": "miracosta-tidepools",
+    "college": "MiraCosta College",
+    "journal": "Tidepools: A Journal of Ideas",
+    "city": "Oceanside",
+    "region": "San Diego County",
+    "latitude": 33.19004,
+    "longitude": -117.30226,
+    "journal_url": "https://miracosta.edu/academics/degree-and-certificate-programs/languages-communication-and-humanities/english/tidepools-a-journal-of-ideas.html",
+    "submission_url": "https://miracosta.edu/academics/degree-and-certificate-programs/languages-communication-and-humanities/english/tidepools-a-journal-of-ideas.html",
+    "eligibility": [
+      "MiraCosta students enrolled Spring, Summer, or Fall 2026",
+      "MiraCosta faculty and staff"
+    ],
+    "eligibility_tags": [
+      "campus"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Essays",
+      "Visual Art"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "status_override": {
+      "key": "open",
+      "label": "Open now · due Dec. 11",
+      "deadline": "2026-12-11",
+      "expires": "2026-12-11"
+    },
+    "last_verified": "2026-09-06",
+    "source_note": "MiraCosta says Tidepools 2027 submissions are open now and due December 11, 2026.",
+    "source_url": "https://miracosta.edu/academics/degree-and-certificate-programs/languages-communication-and-humanities/english/tidepools-a-journal-of-ideas.html"
+  },
+  {
+    "id": "moorpark-review",
+    "college": "Moorpark College",
+    "journal": "The Moorpark Review",
+    "city": "Moorpark",
+    "region": "Ventura County",
+    "latitude": 34.30106,
+    "longitude": -118.83551,
+    "journal_url": "https://www.moorparkcollege.edu/departments/academic/english/moorpark-review",
+    "submission_url": "https://www.moorparkcollege.edu/departments/academic/english/moorpark-review",
+    "eligibility": [
+      "Print: Moorpark students, alumni, faculty, and staff",
+      "Online: open to everyone"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "alumni",
+      "public"
+    ],
+    "genres": [
+      "Fiction",
+      "Creative Nonfiction",
+      "Poetry",
+      "Visual Art",
+      "Music"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [
+      {
+        "label": "Annual print consideration deadline",
+        "opens": null,
+        "closes": "2027-03-07"
+      }
+    ],
+    "last_verified": "2026-09-06",
+    "source_note": "The official page says work received by March 7 is considered for the upcoming May print edition; online submissions are open to everyone.",
+    "source_url": "https://www.moorparkcollege.edu/departments/academic/english/moorpark-review"
+  },
+  {
+    "id": "occ-orange-coast-review",
+    "college": "Orange Coast College",
+    "journal": "Orange Coast Review",
+    "city": "Costa Mesa",
+    "region": "Orange County",
+    "latitude": 33.67056,
+    "longitude": -117.91194,
+    "journal_url": "https://orangecoastcollege.edu/academics/lit-lang/english/orange-coast-review.html",
+    "submission_url": "https://orangecoastcollege.edu/academics/lit-lang/english/orange-coast-review.html",
+    "eligibility": [
+      "Current and recent Orange Coast College students"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "alumni"
+    ],
+    "genres": [
+      "Fiction",
+      "Creative Nonfiction",
+      "Poetry",
+      "Interviews",
+      "Visual Art"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "Official OCC page confirms the journal and says forthcoming deadlines will be posted online and on campus.",
+    "source_url": "https://orangecoastcollege.edu/academics/lit-lang/english/orange-coast-review.html"
+  },
+  {
+    "id": "palomar-bravura",
+    "college": "Palomar College",
+    "journal": "Bravura",
+    "city": "San Marcos",
+    "region": "San Diego County",
+    "latitude": 33.147054,
+    "longitude": -117.184263,
+    "journal_url": "https://bravurajournal.org/",
+    "submission_url": "https://bravurajournal.org/",
+    "eligibility": [
+      "Current and former Palomar College students",
+      "Palomar alumni",
+      "San Diego County high school students"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "alumni"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Creative Nonfiction",
+      "Visual Art",
+      "Photography",
+      "Design"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [
+      {
+        "label": "Annual deadline",
+        "opens": null,
+        "closes": "2027-03-15"
+      }
+    ],
+    "last_verified": "2026-09-06",
+    "source_note": "The current Bravura site lists an annual March 15 submission deadline and accepts current/former Palomar students plus local high school students.",
+    "source_url": "https://bravurajournal.org/"
+  },
+  {
+    "id": "pcc-inscape",
+    "college": "Pasadena City College",
+    "journal": "Inscape Magazine",
+    "city": "Pasadena",
+    "region": "Southern California",
+    "latitude": 34.15,
+    "longitude": -118.116667,
+    "journal_url": "https://www.pasadena.edu/academics/divisions/english-languages-esl/opportunities/inscape.php",
+    "submission_url": "https://www.pccinscape.com/submissions.html",
+    "eligibility": [
+      "PCC students",
+      "PCC faculty and staff",
+      "PCC alumni",
+      "Community members"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "alumni",
+      "public"
+    ],
+    "genres": [
+      "Fiction",
+      "Creative Nonfiction",
+      "Poetry",
+      "Photography",
+      "Visual Art",
+      "Hybrid Work",
+      "Literary Criticism"
+    ],
+    "accepting_year_round": true,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "PCC says submissions are currently open. The journal site says submissions are accepted mostly year-round; eligibility varies by print, online, and specialty projects.",
+    "source_url": "https://www.pasadena.edu/academics/divisions/english-languages-esl/opportunities/inscape.php"
+  },
+  {
     "id": "reedley-kings-river-review",
     "college": "Reedley College",
     "journal": "Kings River Review",
@@ -58,7 +660,7 @@
       "Poetry",
       "Fiction",
       "Creative Nonfiction",
-      "Art",
+      "Visual Art",
       "Photography"
     ],
     "accepting_year_round": true,
@@ -76,21 +678,22 @@
       }
     ],
     "last_verified": "2026-09-06",
-    "source_note": "Official journal site says submissions are accepted year-round; fall and spring issue deadlines are October 15 and March 15."
+    "source_note": "Official journal site says submissions are accepted year-round; fall and spring issue deadlines are October 15 and March 15.",
+    "source_url": "https://www.kingsriverreview.com/submit"
   },
   {
-    "id": "lacc-citadel",
-    "college": "Los Angeles City College",
-    "journal": "The Citadel",
-    "city": "Los Angeles",
-    "region": "Southern California",
-    "latitude": 34.08653,
-    "longitude": -118.29339,
-    "journal_url": "https://www.lacc.edu/academics/pathways/lhc/english-esl-dept/the-citadel",
-    "submission_url": "https://www.lacc.edu/academics/pathways/lhc/english-esl-dept/the-citadel",
+    "id": "rcc-muse",
+    "college": "Riverside City College",
+    "journal": "MUSE Literary Journal",
+    "city": "Riverside",
+    "region": "Inland Empire",
+    "latitude": 33.97155,
+    "longitude": -117.38083,
+    "journal_url": "https://www.rcc.edu/community/publications/muse.html",
+    "submission_url": "https://www.rcc.edu/community/publications/muse.html",
     "eligibility": [
-      "LACC students",
-      "Writers from other locations"
+      "RCC writers and artists",
+      "Emerging and established contributors beyond RCC"
     ],
     "eligibility_tags": [
       "campus",
@@ -99,18 +702,145 @@
     "genres": [
       "Poetry",
       "Fiction",
-      "Creative Nonfiction"
+      "Creative Nonfiction",
+      "Memoir",
+      "Visual Art",
+      "Interviews"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "RCC confirms MUSE is active and publishes each spring, with contributors from RCC and beyond. Current submission dates are not listed on the page reviewed.",
+    "source_url": "https://www.rcc.edu/community/publications/muse.html"
+  },
+  {
+    "id": "riohondo-rivers-voice",
+    "college": "Río Hondo College",
+    "journal": "River’s Voice",
+    "city": "Whittier",
+    "region": "Southern California",
+    "latitude": 34.02003,
+    "longitude": -118.03281,
+    "journal_url": "https://www.riohondo.edu/academics/divisions/communications-languages/about__trashed/publications/rivers-voice/",
+    "submission_url": "https://www.riohondo.edu/academics/divisions/communications-languages/publications/rivers-voice/rivers-voice-literature-submission-form/",
+    "eligibility": [
+      "Río Hondo College students",
+      "Faculty and staff",
+      "Alumni"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "alumni"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Memoir",
+      "Drama",
+      "Visual Art"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "Official pages confirm the journal and eligibility, but the visible submission form still references an older issue. Current deadline needs verification.",
+    "source_url": "https://www.riohondo.edu/academics/divisions/communications-languages/about__trashed/publications/rivers-voice/"
+  },
+  {
+    "id": "saddleback-wall",
+    "college": "Saddleback College",
+    "journal": "WALL Literary Journal",
+    "city": "Mission Viejo",
+    "region": "Orange County",
+    "latitude": 33.55174,
+    "longitude": -117.66558,
+    "journal_url": "https://www.saddleback.edu/life-saddleback",
+    "submission_url": "https://www.saddleback.edu/life-saddleback",
+    "eligibility": [
+      "Saddleback College students"
+    ],
+    "eligibility_tags": [
+      "campus"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Personal Narrative",
+      "Photography",
+      "Visual Art",
+      "Film"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "Official Saddleback pages confirm the annual student-produced journal and a 2026 edition. The next general literary submission deadline is not yet verified.",
+    "source_url": "https://www.saddleback.edu/life-saddleback"
+  },
+  {
+    "id": "sbvc-phineas",
+    "college": "San Bernardino Valley College",
+    "journal": "Phineas Literary Magazine",
+    "city": "San Bernardino",
+    "region": "Inland Empire",
+    "latitude": 34.0875,
+    "longitude": -117.31073,
+    "journal_url": "https://www.valleycollege.edu/academics/pathways/acd/english/phineas-literary-magazine.php",
+    "submission_url": "https://www.valleycollege.edu/academics/pathways/acd/english/phineas-literary-magazine.php",
+    "eligibility": [
+      "Current SBVC students"
+    ],
+    "eligibility_tags": [
+      "campus"
+    ],
+    "genres": [
+      "Fiction",
+      "Creative Nonfiction",
+      "Poetry",
+      "Visual Art",
+      "Photography"
     ],
     "accepting_year_round": false,
     "submission_periods": [
       {
-        "label": "2026 issue",
-        "opens": "2026-04-13",
-        "closes": "2026-06-13"
+        "label": "Spring 2026 issue",
+        "opens": "2025-10-17",
+        "closes": "2026-02-22"
       }
     ],
     "last_verified": "2026-09-06",
-    "source_note": "Official 2026 submission call."
+    "source_note": "The official page confirms student production and blind review. The Spring 2026 submission window is closed; the next deadline is not yet posted.",
+    "source_url": "https://www.valleycollege.edu/academics/pathways/acd/english/phineas-literary-magazine.php"
+  },
+  {
+    "id": "sdcity-city-works",
+    "college": "San Diego City College",
+    "journal": "City Works",
+    "city": "San Diego",
+    "region": "San Diego County",
+    "latitude": 32.71986,
+    "longitude": -117.15187,
+    "journal_url": "https://www.sdcity.edu/life-at-city/cityworks.aspx",
+    "submission_url": "https://www.sdcity.edu/life-at-city/cityworks.aspx",
+    "eligibility": [
+      "San Diego City College students, staff, and faculty",
+      "San Diego community",
+      "National writers and artists"
+    ],
+    "eligibility_tags": [
+      "campus",
+      "public"
+    ],
+    "genres": [
+      "Poetry",
+      "Fiction",
+      "Creative Nonfiction",
+      "Visual Art",
+      "Photography"
+    ],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "Official page confirms the long-running journal and broad eligibility, but its visible submission deadline is still for Spring 2024. Current deadline needs verification.",
+    "source_url": "https://www.sdcity.edu/life-at-city/cityworks.aspx"
   },
   {
     "id": "sierra-sierra-journal",
@@ -133,12 +863,13 @@
       "Fiction",
       "Creative Nonfiction",
       "Drama",
-      "Art",
+      "Visual Art",
       "Photography"
     ],
     "accepting_year_round": false,
     "submission_periods": [],
     "last_verified": "2026-09-06",
-    "source_note": "Official Sierra College Press page confirms the journal is active; current deadline not yet verified."
+    "source_note": "Official Sierra College Press page confirms the journal is active; current deadline and eligibility details are not yet verified.",
+    "source_url": "https://www.sierracollege.edu/library/sierra-college-press/"
   }
 ]

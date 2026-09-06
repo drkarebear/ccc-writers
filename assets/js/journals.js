@@ -5,6 +5,7 @@
   const count = document.querySelector("#journal-count");
   const search = document.querySelector("#journal-search");
   const genre = document.querySelector("#genre-filter");
+  const region = document.querySelector("#region-filter");
   const statusFilter = document.querySelector("#status-filter");
   const eligibility = document.querySelector("#eligibility-filter");
 
@@ -22,9 +23,18 @@
       genre?.append(option);
     });
 
+    const regions = [...new Set(journals.map(j => j.region).filter(Boolean))].sort();
+    regions.forEach(value => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = value;
+      region?.append(option);
+    });
+
     const render = () => {
       const q = normalize(search?.value);
       const selectedGenre = normalize(genre?.value);
+      const selectedRegion = normalize(region?.value);
       const selectedStatus = statusFilter?.value || "";
       const selectedEligibility = eligibility?.value || "";
 
@@ -34,6 +44,7 @@
         const elig = (j.eligibility_tags || []);
         return (!q || haystack.includes(q)) &&
           (!selectedGenre || (j.genres || []).map(normalize).includes(selectedGenre)) &&
+          (!selectedRegion || normalize(j.region) === selectedRegion) &&
           (!selectedStatus || status === selectedStatus) &&
           (!selectedEligibility || elig.includes(selectedEligibility));
       });
@@ -43,7 +54,7 @@
       document.dispatchEvent(new CustomEvent("ccc:journals-filtered", { detail: filtered }));
     };
 
-    [search, genre, statusFilter, eligibility].forEach(control => {
+    [search, genre, region, statusFilter, eligibility].forEach(control => {
       control?.addEventListener(control.tagName === "INPUT" ? "input" : "change", render);
     });
     render();

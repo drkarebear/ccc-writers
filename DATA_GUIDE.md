@@ -21,13 +21,26 @@
     {"label": "Fall 2026", "opens": "2026-09-01", "closes": "2026-12-31"}
   ],
   "last_verified": "2026-09-06",
-  "source_note": "What the source establishes."
+  "source_note": "What the source establishes.",
+  "source_url": "https://official-or-journal-source"
 }
 ```
 
 ### Do not guess
 
 If a current deadline cannot be verified, leave `submission_periods` empty. The interface will show **Deadline not verified**.
+
+If an authoritative source explicitly says a journal is open or closed **now** but does not provide a complete date range, a short-lived `status_override` may be used:
+
+```json
+"status_override": {
+  "key": "open",
+  "label": "Accepting submissions · deadline not listed",
+  "expires": "2026-12-05"
+}
+```
+
+The `expires` field is required. After that date, the interface falls back to date-based logic or **Deadline not verified**. This prevents a manually verified “open now” label from remaining open forever.
 
 ## Program record
 
@@ -46,9 +59,13 @@ Only set `transfer_pathway` to `true` when a specific official pathway has been 
   "title": "Event title",
   "host": "College or organization",
   "date": "2026-10-20",
+  "time": "6:00 PM–8:00 PM",
   "format": "In person",
-  "location": "City, CA",
-  "url": "https://official-event-page"
+  "location": "Building, College, City, CA",
+  "audience": "Who the event is for",
+  "summary": "Short plain-language description",
+  "url": "https://official-event-page",
+  "last_verified": "2026-09-06"
 }
 ```
 

@@ -11,11 +11,10 @@
 <div class="toolbar">
 <div class="field"><label for="submission-search">Search</label><input id="submission-search" placeholder="Journal, college, or eligibility" type="search"/></div>
 <div class="field"><label for="submission-genre">Genre</label><select id="submission-genre"><option value="">All genres</option></select></div>
-<div class="field"><label for="only-open">Status</label><select aria-describedby="open-help" disabled="" id="status-display"><option>Use checkbox at right</option></select></div>
-<div class="field"><label for="only-open">Open opportunities only</label><div style="min-height:44px;display:flex;align-items:center;gap:.55rem"><input checked="" id="only-open" style="width:1.25rem;height:1.25rem" type="checkbox"/><span id="open-help">Hide closed and unverified calls</span></div></div>
+<div class="field"><label for="submission-status">Submission status</label><select id="submission-status"><option value="open" selected>Open now</option><option value="soon">Upcoming deadline</option><option value="">Any status</option><option value="closed">Closed</option><option value="unknown">Deadline not verified</option></select></div>
 </div>
 <div class="notice"><strong>Deadlines change.</strong> Each record shows when it was last verified. Always check the journal’s own submission page before sending work.</div>
-<section aria-labelledby="opportunities-heading" class="section-sm"><h2 id="opportunities-heading">Submission Opportunities</h2><div class="journal-list" id="submission-list"></div></section>
+<section aria-labelledby="opportunities-heading" class="section-sm"><h2 id="opportunities-heading">Submission Opportunities</h2><p aria-live="polite" class="result-count" id="submission-count"></p><div class="journal-list" id="submission-list"></div></section>
 <section aria-labelledby="terms-heading" class="section-sm"><h2 id="terms-heading">New to Literary Submissions?</h2><div class="grid grid-3"><article class="card"><h3>Previously unpublished</h3><p>Usually means the piece has not already appeared in a public publication. Always check the journal’s exact rule.</p></article><article class="card"><h3>Simultaneous submission</h3><p>Sending the same piece to more than one journal at the same time. Some journals allow it; some do not.</p></article><article class="card"><h3>Rights</h3><p>Publication agreements explain what permission you give the journal and what rights you keep. Read them before accepting publication.</p></article></div></section>
 </div></main>
 <footer class="site-footer"><div class="footer-inner"><p>See something outdated? <a href="contribute.html">Send a correction.</a></p><p><a href="about.html">About this project</a> · <a href="journal-toolkit.html">Journal toolkit</a></p></div></footer>
