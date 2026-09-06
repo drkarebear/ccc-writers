@@ -15,7 +15,17 @@
     const markers = [];
     journals.forEach(j => {
       if (typeof j.latitude !== "number" || typeof j.longitude !== "number") return;
-      const marker = L.marker([j.latitude, j.longitude]);
+      const pinIcon = L.divIcon({
+        className: "journal-marker",
+        html: '<span class="journal-pin-shape" aria-hidden="true"><span class="journal-pin-center"></span></span>',
+        iconSize: [34, 42],
+        iconAnchor: [17, 41],
+        popupAnchor: [0, -35]
+      });
+      const marker = L.marker([j.latitude, j.longitude], {
+        icon: pinIcon,
+        title: `${j.college}: ${j.journal}`
+      });
       const status = submissionStatus(j);
       marker.bindPopup(`
         <strong>${j.college}</strong><br>

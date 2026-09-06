@@ -5,6 +5,10 @@
 
 This is a static GitHub Pages prototype built with plain HTML, CSS, JavaScript, JSON, and Leaflet. It does not require a database.
 
+## Visual identity
+
+The site palette is built around the California-and-quill mark: deep navy (`#06265E`) and warm gold (`#ECB632`). Gold is used mainly as an accent or on dark backgrounds; body text and interactive controls use darker colors that meet accessible contrast targets. Headings use a restrained serif stack for a literary feel, while body copy stays in a highly readable system sans-serif stack.
+
 ## What is included
 
 - `index.html` — student-first homepage
@@ -15,7 +19,7 @@ This is a static GitHub Pages prototype built with plain HTML, CSS, JavaScript, 
 - `journal-toolkit.html` — research-informed best practices for starting, improving, and sustaining a CCC literary journal
 - `contribute.html` — placeholder for moderated add/update forms
 - `about.html` — scope, independence, accessibility, and data principles
-- `assets/images/favicon.svg` and `favicon.png` — accessible visual identity: light-blue writer holding a dark-blue heart
+- `assets/images/ccc-writers-mark.png`, `favicon.png`, `favicon-48.png`, and `apple-touch-icon.png` — California-and-quill visual identity in deep navy and warm gold
 - `data/journals.json` — journal/location/deadline/eligibility data
 - `data/programs.json` — CSU/UC program data
 - `data/events.json` — event data
