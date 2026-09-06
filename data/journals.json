@@ -1,0 +1,82 @@
+[
+  {
+    "id": "lamc-la-mision-review",
+    "college": "Los Angeles Mission College",
+    "journal": "La Misión Review",
+    "city": "Sylmar",
+    "region": "Southern California",
+    "latitude": 34.31475,
+    "longitude": -118.41883,
+    "journal_url": "https://drkarebear.github.io/lamc-ecj/literary-journal.html",
+    "submission_url": "https://forms.gle/SkE9NdLeH6qfVnco7",
+    "eligibility": ["Current LAMC students", "LAMC alumni"],
+    "eligibility_tags": ["campus", "alumni"],
+    "genres": ["Poetry", "Fiction", "Creative Nonfiction", "Art"],
+    "accepting_year_round": false,
+    "submission_periods": [
+      {"label": "Fall 2026", "opens": "2026-09-01", "closes": "2026-12-31"}
+    ],
+    "last_verified": "2026-09-06",
+    "source_note": "Submission dates and eligibility supplied by LAMC journal leadership."
+  },
+  {
+    "id": "reedley-kings-river-review",
+    "college": "Reedley College",
+    "journal": "Kings River Review",
+    "city": "Reedley",
+    "region": "Central California",
+    "latitude": 36.60717,
+    "longitude": -119.46140,
+    "journal_url": "https://www.kingsriverreview.com/",
+    "submission_url": "https://www.kingsriverreview.com/submit",
+    "eligibility": ["Community college students across the United States"],
+    "eligibility_tags": ["all-ccc", "national-two-year"],
+    "genres": ["Poetry", "Fiction", "Creative Nonfiction", "Art", "Photography"],
+    "accepting_year_round": true,
+    "next_deadline": "2026-10-15",
+    "submission_periods": [
+      {"label": "Fall issue", "opens": null, "closes": "2026-10-15"},
+      {"label": "Spring issue", "opens": null, "closes": "2027-03-15"}
+    ],
+    "last_verified": "2026-09-06",
+    "source_note": "Official journal site says submissions are accepted year-round; fall and spring issue deadlines are October 15 and March 15."
+  },
+  {
+    "id": "lacc-citadel",
+    "college": "Los Angeles City College",
+    "journal": "The Citadel",
+    "city": "Los Angeles",
+    "region": "Southern California",
+    "latitude": 34.08653,
+    "longitude": -118.29339,
+    "journal_url": "https://www.lacc.edu/academics/pathways/lhc/english-esl-dept/the-citadel",
+    "submission_url": "https://www.lacc.edu/academics/pathways/lhc/english-esl-dept/the-citadel",
+    "eligibility": ["LACC students", "Writers from other locations"],
+    "eligibility_tags": ["campus", "public"],
+    "genres": ["Poetry", "Fiction", "Creative Nonfiction"],
+    "accepting_year_round": false,
+    "submission_periods": [
+      {"label": "2026 issue", "opens": "2026-04-13", "closes": "2026-06-13"}
+    ],
+    "last_verified": "2026-09-06",
+    "source_note": "Official 2026 submission call."
+  },
+  {
+    "id": "sierra-sierra-journal",
+    "college": "Sierra College",
+    "journal": "Sierra Journal",
+    "city": "Rocklin",
+    "region": "Northern California",
+    "latitude": 38.79357,
+    "longitude": -121.21282,
+    "journal_url": "https://www.sierracollege.edu/library/sierra-college-press/",
+    "submission_url": "https://www.sierracollege.edu/library/sierra-college-press/",
+    "eligibility": ["Student-produced publication; current submission eligibility needs verification"],
+    "eligibility_tags": ["campus"],
+    "genres": ["Poetry", "Fiction", "Creative Nonfiction", "Drama", "Art", "Photography"],
+    "accepting_year_round": false,
+    "submission_periods": [],
+    "last_verified": "2026-09-06",
+    "source_note": "Official Sierra College Press page confirms the journal is active; current deadline not yet verified."
+  }
+]

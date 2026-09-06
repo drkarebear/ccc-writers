@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ucr-ba-creative-writing",
+    "institution": "University of California, Riverside",
+    "system": "UC",
+    "city": "Riverside",
+    "program": "B.A. in Creative Writing",
+    "program_type": "Major",
+    "genres": ["Fiction", "Creative Nonfiction", "Poetry"],
+    "transfer_pathway": false,
+    "program_url": "https://creativewriting.ucr.edu/undergraduate",
+    "transfer_url": "",
+    "summary": "A standalone Creative Writing major with specializations in fiction, nonfiction, and poetry; UCR describes it as the only major of its kind in the UC system.",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "id": "csun-english-creative-writing",
+    "institution": "California State University, Northridge",
+    "system": "CSU",
+    "city": "Northridge",
+    "program": "English B.A. — Creative Writing Option",
+    "program_type": "Option/Concentration",
+    "genres": ["Narrative", "Poetry", "Drama"],
+    "transfer_pathway": true,
+    "program_url": "https://catalog.csun.edu/academics/engl/programs/ba-english-ii/creative-writing-option/",
+    "transfer_url": "https://catalog.csun.edu/resource/transfer-road-map/engl/",
+    "summary": "A creative-writing option within the English B.A., with published transfer road maps and an AA-T in English pathway.",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "id": "csulb-english-creative-writing",
+    "institution": "California State University, Long Beach",
+    "system": "CSU",
+    "city": "Long Beach",
+    "program": "English B.A. — Creative Writing Option",
+    "program_type": "Option/Concentration",
+    "genres": ["Fiction", "Poetry", "Playwriting", "Media Scripts"],
+    "transfer_pathway": false,
+    "program_url": "https://www.csulb.edu/college-of-liberal-arts/english/bachelor-of-arts-ba",
+    "transfer_url": "",
+    "summary": "An English B.A. option for students who want to write and study fiction, poetry, plays, or media scripts.",
+    "last_verified": "2026-09-06"
+  },
+  {
+    "id": "sfsu-ba-creative-writing",
+    "institution": "San Francisco State University",
+    "system": "CSU",
+    "city": "San Francisco",
+    "program": "B.A. in Creative Writing",
+    "program_type": "Major",
+    "genres": ["Creative Nonfiction", "Fiction", "Playwriting", "Poetry"],
+    "transfer_pathway": false,
+    "program_url": "https://creativewriting.sfsu.edu/",
+    "transfer_url": "",
+    "summary": "A dedicated Creative Writing department offering a B.A., M.A., M.F.A., and minor, with undergraduate work across four genres.",
+    "last_verified": "2026-09-06"
+  }
+]
