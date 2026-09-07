@@ -153,7 +153,12 @@ The community contribution form is live and configured in `data/site-config.json
 
 ## CSU / UC pathway research
 
-The September 6, 2026 pathway pass contains 28 verified formal creative writing pathways: 19 CSU and 9 UC campuses. The directory distinguishes published CCC/ADT maps, transfer-specific guidance, and general transfer planning. See `data/programs.json`.
+The September 7, 2026 pathway data now represents all 22 CSU universities and all 9 undergraduate UC campuses. There are 31 campus writing routes in the directory: 27 formal named creative-writing pathways and 4 clearly labeled coursework-only CSU routes. The audit also corrected Cal Poly SLO's older Creative Writing Emphasis label, updated CSU Bakersfield's current Creative Writing Specialization and new minor, and added the previously missing Cal Poly Pomona, CSU San Marcos, and Stanislaus State records. The directory distinguishes published CCC/ADT maps, transfer-specific guidance, and general transfer planning. See `data/programs.json`, `research/PASS_1_UC_CREATIVE_WRITING_PATHWAYS_2026.md`, and `research/PASS_2_CSU_CREATIVE_WRITING_PATHWAYS_2026.md`.
+
+
+## Student-facing geography
+
+The September 7, 2026 geography cleanup standardizes location filtering across journals, submissions, pathways, the statewide coverage census, and events. Each record now has a broad region plus a local area. For example, a user can browse all of **Southern California** or narrow to **Los Angeles Area**, **San Diego Area**, **Orange County**, **Inland Empire**, or **Ventura Area**. The labels are discovery aids, not official administrative classifications.
 
 
 ## Security and privacy hardening

@@ -8,7 +8,8 @@
   "college": "College Name",
   "journal": "Journal Title",
   "city": "City",
-  "region": "Southern California",
+  "broad_region": "Southern California",
+  "region": "Los Angeles Area",
   "latitude": 34.00000,
   "longitude": -118.00000,
   "journal_url": "https://...",
@@ -50,8 +51,16 @@ Program type values currently used by the filter:
 - `Option/Concentration`
 - `Specialization/Emphasis`
 - `Minor`
+- `Coursework Only` — substantial current creative-writing/publishing coursework, but no named creative-writing credential verified
 
-Each program also includes a broad `region` browsing label. Region labels are for student discovery and are not official university classifications. Current labels include Bay Area, Central Coast, Central Valley, Inland Empire, Los Angeles Area, North/Far North, Orange County, Sacramento Area, San Diego County, and Ventura County.
+### Geography fields
+
+All journals, programs, coverage records, and events use the same two-level student-facing geography. These labels are for discovery and are not official administrative regions.
+
+- `broad_region`: `Southern California`, `Central California`, `Northern California`, or `Statewide/Online`
+- `region`: the local-area label used for narrower browsing, such as `Los Angeles Area`, `San Diego Area`, `Orange County`, `Inland Empire`, `Ventura Area`, `Central Coast`, `Central Valley`, `Bay Area`, `Sacramento Area`, `Sierra/Tahoe`, `North Coast`, `North/Far North`, `Desert`, or `Imperial Valley`
+
+Keep both fields populated so users can browse broadly (for example, all of Southern California) or narrowly (for example, Los Angeles Area).
 
 `transfer_strength` uses three values:
 

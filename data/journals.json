@@ -24,7 +24,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Allan Hancock College identifies Harvest as the college's student-produced literary journal and says it is a joint project between Hancock students and English 107/108. Official 2025 and 2026 planning materials confirm Harvest 2026, an annual call for submissions, and a March 2026 launch/reading event.",
-    "source_url": "https://www.hancockcollege.edu/publicaffairs/newsreleases/ahcpoetrymonth.php"
+    "source_url": "https://www.hancockcollege.edu/publicaffairs/newsreleases/ahcpoetrymonth.php",
+    "broad_region": "Central California"
   },
   {
     "id": "arc-american-river-review",
@@ -50,7 +51,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "ARC’s current 2026–27 English catalog identifies American River Review as the annual literary and fine arts magazine produced by student editors in ENGCW 450. Current submission dates were not located in this pass.",
-    "source_url": "https://arc.losrios.edu/2026-2027-official-catalog/programs-of-study/list-of-programs/english"
+    "source_url": "https://arc.losrios.edu/2026-2027-official-catalog/programs-of-study/list-of-programs/english",
+    "broad_region": "Northern California"
   },
   {
     "id": "cabrillo-journal-x",
@@ -87,7 +89,8 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "The current Cabrillo page announces Journal X 2027, says the submission period opens in October, and lists a January 8, 2027 deadline. The social-justice literary arts magazine welcomes work in English, Spanish, and Spanglish.",
-    "source_url": "https://www.cabrillo.edu/journal-x/"
+    "source_url": "https://www.cabrillo.edu/journal-x/",
+    "broad_region": "Central California"
   },
   {
     "id": "cabrillo-porter-gulch-review",
@@ -121,14 +124,15 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "Cabrillo describes Porter Gulch Review as a student-produced literature and arts journal published each spring. The page listed August 1, 2026 as the student submission deadline, which has passed.",
-    "source_url": "https://www.cabrillo.edu/porter-gulch-review/"
+    "source_url": "https://www.cabrillo.edu/porter-gulch-review/",
+    "broad_region": "Central California"
   },
   {
     "id": "cerritos-palante",
     "college": "Cerritos College",
     "journal": "¡Pa’lante!",
     "city": "Norwalk",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 33.88393,
     "longitude": -118.09464,
     "journal_url": "https://www.cerritos.edu/academics/divisions/liberal-arts/english/Literary_Journal.htm",
@@ -164,14 +168,15 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "The current Cerritos College page identifies ¡Pa’lante! as the English Department literary journal. Its most recent posted call, for Issue 7, closed in 2025–26; the next call has not yet been posted.",
-    "source_url": "https://www.cerritos.edu/academics/divisions/liberal-arts/english/Literary_Journal.htm"
+    "source_url": "https://www.cerritos.edu/academics/divisions/liberal-arts/english/Literary_Journal.htm",
+    "broad_region": "Southern California"
   },
   {
     "id": "cerro-coso-metamorphoses",
     "college": "Cerro Coso Community College",
     "journal": "Metamorphoses",
     "city": "Ridgecrest",
-    "region": "Central Valley",
+    "region": "Desert",
     "latitude": 35.568,
     "longitude": -117.667,
     "journal_url": "https://www.cerrocoso.edu/campus-life/",
@@ -194,7 +199,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Current Cerro Coso accreditation collateral explicitly invites students to submit work to the Metamorphoses literary and art journal. The journal has a documented history dating to 1989, but the current deadline and submission mechanism need verification.",
-    "source_url": "https://files.cerrocoso.edu/2025Accreditation/ST2/2-051.pdf"
+    "source_url": "https://files.cerrocoso.edu/2025Accreditation/ST2/2-051.pdf",
+    "broad_region": "Southern California"
   },
   {
     "id": "chabot-chabot-review",
@@ -222,7 +228,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Chabot’s current English course page lists Literary Journal Workshop: The Chabot Review, in which students publish creative works by Chabot students and staff and take editorial leadership roles. Current submission dates are not yet verified.",
-    "source_url": "https://www.chabotcollege.edu/academics/language-arts/english/courses.php"
+    "source_url": "https://www.chabotcollege.edu/academics/language-arts/english/courses.php",
+    "broad_region": "Northern California"
   },
   {
     "id": "chaffey-review",
@@ -260,7 +267,8 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "Chaffey College's current English and Chaffey Review pages confirm the student-produced journal and its Literary Magazine Production course. The public journal page still shows a March 23, 2025 submission close; the next deadline has not yet been verified.",
-    "source_url": "https://www.chaffey.edu/acc/acd/acd-academic/chaffeyreview/index.php"
+    "source_url": "https://www.chaffey.edu/acc/acd/acd-academic/chaffeyreview/index.php",
+    "broad_region": "Southern California"
   },
   {
     "id": "ccsf-forum",
@@ -300,7 +308,8 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "Forum states that 2026 submissions are closed until Spring 2027. Publication is open to people who have been involved with CCSF as students, educators, or employees.",
-    "source_url": "https://forumccsf.org/submit/"
+    "source_url": "https://forumccsf.org/submit/",
+    "broad_region": "Northern California"
   },
   {
     "id": "coastline-nzuri",
@@ -331,7 +340,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Coastline's current publications and Umoja pages identify Nzuri as its Umoja-inspired literary and arts journal, featuring poets and writers from many places and centering diaspora and diverse imaginations. Current submission guidelines were not located.",
-    "source_url": "https://www.coastline.edu/about/publications.php"
+    "source_url": "https://www.coastline.edu/about/publications.php",
+    "broad_region": "Southern California"
   },
   {
     "id": "coastline-storyline",
@@ -367,7 +377,8 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "Coastline's current publications page says StoryLine is published each fall with original work by Coastline students, lists a July 1 submission deadline, and links the latest issue (Issue 7, Fall 2025) with an accessible text option. The 2026 deadline has passed.",
-    "source_url": "https://www.coastline.edu/about/publications.php"
+    "source_url": "https://www.coastline.edu/about/publications.php",
+    "broad_region": "Southern California"
   },
   {
     "id": "csm-labyrinth",
@@ -396,14 +407,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "College of San Mateo’s current Labyrinth page identifies the publication as the academic and literary journal of The Writers’ Project and lists recent issues through Fall 2025. Current submission deadline is not yet verified.",
-    "source_url": "https://collegeofsanmateo.edu/honorsproject/thelabyrinth.asp"
+    "source_url": "https://collegeofsanmateo.edu/honorsproject/thelabyrinth.asp",
+    "broad_region": "Northern California"
   },
   {
     "id": "canyons-cul-de-sac",
     "college": "College of the Canyons",
     "journal": "cul-de-sac",
     "city": "Santa Clarita",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 34.40407,
     "longitude": -118.5708,
     "journal_url": "https://www.canyons.edu/academics/english/students/culdesac/",
@@ -436,7 +448,8 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "The 2026 call closed April 12. The journal is produced by students in Literary Magazine Production and uses anonymous review panels.",
-    "source_url": "https://www.canyons.edu/academics/english/students/culdesac/"
+    "source_url": "https://www.canyons.edu/academics/english/students/culdesac/",
+    "broad_region": "Southern California"
   },
   {
     "id": "cod-the-solstice",
@@ -462,7 +475,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "The current College of the Desert catalog identifies The Solstice as a creative writing and poetry journal supported by Communication Division faculty and designed to showcase students' writing and creativity. A current journal site or submission deadline was not located.",
-    "source_url": "https://catalog.collegeofthedesert.edu/what-programs-services-are-available-for-students/enrichment-activities/"
+    "source_url": "https://catalog.collegeofthedesert.edu/what-programs-services-are-available-for-students/enrichment-activities/",
+    "broad_region": "Southern California"
   },
   {
     "id": "redwoods-personas",
@@ -499,7 +513,8 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "Personas focuses on multilingual experiences and considers submissions from students and community members. The 2026 submission period is closed.",
-    "source_url": "https://www.redwoods.edu/academics/personas.php"
+    "source_url": "https://www.redwoods.edu/academics/personas.php",
+    "broad_region": "Northern California"
   },
   {
     "id": "siskiyous-lemurian-revival",
@@ -527,14 +542,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "The current College of the Siskiyous Writers Club page maintains a publication archive for The Lemurian Revival and provides a dedicated literary magazine submission email. Current deadline is not listed.",
-    "source_url": "https://www.siskiyous.edu/organizations/writers/index.htm"
+    "source_url": "https://www.siskiyous.edu/organizations/writers/index.htm",
+    "broad_region": "Northern California"
   },
   {
     "id": "compton-voices",
     "college": "Compton College",
     "journal": "Voices of Compton",
     "city": "Compton",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 33.87761,
     "longitude": -118.21158,
     "journal_url": "https://www.compton.edu/academics/fine-arts-communication-humanities/voices-of-compton.aspx",
@@ -566,7 +582,8 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "Compton College's current site continues to list Voices of Compton as its arts journal and preserves the Spring 2024/2025 call. That call closed April 25, 2025; the next submission date has not yet been verified.",
-    "source_url": "https://www.compton.edu/academics/fine-arts-communication-humanities/voices-of-compton.aspx"
+    "source_url": "https://www.compton.edu/academics/fine-arts-communication-humanities/voices-of-compton.aspx",
+    "broad_region": "Southern California"
   },
   {
     "id": "coppermountain-howl",
@@ -602,7 +619,8 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "The 2026 call closed March 8. HOWL is student-edited and includes work from CMC students and the Hi-Desert community.",
-    "source_url": "https://www.cmccd.edu/event/howl-art-and-literary-magazine-deadline/"
+    "source_url": "https://www.cmccd.edu/event/howl-art-and-literary-magazine-deadline/",
+    "broad_region": "Southern California"
   },
   {
     "id": "crc-cosumnes-river-journal",
@@ -627,7 +645,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "CRC’s current English materials describe ENGCW 452 as producing the campus’s annual literary journal, with poetry, short fiction, and creative nonfiction, and maintain an archive of Cosumnes River Journal issues. Current submission dates are not yet verified.",
-    "source_url": "https://crc.losrios.edu/academics/programs-majors/english?tab=1"
+    "source_url": "https://crc.losrios.edu/academics/programs-majors/english?tab=1",
+    "broad_region": "Northern California"
   },
   {
     "id": "crafton-sand-canyon-review",
@@ -667,7 +686,8 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "Crafton Hills College's current Sand Canyon Review site describes a student-run literary and arts magazine open to anyone. The 2026 theme was Ties That Bind; submissions closed March 6, 2026. Previous editions are available free online.",
-    "source_url": "https://www.craftonhills.edu/features/literary-magazine/"
+    "source_url": "https://www.craftonhills.edu/features/literary-magazine/",
+    "broad_region": "Southern California"
   },
   {
     "id": "cuesta-tellus",
@@ -696,14 +716,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Current Cuesta materials identify Tellus as the student literary and arts magazine, and 2026 college materials reference the 32nd Tellus celebration. Current submission dates are not yet verified.",
-    "source_url": "https://www.cuesta.edu/academics/divisions/english/english-info/tellus.html"
+    "source_url": "https://www.cuesta.edu/academics/divisions/english/english-info/tellus.html",
+    "broad_region": "Central California"
   },
   {
     "id": "cuyamaca-creative",
     "college": "Cuyamaca College",
     "journal": "The Cuyamaca Creative",
     "city": "El Cajon",
-    "region": "San Diego County",
+    "region": "San Diego Area",
     "latitude": 32.7446,
     "longitude": -116.94075,
     "journal_url": "https://cuyamacacreative.wordpress.com/",
@@ -727,7 +748,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "The student-run journal aims to publish each semester, but the public submission page currently shows a Fall 2025 call. A Fall 2026 deadline is not yet verified.",
-    "source_url": "https://cuyamacacreative.wordpress.com/"
+    "source_url": "https://cuyamacacreative.wordpress.com/",
+    "broad_region": "Southern California"
   },
   {
     "id": "cypress-sole-image",
@@ -762,7 +784,8 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "The Spring 2027 call was open through June 12, 2026. The next submission window is not yet posted.",
-    "source_url": "https://soleimagecc.com/285-2/"
+    "source_url": "https://soleimagecc.com/285-2/",
+    "broad_region": "Southern California"
   },
   {
     "id": "deanza-red-wheelbarrow-student",
@@ -794,14 +817,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Recent student-edition materials confirm the publication and student eligibility. The current 2026-27 submission window needs verification before it is labeled open.",
-    "source_url": "https://www.deanza.edu/english/creative-writing/documents/2023-Red-Wheelbarrow-student-edition.pdf"
+    "source_url": "https://www.deanza.edu/english/creative-writing/documents/2023-Red-Wheelbarrow-student-edition.pdf",
+    "broad_region": "Northern California"
   },
   {
     "id": "elac-milestone",
     "college": "East Los Angeles College",
     "journal": "Milestone Literary Magazine",
     "city": "Monterey Park",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 34.04129,
     "longitude": -118.14974,
     "journal_url": "https://www.elac.edu/academics/pathways/lc/english-dept",
@@ -823,14 +847,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "ELAC's current English Department page identifies Milestone as its literary magazine, established in 1950, and says it publishes poetry, fiction, nonfiction, art, and photography from ELAC students, faculty, and staff. A current submission deadline was not posted on the page.",
-    "source_url": "https://www.elac.edu/academics/pathways/lc/english-dept"
+    "source_url": "https://www.elac.edu/academics/pathways/lc/english-dept",
+    "broad_region": "Southern California"
   },
   {
     "id": "elcamino-myriad",
     "college": "El Camino College",
     "journal": "Myriad",
     "city": "Torrance",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 33.88369,
     "longitude": -118.33093,
     "journal_url": "https://myriadecc.weebly.com/",
@@ -850,7 +875,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "El Camino identifies Myriad as an award-winning student-run literary arts magazine. Current submission dates are not posted in the sources reviewed.",
-    "source_url": "https://www.elcamino.edu/academics/areas-of-study/english.php"
+    "source_url": "https://www.elcamino.edu/academics/areas-of-study/english.php",
+    "broad_region": "Southern California"
   },
   {
     "id": "evc-leaf-by-leaf",
@@ -884,7 +910,8 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "EVC’s current English page says the department gathers student work each spring for the annual Leaf by Leaf literary magazine. A 2025–26 event page lists April 19, 2026 as that cycle’s closing date.",
-    "source_url": "https://www.evc.edu/academics/english/index.html"
+    "source_url": "https://www.evc.edu/academics/english/index.html",
+    "broad_region": "Northern California"
   },
   {
     "id": "frc-cambium",
@@ -916,7 +943,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "FRC’s current Cambium page describes an annual spring journal featuring work from the college and Plumas County community and currently invites participation for the 2025–26 cycle. The closing date is not yet verified.",
-    "source_url": "https://www.frc.edu/english/cambium"
+    "source_url": "https://www.frc.edu/english/cambium",
+    "broad_region": "Northern California"
   },
   {
     "id": "flc-the-machine",
@@ -942,7 +970,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Folsom Lake College’s current English page identifies The Machine as its college literary and fine arts magazine and describes student production work through ENGCW 452. Current call dates are not yet verified.",
-    "source_url": "https://flc.losrios.edu/academics/programs-majors/english"
+    "source_url": "https://flc.losrios.edu/academics/programs-majors/english",
+    "broad_region": "Northern California"
   },
   {
     "id": "fullerton-livewire",
@@ -980,14 +1009,15 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "LiveWire is a Fullerton College Humanities Division literary arts journal. Its current site displays Spring 2026 Issue 12 and provides active submission instructions for poetry, fiction, creative nonfiction, critical essays, art, spoken word, and music; no closing date is listed.",
-    "source_url": "https://lwjournal.fullcoll.edu/about-us/"
+    "source_url": "https://lwjournal.fullcoll.edu/about-us/",
+    "broad_region": "Southern California"
   },
   {
     "id": "grossmont-acorn-review",
     "college": "Grossmont College",
     "journal": "Acorn Review",
     "city": "El Cajon",
-    "region": "San Diego County",
+    "region": "San Diego Area",
     "latitude": 32.81632,
     "longitude": -117.00601,
     "journal_url": "https://www.grossmont.edu/academics/programs/english/creative-writing/publications/acorn-review.php",
@@ -1019,7 +1049,8 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "The 2026 Submittable period ran January 17 through July 30. Student editors judge work anonymously.",
-    "source_url": "https://gcccd.submittable.com/submit"
+    "source_url": "https://gcccd.submittable.com/submit",
+    "broad_region": "Southern California"
   },
   {
     "id": "ivc-el-corazon",
@@ -1056,7 +1087,8 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "IVC’s current El Corazón page links the 2026 edition and says 2026 submissions are closed, with a prompt to check back for the 2027 edition.",
-    "source_url": "https://www.imperial.edu/courses-and-programs/divisions/arts-and-letters/library-2/corazon.html"
+    "source_url": "https://www.imperial.edu/courses-and-programs/divisions/arts-and-letters/library-2/corazon.html",
+    "broad_region": "Southern California"
   },
   {
     "id": "ivc-the-ear",
@@ -1090,7 +1122,8 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "IVC currently publishes submission guidelines and a submission form for poetry and prose; no closing date is listed. Open status is treated as time-limited verification and should be rechecked.",
-    "source_url": "https://www.ivc.edu/ear/submission"
+    "source_url": "https://www.ivc.edu/ear/submission",
+    "broad_region": "Southern California"
   },
   {
     "id": "laspositas-havik",
@@ -1128,14 +1161,15 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "Official Havik page confirms the 2026 genres and March 1 deadline. The next submission cycle has not yet been posted.",
-    "source_url": "https://laspositascollege.edu/havik/index.php"
+    "source_url": "https://laspositascollege.edu/havik/index.php",
+    "broad_region": "Northern California"
   },
   {
     "id": "lbcc-saga",
     "college": "Long Beach City College",
     "journal": "SAGA Literary Journal",
     "city": "Long Beach",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 33.83443,
     "longitude": -118.13005,
     "journal_url": "https://www.lbcc.edu/pod/program-resources-english",
@@ -1157,14 +1191,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "LBCC's current English program resources describe SAGA as an annual collaboration between creative writing faculty and student editors and state that it also publishes work from public submissions. A current deadline was not listed.",
-    "source_url": "https://www.lbcc.edu/pod/program-resources-english"
+    "source_url": "https://www.lbcc.edu/pod/program-resources-english",
+    "broad_region": "Southern California"
   },
   {
     "id": "lacc-citadel",
     "college": "Los Angeles City College",
     "journal": "The Citadel",
     "city": "Los Angeles",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 34.08653,
     "longitude": -118.29339,
     "journal_url": "https://www.lacc.edu/academics/pathways/lhc/english-esl-dept/the-citadel",
@@ -1192,14 +1227,15 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "Official 2026 submission call; the 2026 window has closed.",
-    "source_url": "https://www.lacc.edu/academics/pathways/lhc/english-esl-dept/the-citadel"
+    "source_url": "https://www.lacc.edu/academics/pathways/lhc/english-esl-dept/the-citadel",
+    "broad_region": "Southern California"
   },
   {
     "id": "lahc-harbor-lights",
     "college": "Los Angeles Harbor College",
     "journal": "Harbor Lights Literary Magazine",
     "city": "Wilmington",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 33.78338,
     "longitude": -118.28446,
     "journal_url": "https://www.lahc.edu/academics/pathways/scc/english",
@@ -1216,14 +1252,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "LAHC's current English Department page lists Harbor Lights Literary Magazine. Harbor Lights also hosted a campus poetry night in 2025. The current submission window and eligibility were not verified in this pass.",
-    "source_url": "https://www.lahc.edu/academics/pathways/scc/english"
+    "source_url": "https://www.lahc.edu/academics/pathways/scc/english",
+    "broad_region": "Southern California"
   },
   {
     "id": "lamc-la-mision-review",
     "college": "Los Angeles Mission College",
     "journal": "La Misión Review",
     "city": "Sylmar",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 34.31475,
     "longitude": -118.41883,
     "journal_url": "https://drkarebear.github.io/lamc-ecj/literary-journal.html",
@@ -1254,14 +1291,15 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "Current LAMC students and alumni may submit from September 1 through December 31. Submission form supplied by LAMC journal leadership; genres cross-checked against the official LAMC journal page.",
-    "source_url": "https://www.lamc.edu/academics/pathways/scc/english-dept/student-literary-journal"
+    "source_url": "https://www.lamc.edu/academics/pathways/scc/english-dept/student-literary-journal",
+    "broad_region": "Southern California"
   },
   {
     "id": "pierce-directions",
     "college": "Los Angeles Pierce College",
     "journal": "Directions",
     "city": "Woodland Hills",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 34.18376,
     "longitude": -118.5798,
     "journal_url": "https://www.lapc.edu/academics/pathways/hc/english-esl/directions-magazine",
@@ -1290,14 +1328,15 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "Pierce's current Directions page says the magazine accepts material each semester for the next issue. The magazine returned to print in Fall 2025 after a pandemic-era hiatus, and a new student cohort is preparing the next issue.",
-    "source_url": "https://www.lapc.edu/academics/pathways/hc/english-esl/directions-magazine"
+    "source_url": "https://www.lapc.edu/academics/pathways/hc/english-esl/directions-magazine",
+    "broad_region": "Southern California"
   },
   {
     "id": "lasc-the-truth",
     "college": "Los Angeles Southwest College",
     "journal": "The Truth",
     "city": "Los Angeles",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 33.92849,
     "longitude": -118.30571,
     "journal_url": "https://www.lasc.edu/academics/aos/isah",
@@ -1323,14 +1362,15 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "LASC's current English and interdisciplinary studies pages identify The Truth as the college's online student literary journal and tell students to submit creative work for publication. A current public submission method, detailed eligibility policy, and closing date were not posted on those pages.",
-    "source_url": "https://www.lasc.edu/academics/aos/isah"
+    "source_url": "https://www.lasc.edu/academics/aos/isah",
+    "broad_region": "Southern California"
   },
   {
     "id": "miracosta-tidepools",
     "college": "MiraCosta College",
     "journal": "Tidepools: A Journal of Ideas",
     "city": "Oceanside",
-    "region": "San Diego County",
+    "region": "San Diego Area",
     "latitude": 33.19004,
     "longitude": -117.30226,
     "journal_url": "https://miracosta.edu/academics/degree-and-certificate-programs/languages-communication-and-humanities/english/tidepools-a-journal-of-ideas.html",
@@ -1358,7 +1398,8 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "MiraCosta says Tidepools 2027 submissions are open now and due December 11, 2026.",
-    "source_url": "https://miracosta.edu/academics/degree-and-certificate-programs/languages-communication-and-humanities/english/tidepools-a-journal-of-ideas.html"
+    "source_url": "https://miracosta.edu/academics/degree-and-certificate-programs/languages-communication-and-humanities/english/tidepools-a-journal-of-ideas.html",
+    "broad_region": "Southern California"
   },
   {
     "id": "mission-college-mission-review",
@@ -1388,7 +1429,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Mission College’s current English page identifies The Mission Review as a journal showcasing literary, artistic, and creative work by Mission College students. Current submission dates are not yet verified.",
-    "source_url": "https://missioncollege.edu/depts/english/"
+    "source_url": "https://missioncollege.edu/depts/english/",
+    "broad_region": "Northern California"
   },
   {
     "id": "mpc-scheherazade",
@@ -1419,14 +1461,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Monterey Peninsula College says Scheherazade is MPC's literary magazine, edited and published by creative writing students and club members. The official literary magazine page says submissions of poetry, prose, photography, and graphic art are accepted year-round from MPC students, and former students in the creative writing degree/certificate programs may also submit.",
-    "source_url": "https://www.mpc.edu/academics/career-academic-pathways/language-communications/literary-magazine.html"
+    "source_url": "https://www.mpc.edu/academics/career-academic-pathways/language-communications/literary-magazine.html",
+    "broad_region": "Central California"
   },
   {
     "id": "moorpark-review",
     "college": "Moorpark College",
     "journal": "The Moorpark Review",
     "city": "Moorpark",
-    "region": "Ventura County",
+    "region": "Ventura Area",
     "latitude": 34.30106,
     "longitude": -118.83551,
     "journal_url": "https://www.moorparkcollege.edu/departments/academic/english/moorpark-review",
@@ -1457,14 +1500,15 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "The official page says work received by March 7 is considered for the upcoming May print edition; online submissions are open to everyone.",
-    "source_url": "https://www.moorparkcollege.edu/departments/academic/english/moorpark-review"
+    "source_url": "https://www.moorparkcollege.edu/departments/academic/english/moorpark-review",
+    "broad_region": "Southern California"
   },
   {
     "id": "mtsac-creepy-gnome",
     "college": "Mt. San Antonio College",
     "journal": "Creepy Gnome",
     "city": "Walnut",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 34.047,
     "longitude": -117.845,
     "journal_url": "https://www.mtsac.edu/elcw/",
@@ -1480,7 +1524,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Mt. SAC's current English, Literature, and Creative Writing page identifies Creepy Gnome as the department's literary journal alongside its student Creative Writing Club. Current submission guidelines and genres were not located in this pass.",
-    "source_url": "https://www.mtsac.edu/elcw/"
+    "source_url": "https://www.mtsac.edu/elcw/",
+    "broad_region": "Southern California"
   },
   {
     "id": "msjc-flight",
@@ -1510,7 +1555,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "MSJC identifies Flight as its anthology of student art and writing. Official MSJC pages confirm a Winter 2025 issue and earlier notes describe Flight as an anthology of students' written and visual work published every spring semester.",
-    "source_url": "https://msjc.edu/news/Flight-Winter-2025.html"
+    "source_url": "https://msjc.edu/news/Flight-Winter-2025.html",
+    "broad_region": "Southern California"
   },
   {
     "id": "occ-orange-coast-review",
@@ -1540,14 +1586,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Official OCC page confirms the journal and says forthcoming deadlines will be posted online and on campus.",
-    "source_url": "https://orangecoastcollege.edu/academics/lit-lang/english/orange-coast-review.html"
+    "source_url": "https://orangecoastcollege.edu/academics/lit-lang/english/orange-coast-review.html",
+    "broad_region": "Southern California"
   },
   {
     "id": "palomar-bravura",
     "college": "Palomar College",
     "journal": "Bravura",
     "city": "San Marcos",
-    "region": "San Diego County",
+    "region": "San Diego Area",
     "latitude": 33.147054,
     "longitude": -117.184263,
     "journal_url": "https://bravurajournal.org/",
@@ -1579,14 +1626,15 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "The current Bravura site lists an annual March 15 submission deadline and accepts current/former Palomar students plus local high school students.",
-    "source_url": "https://bravurajournal.org/"
+    "source_url": "https://bravurajournal.org/",
+    "broad_region": "Southern California"
   },
   {
     "id": "pcc-inscape",
     "college": "Pasadena City College",
     "journal": "Inscape Magazine",
     "city": "Pasadena",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 34.15,
     "longitude": -118.116667,
     "journal_url": "https://www.pasadena.edu/academics/divisions/english-languages-esl/opportunities/inscape.php",
@@ -1615,14 +1663,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "PCC says submissions are currently open. The journal site says submissions are accepted mostly year-round; eligibility varies by print, online, and specialty projects.",
-    "source_url": "https://www.pasadena.edu/academics/divisions/english-languages-esl/opportunities/inscape.php"
+    "source_url": "https://www.pasadena.edu/academics/divisions/english-languages-esl/opportunities/inscape.php",
+    "broad_region": "Southern California"
   },
   {
     "id": "reedley-kings-river-review",
     "college": "Reedley College",
     "journal": "Kings River Review",
     "city": "Reedley",
-    "region": "Central California",
+    "region": "Central Valley",
     "latitude": 36.60717,
     "longitude": -119.4614,
     "journal_url": "https://www.kingsriverreview.com/",
@@ -1657,7 +1706,8 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "Official journal site says submissions are accepted year-round; fall and spring issue deadlines are October 15 and March 15.",
-    "source_url": "https://www.kingsriverreview.com/submit"
+    "source_url": "https://www.kingsriverreview.com/submit",
+    "broad_region": "Central California"
   },
   {
     "id": "rcc-muse",
@@ -1689,14 +1739,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "RCC confirms MUSE is active and publishes each spring, with contributors from RCC and beyond. Current submission dates are not listed on the page reviewed.",
-    "source_url": "https://www.rcc.edu/community/publications/muse.html"
+    "source_url": "https://www.rcc.edu/community/publications/muse.html",
+    "broad_region": "Southern California"
   },
   {
     "id": "riohondo-rivers-voice",
     "college": "Rio Hondo College",
     "journal": "River’s Voice",
     "city": "Whittier",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 34.02003,
     "longitude": -118.03281,
     "journal_url": "https://www.riohondo.edu/academics/divisions/communications-languages/about__trashed/publications/rivers-voice/",
@@ -1721,7 +1772,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Official pages confirm the journal and eligibility, but the visible submission form still references an older issue. Current deadline needs verification.",
-    "source_url": "https://www.riohondo.edu/academics/divisions/communications-languages/about__trashed/publications/rivers-voice/"
+    "source_url": "https://www.riohondo.edu/academics/divisions/communications-languages/about__trashed/publications/rivers-voice/",
+    "broad_region": "Southern California"
   },
   {
     "id": "scc-susurrus",
@@ -1746,7 +1798,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Sacramento City College’s current English page says students in ENGCW 450 and 451 edit and produce Susurrus, selecting poetry, short fiction, and creative nonfiction. Current submission dates are not yet verified.",
-    "source_url": "https://scc.losrios.edu/english"
+    "source_url": "https://scc.losrios.edu/english",
+    "broad_region": "Northern California"
   },
   {
     "id": "saddleback-wall",
@@ -1776,7 +1829,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Official Saddleback pages confirm the annual student-produced journal and a 2026 edition. The next general literary submission deadline is not yet verified.",
-    "source_url": "https://www.saddleback.edu/life-saddleback"
+    "source_url": "https://www.saddleback.edu/life-saddleback",
+    "broad_region": "Southern California"
   },
   {
     "id": "sbvc-phineas",
@@ -1811,14 +1865,15 @@
     ],
     "last_verified": "2026-09-06",
     "source_note": "The official page confirms student production and blind review. The Spring 2026 submission window is closed; the next deadline is not yet posted.",
-    "source_url": "https://www.valleycollege.edu/academics/pathways/acd/english/phineas-literary-magazine.php"
+    "source_url": "https://www.valleycollege.edu/academics/pathways/acd/english/phineas-literary-magazine.php",
+    "broad_region": "Southern California"
   },
   {
     "id": "sdcity-city-works",
     "college": "San Diego City College",
     "journal": "City Works",
     "city": "San Diego",
-    "region": "San Diego County",
+    "region": "San Diego Area",
     "latitude": 32.71986,
     "longitude": -117.15187,
     "journal_url": "https://www.sdcity.edu/life-at-city/cityworks.aspx",
@@ -1843,14 +1898,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Official page confirms the long-running journal and broad eligibility, but its visible submission deadline is still for Spring 2024. Current deadline needs verification.",
-    "source_url": "https://www.sdcity.edu/life-at-city/cityworks.aspx"
+    "source_url": "https://www.sdcity.edu/life-at-city/cityworks.aspx",
+    "broad_region": "Southern California"
   },
   {
     "id": "sd-mesa-mesa-visions",
     "college": "San Diego Mesa College",
     "journal": "Mesa Visions",
     "city": "San Diego",
-    "region": "San Diego County",
+    "region": "San Diego Area",
     "latitude": 32.80482,
     "longitude": -117.16805,
     "eligibility": [
@@ -1866,7 +1922,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "San Diego Mesa College’s May 2025 calendar describes Mesa Visions as an annual English/Honors/Creative Writing production and documents a magazine launch and reading featuring published fiction, nonfiction, and poetry. Current submission eligibility and deadlines were not located in this pass.",
-    "source_url": "https://www.sdmesa.edu/calendar/index.php?eID=9107"
+    "source_url": "https://www.sdmesa.edu/calendar/index.php?eID=9107",
+    "broad_region": "Southern California"
   },
   {
     "id": "delta-artifact",
@@ -1901,7 +1958,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Delta’s current Artifact page says submissions are accepted year-round and issues publish in Fall/Winter and Spring. It welcomes work from students, faculty, alumni, employees, and a limited share of outside contributors.",
-    "source_url": "https://www.deltacollege.edu/about/offices/student-life-office/clubs-organizations/writers-guild/artifact"
+    "source_url": "https://www.deltacollege.edu/about/offices/student-life-office/clubs-organizations/writers-guild/artifact",
+    "broad_region": "Central California"
   },
   {
     "id": "sbcc-open-fruit",
@@ -1929,14 +1987,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "SBCC’s current English site identifies Open Fruit as its annual creative writing and visual arts magazine, with a new issue published each spring. Current submission dates are not yet verified.",
-    "source_url": "https://www.sbcc.edu/english/open-fruit.php"
+    "source_url": "https://www.sbcc.edu/english/open-fruit.php",
+    "broad_region": "Central California"
   },
   {
     "id": "smc-santa-monica-review",
     "college": "Santa Monica College",
     "journal": "Santa Monica Review",
     "city": "Santa Monica",
-    "region": "Southern California",
+    "region": "Los Angeles Area",
     "latitude": 34.01685,
     "longitude": -118.47,
     "journal_type": "College-sponsored national journal",
@@ -1958,7 +2017,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Santa Monica Review is a nationally distributed literary arts journal sponsored by Santa Monica College and published twice yearly. It is not a student-run journal. Current guidelines accept fiction and nonfiction by mail and list no submission deadline.",
-    "source_url": "https://www.smc.edu/sm-review/about.html"
+    "source_url": "https://www.smc.edu/sm-review/about.html",
+    "broad_region": "Southern California"
   },
   {
     "id": "shasta-ink-storm",
@@ -1984,14 +2044,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Shasta College’s current English page identifies Ink Storm as a teacher/student literary magazine. Current issue and submission dates were not located in this pass.",
-    "source_url": "https://www.shastacollege.edu/academics/divisions-departments/science-language-arts-and-math-slam/disciplines/english/"
+    "source_url": "https://www.shastacollege.edu/academics/divisions-departments/science-language-arts-and-math-slam/disciplines/english/",
+    "broad_region": "Northern California"
   },
   {
     "id": "sierra-sierra-journal",
     "college": "Sierra College",
     "journal": "Sierra Journal",
     "city": "Rocklin",
-    "region": "Northern California",
+    "region": "Sacramento Area",
     "latitude": 38.79357,
     "longitude": -121.21282,
     "journal_url": "https://www.sierracollege.edu/library/sierra-college-press/",
@@ -2014,7 +2075,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Official Sierra College Press page confirms the journal is active; current deadline and eligibility details are not yet verified.",
-    "source_url": "https://www.sierracollege.edu/library/sierra-college-press/"
+    "source_url": "https://www.sierracollege.edu/library/sierra-college-press/",
+    "broad_region": "Northern California"
   },
   {
     "id": "skyline-talisman",
@@ -2048,7 +2110,8 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "Skyline’s current Talisman site features the 2026 issue (Talisman 54). The 2026 submission page lists a February 27 deadline and says submissions are closed.",
-    "source_url": "https://skylinecollege.edu/talisman/submissions.php"
+    "source_url": "https://skylinecollege.edu/talisman/submissions.php",
+    "broad_region": "Northern California"
   },
   {
     "id": "solano-suisun-valley-review",
@@ -2084,14 +2147,15 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "The current Suisun Valley Review submission manager identifies the 2026 publication as its 42nd issue and presently lists no open calls. The journal’s About page identifies SVR as a long-running annual Solano Community College literary journal curated, edited, and published by SCC English 058/059; attendance at SCC is not required to submit.",
-    "source_url": "https://suisunvalleyreview.submittable.com/"
+    "source_url": "https://suisunvalleyreview.submittable.com/",
+    "broad_region": "Northern California"
   },
   {
     "id": "southwestern-the-vagabond",
     "college": "Southwestern College",
     "journal": "The Vagabond",
     "city": "Chula Vista",
-    "region": "San Diego County",
+    "region": "San Diego Area",
     "latitude": 32.63979,
     "longitude": -116.99783,
     "eligibility": [
@@ -2107,7 +2171,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Southwestern College’s September 2025 curriculum materials identify The Vagabond as the student literary magazine produced each year. A January 2025 board report also documents a December 2024 publication party and reading for The Vagabond. Current submission details were not located.",
-    "source_url": "https://swccdedu.community.diligentoneplatform.com/document/9c46ec5e-a084-41c7-8520-0358fce4b927/"
+    "source_url": "https://swccdedu.community.diligentoneplatform.com/document/9c46ec5e-a084-41c7-8520-0358fce4b927/",
+    "broad_region": "Southern California"
   },
   {
     "id": "taft-literary-magazine",
@@ -2135,14 +2200,15 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "Taft College’s current clubs site identifies the Literary Magazine club and its goal of creating an annual student-edited literary magazine and annual release reading. Current submission dates are not yet posted.",
-    "source_url": "https://www.taftcollege.edu/student-campus-life/clubs-organizations/literary-club/index.php"
+    "source_url": "https://www.taftcollege.edu/student-campus-life/clubs-organizations/literary-club/index.php",
+    "broad_region": "Central California"
   },
   {
     "id": "ventura-vc-voices",
     "college": "Ventura College",
     "journal": "VC Voices",
     "city": "Ventura",
-    "region": "Ventura County",
+    "region": "Ventura Area",
     "latitude": 34.27694,
     "longitude": -119.23155,
     "journal_url": "https://www.venturacollege.edu/departments/academic/english-department/for-students/vc-voices",
@@ -2171,7 +2237,8 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "Ventura College's current VC Voices page invites submissions, says the publication is now entirely online, and directs writers and artists to register and submit at myvcvoices.com. No closing date is listed.",
-    "source_url": "https://www.venturacollege.edu/departments/academic/english-department/for-students/vc-voices"
+    "source_url": "https://www.venturacollege.edu/departments/academic/english-department/for-students/vc-voices",
+    "broad_region": "Southern California"
   },
   {
     "id": "west-valley-voices",
@@ -2202,7 +2269,8 @@
     "submission_periods": [],
     "last_verified": "2026-09-06",
     "source_note": "West Valley’s current English page says Voices is published each spring by the Voices Literary Club, accepts rolling submissions, and welcomes work from students, alumni, faculty, and staff.",
-    "source_url": "https://www.westvalley.edu/academics/english/index.html"
+    "source_url": "https://www.westvalley.edu/academics/english/index.html",
+    "broad_region": "Northern California"
   },
   {
     "id": "woodland-ink",
@@ -2240,6 +2308,7 @@
     },
     "last_verified": "2026-09-06",
     "source_note": "WCC’s current Ink page features Issue 27 (Spring 2026) and announces Issue 28 for December 2026. It lists an October 31, 2026 submission deadline for eligible students.",
-    "source_url": "https://wcc.yccd.edu/campus/student-publications/ink/"
+    "source_url": "https://wcc.yccd.edu/campus/student-publications/ink/",
+    "broad_region": "Northern California"
   }
 ]
