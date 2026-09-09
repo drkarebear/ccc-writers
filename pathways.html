@@ -19,10 +19,10 @@
 <h1>Creative Writing After Community College</h1>
 <p class="lede">Explore creative-writing degrees, concentrations, emphases, minors, and substantial coursework routes at California public universities, with the transfer details that matter most to CCC students.</p>
 <div aria-label="Current research coverage" class="stats pathway-summary">
-<div class="stat"><strong id="program-total">28</strong>campus writing routes</div>
-<div class="stat"><strong id="csu-total">19</strong>CSU universities audited</div>
+<div class="stat"><strong id="program-total">31</strong>campus writing routes</div>
+<div class="stat"><strong id="csu-total">22</strong>CSU universities audited</div>
 <div class="stat"><strong id="uc-total">9</strong>undergraduate UC campuses audited</div>
-</div><p class="small"><strong>What that means:</strong> 27 records are formal named creative-writing pathways; 4 CSU records are clearly labeled coursework-only routes where creative writing is substantial but not a named 2026 credential.</p>
+</div><p class="small"><strong>What that means:</strong> 27 routes are formal named creative-writing pathways; 4 CSU routes are clearly labeled coursework-only options where creative writing is substantial but not a named 2026 credential.</p>
 <section aria-labelledby="uc-landscape-heading" class="section-sm">
 <h2 id="uc-landscape-heading">The UC Creative Writing Landscape</h2>
 <p class="research-note">All nine undergraduate UC campuses have now been checked. The pathways are not interchangeable, so the directory distinguishes a standalone creative writing degree from literary arts, writing studies, concentrations, specializations, and minors.</p>
@@ -58,32 +58,30 @@
 <article class="card feature-card"><h3>UC Merced</h3><p>The new Creative Writing Emphasis begins Fall 2026. Writing Studies also publishes major-specific transfer preparation, including Introduction to Creative Writing as one possible preparation course.</p></article>
 </div>
 </section>
-<section aria-labelledby="guided-finder-heading" class="section-sm guided-finder">
+<section aria-labelledby="finder-heading" class="section-sm guided-finder">
 <p class="eyebrow">Start with what matters to you</p>
-<h2 id="guided-finder-heading">Help Me Find a Creative Writing Program</h2>
-<p class="research-note">Answer a few plain-language questions. This tool matches programs to your preferences; it does not rank universities or predict admission.</p>
-<form class="guided-form" id="guided-program-form">
-<div class="toolbar guided-toolbar">
-<div class="field"><label for="guided-focus">How central should creative writing be?</label><select id="guided-focus"><option value="">I’m open</option><option value="Major">I want it to be my main degree</option><option value="Option/Concentration">I want it built into my major</option><option value="Specialization/Emphasis">An emphasis or specialization works</option><option value="Minor">I want it as a minor</option><option value="Coursework Only">Substantial coursework is enough</option></select></div>
-<div class="field"><label for="guided-genre">What do you most want to write?</label><select id="guided-genre"><option value="">Any genre</option><option value="Fiction">Fiction</option><option value="Poetry">Poetry</option><option value="Creative Nonfiction">Creative nonfiction</option><option value="Playwriting">Playwriting</option><option value="Screenwriting">Screenwriting</option></select></div>
-<div class="field"><label for="guided-system">Which system?</label><select id="guided-system"><option value="">CSU + UC</option><option value="CSU">CSU</option><option value="UC">UC</option></select></div>
-<div class="field"><label for="guided-broad-region">Which part of California?</label><select id="guided-broad-region"><option value="">Anywhere in California</option></select></div><div class="field"><label for="guided-region">Which local area?</label><select id="guided-region"><option value="">Any local area</option></select></div>
-<div class="field"><label for="guided-transfer">How important is a clearly published CCC route?</label><select id="guided-transfer"><option value="">Show all matches</option><option value="published-ccc-pathway">Prioritize a published CCC/ADT pathway</option><option value="transfer-specific-guidance">At least transfer-specific guidance</option></select></div>
+<h2 id="finder-heading">Find a Creative Writing Program</h2>
+<p class="research-note">Search all <span id="program-finder-total">31</span> writing routes at California public universities. Choose what matters to you, or just type a school, city, genre, or keyword. Results are for exploration, not rankings or admission predictions.</p>
+<form class="program-finder-form" id="program-finder-form">
+<div class="toolbar finder-toolbar">
+<div class="field finder-search-field"><label for="program-search">Search by school, city, program, or keyword</label><input id="program-search" placeholder="Try Los Angeles, poetry, San Diego State, or publishing" type="search"/></div>
+<div class="field"><label for="program-type-filter">How central should creative writing be?</label><select id="program-type-filter"><option value="">I’m open</option><option value="Major">I want it to be my main degree</option><option value="Option/Concentration">I want it built into my major</option><option value="Specialization/Emphasis">An emphasis or specialization works</option><option value="Minor">I want it as a minor</option><option value="Coursework Only">Substantial coursework is enough</option></select></div>
+<div class="field"><label for="genre-filter">What do you most want to write?</label><select id="genre-filter"><option value="">Any genre</option><option value="Fiction">Fiction</option><option value="Poetry">Poetry</option><option value="Creative Nonfiction">Creative nonfiction</option><option value="Playwriting">Playwriting</option><option value="Screenwriting">Screenwriting</option></select></div>
+<div class="field"><label for="broad-region-filter">Which part of California?</label><select id="broad-region-filter"><option value="">Anywhere in California</option></select></div>
+<div class="field"><label for="region-filter">Which local area?</label><select id="region-filter"><option value="">Any local area</option></select></div>
 </div>
-<div class="button-row"><button class="button" type="submit">Show matching programs</button><button class="button secondary" type="reset">Start over</button></div>
+<details class="more-filters">
+<summary>More filters</summary>
+<div class="toolbar more-filters-toolbar">
+<div class="field"><label for="system-filter">University system</label><select id="system-filter"><option value="">CSU + UC</option><option value="CSU">CSU</option><option value="UC">UC</option></select></div>
+<div class="field"><label for="transfer-filter">Transfer guidance</label><select id="transfer-filter"><option value="">Show all programs</option><option value="published-ccc-pathway">Published CCC/ADT pathway</option><option value="transfer-specific-guidance">At least transfer-specific guidance</option><option value="general">General transfer planning</option></select></div>
+</div>
+</details>
+<div class="finder-actions"><button class="button secondary" type="reset">Start over</button></div>
 </form>
-<p aria-live="polite" class="result-count" id="guided-result-count" role="status"></p>
-<div class="program-list" id="guided-program-results"></div>
-</section><section aria-labelledby="finder-heading" class="section-sm">
-<h2 id="finder-heading">Find a Program</h2>
-<div class="toolbar">
-<div class="field"><label for="program-search">Search school, program, city, area, or genre</label><input id="program-search" placeholder="Try Los Angeles Area, poetry, San Diego, or publishing" type="search"/></div>
-<div class="field"><label for="system-filter">University system</label><select id="system-filter"><option value="">CSU + UC</option><option value="CSU">CSU</option><option value="UC">UC</option></select></div><div class="field"><label for="broad-region-filter">Part of California</label><select id="broad-region-filter"><option value="">All of California</option></select></div><div class="field"><label for="region-filter">Local area</label><select id="region-filter"><option value="">All local areas</option></select></div>
-<div class="field"><label for="program-type-filter">Program type</label><select id="program-type-filter"><option value="">Any type</option><option value="Major">Major</option><option value="Option/Concentration">Option/Concentration</option><option value="Minor">Minor</option><option value="Specialization/Emphasis">Specialization/Emphasis</option><option value="Coursework Only">Coursework only</option></select></div>
-<div class="field"><label for="transfer-filter">Transfer lens</label><select id="transfer-filter"><option value="">All programs</option><option value="published-ccc-pathway">Published CCC/ADT pathway</option><option value="transfer-specific-guidance">Transfer-specific guidance</option><option value="general">General transfer planning</option></select></div>
-</div><p class="small">Broad regions and local areas are student-facing browsing labels, not official university classifications. Choose Southern California for a wide view or Los Angeles Area, San Diego Area, Orange County, and other areas to narrow it.</p>
+<p class="small">Broad regions and local areas are student-facing browsing labels, not official university classifications. Choose Southern California for a wide view or Los Angeles Area, San Diego Area, Orange County, and other areas to narrow it.</p>
 <p aria-live="polite" class="result-count" id="program-result-count" role="status"></p>
-<div class="notice"><strong>Use this as a discovery tool, not a transfer guarantee.</strong> Program requirements and articulation change. Confirm transferable courses in <a href="https://assist.org/">ASSIST</a> and confirm the current catalog/road map with the university before making enrollment decisions.</div>
+<div class="notice"><strong>Use this as a discovery tool, not a transfer guarantee.</strong> Program requirements and articulation change. Confirm transferable courses in <a href="https://assist.org/">ASSIST</a> and confirm the current catalog or road map with the university before making enrollment decisions.</div>
 <div class="program-list" id="program-list"></div>
 </section>
 <section aria-labelledby="method-heading" class="section-sm">

@@ -531,3 +531,52 @@ h3 { font-size: 1.25rem; margin: 0 0 .45rem; }
   .coverage-card { grid-template-columns: 1fr; }
   .coverage-status { text-align: left; }
 }
+
+/* Unified creative-writing program finder */
+.program-finder-form {
+  margin-top: 1rem;
+}
+.finder-toolbar {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+.finder-search-field {
+  grid-column: 1 / -1;
+}
+.finder-search-field label {
+  min-height: 0;
+}
+.more-filters {
+  margin: -.15rem 0 1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+}
+.more-filters summary {
+  cursor: pointer;
+  padding: .8rem 1rem;
+  color: var(--navy-deep);
+  font-weight: 780;
+}
+.more-filters summary:hover {
+  text-decoration: underline;
+}
+.more-filters summary:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+.more-filters-toolbar {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-radius: 0 0 12px 12px;
+  box-shadow: none;
+}
+.finder-actions {
+  margin: .5rem 0 1rem;
+}
+
+@media (max-width: 620px) {
+  .more-filters-toolbar { grid-template-columns: 1fr; }
+}
