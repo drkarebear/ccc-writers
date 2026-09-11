@@ -35,6 +35,10 @@ window.safeHttpsUrl = safeHttpsUrl;
 const submissionStatus = (journal, now = new Date()) => {
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
+  if (journal.publication_status === "suspended") {
+    return { key: "closed", label: "Publication suspended", deadline: null };
+  }
+
   // A short-lived override lets us accurately reflect a status verified on a
   // source page even when the source does not publish a complete date range.
   // Once the verification window expires, the listing falls back to the
@@ -98,6 +102,7 @@ const journalCard = journal => {
       <p class="status ${escapeHTML(status.key)}">${escapeHTML(status.label)}</p>
       <ul class="tag-list" aria-label="Genres">${genres}</ul>
       <p><strong>Who can submit:</strong> ${eligibility || "Not yet verified"}</p>
+      ${submissionAudienceTags(journal).length ? `<ul class="tag-list" aria-label="Submission eligibility">${submissionAudienceTags(journal).map(tag => `<li class="tag">${escapeHTML(SUBMISSION_AUDIENCE_LABELS[tag] || tag)}</li>`).join("")}${journal.eligibility_area ? `<li class="tag">${escapeHTML(journal.eligibility_area)}</li>` : ""}</ul>` : ""}
       <p class="small">${escapeHTML(verified)}${sourceUrl ? ` · <a href="${escapeHTML(sourceUrl)}" aria-label="Verification source for ${journalName}">Verification source</a>` : ""}</p>
       <div class="button-row">
         ${journalUrl ? `<a class="button secondary" href="${escapeHTML(journalUrl)}" aria-label="Visit ${journalName}">Visit journal</a>` : ""}
@@ -133,6 +138,56 @@ const programCard = program => {
     </div>
   </article>`;
 };
+
+window.CCC_GEOGRAPHY = {
+  broadRegions: ["Southern California", "Central California", "Northern California", "Statewide/Online"],
+  localAreasByBroadRegion: {
+    "Southern California": ["Los Angeles Area", "Orange County", "Inland Empire", "Ventura Area", "San Diego Area", "Imperial Valley", "Desert"],
+    "Central California": ["Central Coast", "Central Valley"],
+    "Northern California": ["Bay Area", "Sacramento Area", "Sierra/Tahoe", "North Coast", "North/Far North"],
+    "Statewide/Online": ["Statewide/Online"]
+  }
+};
+
+const populateGeographyFilters = (broadSelect, localSelect, options = {}) => {
+  if (!broadSelect || !localSelect) return () => {};
+  const broadBlank = options.broadBlank || 'All of California';
+  const localBlank = options.localBlank || 'All local areas';
+  const geography = window.CCC_GEOGRAPHY;
+
+  broadSelect.innerHTML = `<option value="">${broadBlank}</option>`;
+  geography.broadRegions.forEach(value => broadSelect.add(new Option(value, value)));
+
+  const refreshLocalAreas = () => {
+    const current = localSelect.value;
+    const selectedBroad = broadSelect.value;
+    const areas = selectedBroad
+      ? (geography.localAreasByBroadRegion[selectedBroad] || [])
+      : geography.broadRegions.flatMap(region => geography.localAreasByBroadRegion[region] || []);
+    localSelect.innerHTML = `<option value="">${localBlank}</option>`;
+    areas.forEach(value => localSelect.add(new Option(value, value)));
+    if (areas.includes(current)) localSelect.value = current;
+  };
+
+  refreshLocalAreas();
+  return refreshLocalAreas;
+};
+
+const SUBMISSION_AUDIENCE_LABELS = {
+  'all-ccc': 'All community college students',
+  'location-based': 'Location-based eligibility',
+  'college-students-alumni': 'College students and/or alumni',
+  'open-to-everyone': 'Open to everyone',
+  'needs-verification': 'Eligibility needs verification'
+};
+
+const submissionAudienceTags = journal => Array.isArray(journal.submission_audience_tags)
+  ? journal.submission_audience_tags
+  : [];
+
+window.populateGeographyFilters = populateGeographyFilters;
+window.SUBMISSION_AUDIENCE_LABELS = SUBMISSION_AUDIENCE_LABELS;
+window.submissionAudienceTags = submissionAudienceTags;
 
 
 // Accessibility reporting links include the current page so barriers are easier to reproduce.

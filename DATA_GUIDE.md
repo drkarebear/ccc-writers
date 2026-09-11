@@ -16,6 +16,8 @@
   "submission_url": "https://...",
   "eligibility": ["Human-readable eligibility"],
   "eligibility_tags": ["campus", "all-ccc", "alumni", "public"],
+  "submission_audience_tags": ["college-students-alumni"],
+  "eligibility_area": "San Diego County",
   "genres": ["Poetry", "Fiction"],
   "accepting_year_round": false,
   "submission_periods": [
@@ -26,6 +28,18 @@
   "source_url": "https://official-or-journal-source"
 }
 ```
+
+### Submission audience fields
+
+`submission_audience_tags` powers the student-facing **Who can submit?** filter. Every journal record should have at least one value:
+
+- `all-ccc` — all community college students are eligible, even if the publication also accepts a broader two-year-college population.
+- `location-based` — submission eligibility is tied to a geographic community, not merely the journal’s campus location. Add `eligibility_area` with the plain-language restriction, such as `San Diego County` or `Hi-Desert community`.
+- `college-students-alumni` — current college students and/or alumni are eligible. This can overlap with broader categories.
+- `open-to-everyone` — the source explicitly says anyone, the public, global/international writers, or an equivalent unrestricted audience may submit.
+- `needs-verification` — current eligibility is missing, unclear, or only partially documented.
+
+These tags can overlap. Do not infer `open-to-everyone` from a vague reference to “community,” and do not use a journal’s campus `region` as a substitute for an eligibility restriction.
 
 ### Do not guess
 

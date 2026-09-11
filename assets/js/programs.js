@@ -23,21 +23,10 @@
   try {
     let programs = Array.isArray(window.CCC_PROGRAMS) ? window.CCC_PROGRAMS : null;
     if (!programs) programs = await loadJsonWithFallback('data/programs.json', window.CCC_PROGRAMS);
-
-    const broadRegions = [...new Set(programs.map(p => p.broad_region).filter(Boolean))].sort();
-    resetOptions(broadFilter, broadRegions, 'Anywhere in California');
-
-    const refreshAreas = () => {
-      const broad = broadFilter?.value || '';
-      const areas = [...new Set(
-        programs
-          .filter(p => !broad || p.broad_region === broad)
-          .map(p => p.region)
-          .filter(Boolean)
-      )].sort();
-      resetOptions(regionFilter, areas, 'Any local area');
-    };
-    refreshAreas();
+    const refreshAreas = populateGeographyFilters(broadFilter, regionFilter, {
+      broadBlank: 'Anywhere in California',
+      localBlank: 'Any local area'
+    });
 
     const total = document.querySelector('#program-total');
     const finderTotal = document.querySelector('#program-finder-total');

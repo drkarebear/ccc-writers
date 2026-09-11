@@ -293,12 +293,12 @@
   },
   {
     "college": "Cosumnes River College",
-    "status": "verified-active-journal",
+    "status": "historical-inactive",
     "journals": [
       "Cosumnes River Journal"
     ],
     "region": "Sacramento Area",
-    "last_verified": "2026-09-06",
+    "last_verified": "2026-09-11",
     "broad_region": "Northern California"
   },
   {

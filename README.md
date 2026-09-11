@@ -15,7 +15,7 @@ The site palette is built around the California-and-quill mark: deep navy (`#062
 - `journals.html` — interactive California literary journal map + accessible filtered directory
 - `submissions.html` — submission finder driven by the same journal data
 - `events.html` — upcoming event board (ready for moderated submissions)
-- `pathways.html` — CSU/UC creative writing program finder
+- `pathways.html` — Creative Writing Transfer Pathways finder for CSU/UC programs
 - `read.html` — browse verified CCC journal and publication pages
 - `coverage.html` — 116-college journal research coverage tracker
 - `journal-toolkit.html` — research-informed best practices for starting, improving, and sustaining a CCC literary journal
@@ -25,6 +25,10 @@ The site palette is built around the California-and-quill mark: deep navy (`#062
 - `data/journals.json` — journal/location/deadline/eligibility data
 - `data/programs.json` — CSU/UC program data
 - `data/events.json` — event data
+
+## Submission eligibility tags
+
+Each journal now carries `submission_audience_tags` for student-facing filtering. The tags distinguish journals open to all community college students, location-based eligibility, college students/alumni, publications open to everyone, and records whose current eligibility still needs verification. Location-based records can also carry `eligibility_area` so a geographic restriction is not confused with the journal’s own campus location.
 
 ## Why one journal dataset matters
 
