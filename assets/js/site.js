@@ -176,7 +176,7 @@ const populateGeographyFilters = (broadSelect, localSelect, options = {}) => {
 const SUBMISSION_AUDIENCE_LABELS = {
   'all-ccc': 'All community college students',
   'location-based': 'Location-based eligibility',
-  'college-students-alumni': 'College students and/or alumni',
+  'college-students-alumni': 'Current/former students of the publishing college',
   'open-to-everyone': 'Open to everyone',
   'needs-verification': 'Eligibility needs verification'
 };

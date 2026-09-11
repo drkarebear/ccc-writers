@@ -58,6 +58,27 @@
       const region = regionFilter?.value || '';
       const transfer = transferFilter?.value || '';
 
+      // Sort by the campus name a student recognizes rather than by formal
+      // system boilerplate such as "University of California" or
+      // "California State University." Transfer strength never changes
+      // result order; it remains a visible filter/tag instead of a hidden rank.
+      const campusSortKey = program => {
+        const institution = program.institution || '';
+        const ucMatch = institution.match(/^University of California,\s*(.+)$/i);
+        if (ucMatch) return ucMatch[1];
+
+        return institution
+          .replace(/^California State Polytechnic University,\s*/i, '')
+          .replace(/^California Polytechnic State University,\s*/i, '')
+          .replace(/^California State University Channel Islands$/i, 'Channel Islands')
+          .replace(/^California State University San Marcos$/i, 'San Marcos')
+          .replace(/^California State University,\s*/i, '')
+          .replace(/^San Diego State University$/i, 'San Diego')
+          .replace(/^San Francisco State University$/i, 'San Francisco')
+          .replace(/^San José State University$/i, 'San José')
+          .replace(/^Sonoma State University$/i, 'Sonoma');
+      };
+
       const filtered = programs
         .filter(p => {
           const genreMatch = !genre || (p.genres || []).some(g => normalize(g) === normalize(genre));
@@ -69,10 +90,10 @@
             (!region || p.region === region) &&
             matchesTransfer(p, transfer);
         })
-        .sort((a, b) => a.institution.localeCompare(b.institution) || a.program.localeCompare(b.program));
+        .sort((a, b) => campusSortKey(a).localeCompare(campusSortKey(b)) || a.institution.localeCompare(b.institution) || a.program.localeCompare(b.program));
 
       if (resultCount) {
-        resultCount.textContent = `${filtered.length} route${filtered.length === 1 ? '' : 's'} match your choices. Results are listed alphabetically, not ranked.`;
+        resultCount.textContent = `${filtered.length} route${filtered.length === 1 ? '' : 's'} match your choices. Results are alphabetical by campus name, not ranked.`;
       }
 
       list.innerHTML = filtered.map(programCard).join('') ||
@@ -87,6 +108,18 @@
     [typeFilter, genreFilter, systemFilter, regionFilter, transferFilter]
       .filter(Boolean)
       .forEach(control => control.addEventListener('change', renderPrograms));
+
+    document.querySelectorAll('[data-program-system]').forEach(link => {
+      link.addEventListener('click', event => {
+        const requestedSystem = link.dataset.programSystem || '';
+        if (!systemFilter || !['UC', 'CSU'].includes(requestedSystem)) return;
+        event.preventDefault();
+        systemFilter.value = requestedSystem;
+        renderPrograms();
+        document.querySelector('#compare-programs')?.scrollIntoView({ block: 'start' });
+        window.setTimeout(() => systemFilter.focus({ preventScroll: true }), 0);
+      });
+    });
 
     search?.addEventListener('input', renderPrograms);
 

@@ -580,3 +580,39 @@ h3 { font-size: 1.25rem; margin: 0 0 .45rem; }
 @media (max-width: 620px) {
   .more-filters-toolbar { grid-template-columns: 1fr; }
 }
+
+/* Transfer-pathway page hierarchy */
+.system-explorer {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.system-choice-grid { margin-top: 1.2rem; }
+.system-choice-card {
+  border-top: 5px solid var(--gold);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.system-choice-card .button { margin-top: auto; }
+.pathway-system-section {
+  scroll-margin-top: 6rem;
+}
+.pathway-system-section + .pathway-system-section {
+  border-top: 1px solid var(--line);
+}
+.system-detail-block { margin-top: 2rem; }
+.system-detail-heading {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--navy-deep);
+  font-size: clamp(1.55rem, 3vw, 2rem);
+  margin-bottom: .6rem;
+}
+.system-detail-block h4 {
+  margin-top: 0;
+  margin-bottom: .55rem;
+  color: var(--navy-deep);
+  font-size: 1.05rem;
+}
+.system-jump { margin-top: 1.2rem; font-weight: 800; }
+.system-note { margin-top: 1.4rem; }
+#program-finder-form { scroll-margin-top: 6rem; }
